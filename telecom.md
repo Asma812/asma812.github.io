@@ -59,20 +59,4 @@ Preview of lessons from my telecom studies. Click a card to view full content.
 - **[Lesson 11: Telecom Security](/lesson11)**: SS7/5G vulnerabilities. 
 
 <grok-card data-id="9dc6c4" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="SMALL" ></grok-card>
-
-  
-- **[Lesson 12: Practical Projects](/lesson12)**: Simulations like LTE/5G. 
-
-<grok-card data-id="86d024" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="SMALL" ></grok-card>
-
-  
-- **[Lesson 13: Certifications](/lesson13)**: CCNA, etc. 
-
-<grok-card data-id="8b114b" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="SMALL" ></grok-card>
-
-  
-- **[Lesson 14: Career Paths](/lesson14)**: Network/Telecom Security Engineer. 
-
-<grok-card data-id="bc03f6" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="SMALL" ></grok-card>
-
   
