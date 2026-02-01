@@ -1,54 +1,30 @@
-remote_theme: mmistakes/minimal-mistakes@4.26.2
-
 title: Asma Neji
-description: Junior Cybersecurity Engineer | Telecom • Networks • AI • Security
+description: Junior Cybersecurity Engineer | Threat Intelligence • Telecom Security • AI • Pentesting
 url: "https://asma812.github.io"
 baseurl: ""
 
-minimal_mistakes_skin: "dark"  # Dark default (cyber feel). Change to "neon" or "default" for variety
+# No remote_theme — we'll use plain Jekyll + custom CSS for dark minimal
 
-author:
-  name: "Asma Neji"
-  avatar: "/assets/images/profile.jpg"  # Upload a professional/cyber-style photo
-  bio: "Junior Cybersecurity Engineer | Threat Intelligence • Telecom Security • AI Anomaly Detection • Pentesting"
-  location: "Tunis, Tunisia"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:asmaneji20@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/asma-neji"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Asma812"
-    - label: "Phone"
-      icon: "fas fa-fw fa-phone"
-      url: "tel:+21697322007"
+markdown: kramdown
+highlighter: rouge  # code highlighting
 
-plugins:
-  - jekyll-include-cache
+# Navigation (simple top bar like tags)
+navigation:
+  - text: About
+    url: /about/
+  - text: Blog
+    url: /blog/
+  - text: Telecom Lessons
+    url: /telecom/
+  - text: Contact
+    url: /contact/
 
-search: true
+# Dark mode default
+sass:
+  style: compressed
 
 defaults:
   - scope:
       path: ""
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-
-main:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Telecom Lessons"
-    url: /telecom/
-  - title: "Blog"
-    url: /blog/
-  - title: "Contact"
-    url: /contact/
+      layout: default
