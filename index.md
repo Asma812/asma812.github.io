@@ -23,4 +23,7 @@ Passionate about integrating AI with cybersecurity in telecom environments, such
 
 [View all projects, certs, and experience in About →](/about)
 
+### Telecom Background
+Explore my academic journey in telecom engineering: [Telecom Lessons →](/telecom)
+
 [Get in touch](/contact)
