@@ -4,7 +4,7 @@ title: Welcome
 ---
 
 <!-- HERO SECTION -->
-<div style="text-align: center; padding: 6rem 1rem 4rem; background: linear-gradient(135deg, #0d1117 0%, #1a2639 100%);">
+<div style="text-align: center; padding: 6rem 1rem 4rem;">
   <h1 style="color: #ffffff; font-size: 4.5rem; margin: 0; font-family: 'JetBrains Mono', monospace; letter-spacing: -3px; text-shadow: 0 0 60px #58a6ffaa;">
     Asma NEJI
   </h1>
@@ -26,23 +26,17 @@ title: Welcome
   </div>
 
   <div style="margin-top: 4rem; display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap;">
-    <a href="https://linkedin.com/in/asma-neji"
-       style="color: #ffffff; background: linear-gradient(90deg, #0a66c2, #1e88e5); padding: 1.1rem 2.8rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.2rem;">
+    <a href="https://linkedin.com/in/asma-neji" style="color: #ffffff; background: linear-gradient(90deg, #0a66c2, #1e88e5); padding: 1.1rem 2.8rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.2rem;">
       LinkedIn
     </a>
-
-    <a href="https://github.com/Asma812"
-       style="color: #ffffff; background: linear-gradient(90deg, #171515, #2e2e2e); padding: 1.1rem 2.8rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.2rem;">
+    <a href="https://github.com/Asma812" style="color: #ffffff; background: linear-gradient(90deg, #171515, #2e2e2e); padding: 1.1rem 2.8rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.2rem;">
       GitHub
     </a>
-
-    <a href="/assets/cv/AsmaNEJI_CV.pdf"
-       style="color: #ffffff; background: linear-gradient(90deg, #238636, #2ea043); padding: 1.1rem 2.8rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.2rem;">
+    <a href="/assets/cv/AsmaNEJI_CV.pdf" style="color: #ffffff; background: linear-gradient(90deg, #238636, #2ea043); padding: 1.1rem 2.8rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.2rem;">
       Download CV
     </a>
   </div>
 </div>
-
 
 <div class="container">
 
