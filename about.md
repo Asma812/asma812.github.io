@@ -12,23 +12,23 @@ permalink: /about/
   [LinkedIn](https://linkedin.com/in/asma-neji) • [GitHub](https://github.com/Asma812) • [CV (PDF)](/assets/cv/AsmaNEJI_CV.pdf)
 </div>
 
-  ## Bio
+## Bio
+
 <div class="section-box">
   Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, networks, and AI. Experienced in building secure systems, threat intelligence, and AI-driven anomaly detection. Based in Tunisia.
 </div>
 
 ---
 
-<div class="section-box">
-  ## Skills
+## Skills
 
+<div class="section-box">
   | Category | Key Skills |
   |-------------------|----------------------------------------------------------------------------|
   | Networking | Cisco Packet Tracer, Huawei eNSP, TCPDump, OpenVPN, NS3, Omnet++, Wireshark, OpenSSL |
   | Systems | Linux (Ubuntu, Kali), Windows Server |
   | Languages | Python, Bash/Shell, SQL, C, C++, Java |
   | DevOps | Ansible, Shell Scripting, Docker, SonarQube, Jenkins |
-
   **Security Skills**  
   - Threat intelligence  
   - Pentesting: Nmap, Burp Suite, OWASP ZAP, Metasploit, Nessus/OpenVAS  
@@ -41,8 +41,9 @@ permalink: /about/
 
 ---
 
+## Education
+
 <div class="section-box">
-  ## Education
   - **2022-2025**: Higher Institute of Computer Science, Tunisia  
     Engineering in Computer Science, Engineering and Development of Communications Infrastructures and Services  
   - **2019-2022**: Higher Institute of Information and Communication Technologies, Tunisia  
@@ -51,9 +52,9 @@ permalink: /about/
 
 ---
 
-<div class="section-box">
-  ## Professional Experience
+## Professional Experience
 
+<div class="section-box">
   ### Cyber Threat Intelligence Intern  
   **TUDIGISEC by Nomios** — February 2025 – June 2025 (End-of-Studies Internship)  
   I took ownership of designing a full Cyber Threat Intelligence (CTI) system from the ground up, treating the organization’s scattered threat data sources as a disconnected puzzle that needed unification.  
@@ -118,22 +119,23 @@ permalink: /about/
 
 ---
 
+## Certifications
+
 <div class="section-box">
-  ## Certifications
-  - [API Security Fundamentals (2025)](https://www.apisecuniversity.com/courses/api-security-fundamentals)
-  - [Microsoft Certified: Azure Fundamentals (2024)](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals)
-  - [Microsoft Certified: Security, Compliance, and Identity Fundamentals (2024)](https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals)
-  - [Microsoft Certified: Azure Data Fundamentals (2024)](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals)
-  - [Cisco CCNA (2024)](https://cp.certmetrics.com/cisco/en/public/verify/credential)
-  - [Secure your network with VPNs and Firewalls - OpenClassrooms (2024)](https://openclassrooms.com/en/courses/7075956-secure-your-network-with-vpns-and-firewalls)
+  - [API Security Fundamentals (2025)](https://www.apisecuniversity.com/courses/api-security-fundamentals)  
+  - [Microsoft Certified: Azure Fundamentals (2024)](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals)  
+  - [Microsoft Certified: Security, Compliance, and Identity Fundamentals (2024)](https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals)  
+  - [Microsoft Certified: Azure Data Fundamentals (2024)](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals)  
+  - [Cisco CCNA (2024)](https://cp.certmetrics.com/cisco/en/public/verify/credential)  
+  - [Secure your network with VPNs and Firewalls - OpenClassrooms (2024)](https://openclassrooms.com/en/courses/7075956-secure-your-network-with-vpns-and-firewalls)  
   - [Secure your infrastructure - OpenClassrooms (2024)](https://openclassrooms.com/en/courses/8395341-secure-your-active-directory-and-windows-domains)
 </div>
 
 ---
 
-<div class="section-box">
-  ## Academic Projects
+## Academic Projects
 
+<div class="section-box">
   ### Optimizing a Virtualized 5G Network with SDN, NFV, AI & Blockchain  
   **End-of-studies engineering project (2024–2025)**  
   This was my most ambitious academic work: building a complete virtualized 5G end-to-end prototype that combined modern network softwarization with intelligent automation and trust mechanisms.  
@@ -218,8 +220,9 @@ permalink: /about/
 
 ---
 
+## Security Reports & Writeups
+
 <div class="section-box">
-  ## Security Reports & Writeups
   (Placeholder for future additions—add links to reports as you complete them)  
   - Bug Bounty Report Example: [Link to report/writeup]  
   - Pentest Report Example: [Link to report/writeup]  
@@ -228,7 +231,8 @@ permalink: /about/
 
 ---
 
+## Languages
+
 <div class="section-box">
-  ## Languages
   English, French, Arabic
 </div>
