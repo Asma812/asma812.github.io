@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,18 +13,45 @@
   <header>
     <div class="container">
       <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-      <nav>
-        {% for nav in site.navigation %}
-          <a href="{{ nav.url | relative_url }}">{{ nav.text }}</a>
-        {% endfor %}
-      </nav>
+      <div class="header-right">
+        <nav>
+          {% for nav in site.navigation %}
+            <a href="{{ nav.url | relative_url }}">{{ nav.text }}</a>
+          {% endfor %}
+        </nav>
+        <button id="theme-toggle" aria-label="Toggle theme">Dark / Light</button>
+      </div>
     </div>
   </header>
+
   <main class="container">
     {{ content }}
   </main>
+
   <footer>
     <p>© {{ 'now' | date: "%Y" }} Asma Neji • Tunis, Tunisia</p>
   </footer>
+
+  <script>
+    const toggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+
+    // Load saved theme or default to dark
+    if (localStorage.getItem('theme') === 'light') {
+      html.setAttribute('data-theme', 'light');
+    } else {
+      html.setAttribute('data-theme', 'dark');
+    }
+
+    toggle.addEventListener('click', () => {
+      if (html.getAttribute('data-theme') === 'dark') {
+        html.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+      } else {
+        html.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  </script>
 </body>
 </html>
