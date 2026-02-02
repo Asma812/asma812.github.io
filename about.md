@@ -4,21 +4,21 @@ title: About Me
 permalink: /about/
 ---
 
-<div style="text-align: center; padding: 5rem 1rem 4rem; background: linear-gradient(135deg, #0d1117 0%, #1a2639 100%); border-radius: 20px; margin: 0 1rem 3rem; box-shadow: 0 15px 50px rgba(88,166,255,0.2);">
-  <h1 style="color: #ffffff; font-size: 4rem; margin: 0; font-family: 'JetBrains Mono', monospace; letter-spacing: -3px; text-shadow: 0 0 40px #58a6ff88;">Asma NEJI</h1>
-  <p style="color: #58a6ff; font-size: 2rem; margin: 1.5rem 0; font-weight: 700;">Junior Cybersecurity Engineer</p>
-  <p style="color: #a5d6ff; font-size: 1.4rem; margin: 1rem 0; max-width: 900px; margin-left: auto; margin-right: auto;">
+<div style="text-align: center; padding: 6rem 1rem 4rem; background: linear-gradient(135deg, #0d1117 0%, #1a2639 50%, #2a1a3d 100%); border-radius: 20px; margin: 0 1rem 3rem; box-shadow: 0 20px 60px rgba(88,166,255,0.3);">
+  <h1 style="color: #ffffff; font-size: 4.2rem; margin: 0; font-family: 'JetBrains Mono', monospace; letter-spacing: -3px; text-shadow: 0 0 50px #58a6ff99;">Asma NEJI</h1>
+  <p style="color: #58a6ff; font-size: 2.1rem; margin: 1.5rem 0; font-weight: 700;">Junior Cybersecurity Engineer</p>
+  <p style="color: #a5d6ff; font-size: 1.45rem; margin: 1rem 0; max-width: 1000px; margin-left: auto; margin-right: auto;">
     Threat Intelligence • Telecom & Network Security • AI Anomaly Detection • Penetration Testing • DevSecOps
   </p>
-  <div style="margin-top: 2.5rem; display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap;">
-    <span style="color: #c9d1d9; font-size: 1.2rem;">+216 97 322 007</span>
-    <a href="mailto:asmaneji20@gmail.com" style="color: #58a6ff; font-size: 1.2rem; text-decoration: none;">asmaneji20@gmail.com</a>
-    <span style="color: #c9d1d9; font-size: 1.2rem;">Tunis, Tunisia</span>
+  <div style="margin-top: 3rem; display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap;">
+    <span style="color: #c9d1d9; font-size: 1.25rem;">+216 97 322 007</span>
+    <a href="mailto:asmaneji20@gmail.com" style="color: #58a6ff; font-size: 1.25rem; text-decoration: none;">asmaneji20@gmail.com</a>
+    <span style="color: #c9d1d9; font-size: 1.25rem;">Tunis, Tunisia</span>
   </div>
-  <div style="margin-top: 3rem; display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-    <a href="https://linkedin.com/in/asma-neji" style="color: #ffffff; background: #0a66c2; padding: 1rem 2.2rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.1rem; box-shadow: 0 8px 25px rgba(10,102,194,0.5); transition: all 0.3s;">LinkedIn</a>
-    <a href="https://github.com/Asma812" style="color: #ffffff; background: #171515; padding: 1rem 2.2rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.1rem; box-shadow: 0 8px 25px rgba(0,0,0,0.6); transition: all 0.3s;">GitHub</a>
-    <a href="/assets/cv/AsmaNEJI_CV.pdf" style="color: #ffffff; background: linear-gradient(90deg, #238636, #2ea043); padding: 1rem 2.2rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.1rem; box-shadow: 0 8px 25px rgba(35,134,54,0.5); transition: all 0.3s;">Download CV</a>
+  <div style="margin-top: 3.5rem; display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap;">
+    <a href="https://linkedin.com/in/asma-neji" style="color: #ffffff; background: linear-gradient(90deg, #0a66c2, #1e88e5); padding: 1rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.15rem; box-shadow: 0 10px 30px rgba(10,102,194,0.5); transition: all 0.4s;">LinkedIn</a>
+    <a href="https://github.com/Asma812" style="color: #ffffff; background: linear-gradient(90deg, #171515, #2e2e2e); padding: 1rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.15rem; box-shadow: 0 10px 30px rgba(0,0,0,0.6); transition: all 0.4s;">GitHub</a>
+    <a href="/assets/cv/AsmaNEJI_CV.pdf" style="color: #ffffff; background: linear-gradient(90deg, #238636, #2ea043); padding: 1rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.15rem; box-shadow: 0 10px 30px rgba(35,134,54,0.5); transition: all 0.4s;">Download CV</a>
   </div>
 </div>
 
@@ -31,18 +31,18 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
 ## Skills
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 2.5rem 0;">
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Cisco Packet Tracer</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Huawei eNSP</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Wireshark</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">NS3</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Python</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Ansible</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Docker</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Nmap</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Burp Suite</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">OWASP ZAP</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Metasploit</span>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 3rem 0;">
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Cisco Packet Tracer</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Huawei eNSP</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Wireshark</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">NS3</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Python</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Ansible</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Docker</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Nmap</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Burp Suite</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">OWASP ZAP</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Metasploit</span>
 </div>
 
 {: .notice--success}
@@ -61,11 +61,11 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
 ## Professional Experience
 
-<details style="margin: 2rem 0; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 50px rgba(88,166,255,0.25); transition: all 0.4s;">
-  <summary style="font-size: 1.5rem; color: #58a6ff; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.5rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.3s;">
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(88,166,255,0.3); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #58a6ff; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
     Cyber Threat Intelligence Intern – TUDIGISEC by Nomios (Feb 2025 – Jun 2025)
   </summary>
-  <div style="background: #161b22; padding: 2.5rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
     I took ownership of designing a full Cyber Threat Intelligence (CTI) system from the ground up, treating the organization’s scattered threat data sources as a disconnected puzzle that needed unification.
 
     **Core Thinking & Architecture**  
@@ -84,15 +84,15 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
     This wasn't just data collection—it was turning noisy intelligence into actionable, graph-queryable knowledge that could support proactive defense decisions.
 
-    <a href="https://github.com/Asma812/cti-tudigisec" style="color: #58a6ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 6px 20px rgba(88,166,255,0.3);">View Project on GitHub →</a>
+    <a href="https://github.com/Asma812/cti-tudigisec" style="color: #58a6ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(88,166,255,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
-<details style="margin: 2rem 0; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 50px rgba(35,134,54,0.25); transition: all 0.4s;">
-  <summary style="font-size: 1.5rem; color: #238636; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.5rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.3s;">
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(35,134,54,0.3); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #238636; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
     DevSecOps Intern – ARRIBATT FZCO (Jul 2024 – Aug 2024)
   </summary>
-  <div style="background: #161b22; padding: 2.5rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
     I focused on bridging development speed with security without creating bottlenecks, designing a "shift-left" pipeline that caught issues early while maintaining developer velocity.
 
     **Core Thinking & Architecture**  
@@ -111,15 +111,15 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
     The result was a pipeline that didn't just "add security"—it embedded it as a natural part of delivery, reducing mean-time-to-remediate through automation.
 
-    <a href="https://github.com/Asma812/devsecops-arribatt" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 6px 20px rgba(35,134,54,0.3);">View Project on GitHub →</a>
+    <a href="https://github.com/Asma812/devsecops-arribatt" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(35,134,54,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
-<details style="margin-bottom: 1.5rem;">
-  <summary style="font-size: 1.3rem; color: #ffffff; cursor: pointer; padding: 1rem; background: #21262d; border-radius: 8px 8px 0 0; font-family: 'JetBrains Mono', monospace;">
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(160,32,240,0.3); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #a020f0; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
     Cyber Threat Intelligence Intern – SAMA PARTNERS BUSINESS SOLUTIONS SARL (Aug 2023)
   </summary>
-  <div style="padding: 1.5rem; background: #161b22; border: 1px solid #30363d; border-top: none; border-radius: 0 0 8px 8px;">
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
     This short but intense internship gave me my first deep dive into the dark web as an intelligence source, shifting my mindset from reactive monitoring to proactive hunting.
 
     **Core Thinking & Architecture**  
@@ -136,15 +136,15 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
     This experience taught me how to think adversarially: understand attacker infrastructure to better defend against it.
 
-    [View Project on GitHub](https://github.com/Asma812/cti-sama) <!-- Replace with real link -->
+    <a href="https://github.com/Asma812/cti-sama" style="color: #a020f0; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(160,32,240,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
-<details style="margin-bottom: 1.5rem;">
-  <summary style="font-size: 1.3rem; color: #ffffff; cursor: pointer; padding: 1rem; background: #21262d; border-radius: 8px 8px 0 0; font-family: 'JetBrains Mono', monospace;">
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(0,212,255,0.3); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #00d4ff; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
     Cyber Security Intern – RIADVICE (Jan 2022 – May 2022)
   </summary>
-  <div style="padding: 1.5rem; background: #161b22; border: 1px solid #30363d; border-top: none; border-radius: 0 0 8px 8px;">
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
     My first hands-on hardening project—focused on turning a standard server environment into a defensible one using open-source tools and automation.
 
     **Core Thinking & Architecture**  
@@ -162,7 +162,7 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
     This internship solidified my belief in infrastructure-as-code for security: repeatable, auditable, and scalable hardening.
 
-    [View Project on GitHub](https://github.com/Asma812/hardening-riadvice) <!-- Replace with real link -->
+    <a href="https://github.com/Asma812/hardening-riadvice" style="color: #00d4ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(0,212,255,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
@@ -182,11 +182,11 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
 ## Academic Projects
 
-<details style="margin: 2rem 0; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 50px rgba(0,212,255,0.3); transition: all 0.4s;">
-  <summary style="font-size: 1.5rem; color: #00d4ff; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.5rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.3s;">
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(0,212,255,0.35); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #00d4ff; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
     Optimizing a Virtualized 5G Network with SDN, NFV, AI & Blockchain
   </summary>
-  <div style="background: #161b22; padding: 2.5rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
     **End-of-studies engineering project (2024–2025)**  
     This was my most ambitious academic work: building a complete virtualized 5G end-to-end prototype that combined modern network softwarization with intelligent automation and trust mechanisms.
 
@@ -207,15 +207,15 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
     Instead of a GitHub repository, this work is documented in a detailed technical article that covers architecture diagrams, configuration examples, ML training process, and performance results.
 
-    <a href="https://github.com/Asma812/5g-optimization" style="color: #00d4ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 6px 20px rgba(0,212,255,0.4);">View Project on GitHub →</a>
+    <a href="https://github.com/Asma812/5g-optimization" style="color: #00d4ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(0,212,255,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
-<details style="margin: 2rem 0; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 50px rgba(35,134,54,0.3); transition: all 0.4s;">
-  <summary style="font-size: 1.5rem; color: #238636; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.5rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.3s;">
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(35,134,54,0.35); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #238636; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
     Intelligent Inventory Management System
   </summary>
-  <div style="background: #161b22; padding: 2.5rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
     **Multi-disciplinary project (embedded + cloud)**  
     Goal: create a low-power, real-time inventory tracking solution suitable for warehouses or retail environments.
 
@@ -231,98 +231,98 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
     - Implemented basic predictive restocking alerts based on historical consumption patterns
     - Demonstrated energy-efficient duty cycling on battery-powered nodes
 
-    <a href="https://github.com/Asma812/inventory-system" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 6px 20px rgba(35,134,54,0.4);">View Project on GitHub →</a>
+    <a href="https://github.com/Asma812/inventory-system" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(35,134,54,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
-<details>
-  <summary>
-    Drowsiness Detector based on Image Processing & AI  
-    Tools: Python, Raspberry Pi, OpenCV, custom CNN, Flask
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(160,32,240,0.35); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #a020f0; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
+    Drowsiness Detector based on Image Processing & AI
   </summary>
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+    **Computer vision + embedded project**  
+    Goal: real-time driver drowsiness detection using affordable hardware.
 
-  **Computer vision + embedded project**  
-  Goal: real-time driver drowsiness detection using affordable hardware.
+    **Approach & Architecture**  
+    Chose a hybrid edge-cloud model to balance latency and accuracy.
+    - Edge device: Raspberry Pi Camera Module capturing face/eye region
+    - Processing pipeline: OpenCV for face & eye landmark detection → custom CNN (trained on public drowsiness datasets) classifying eye closure ratio and blink frequency
+    - Alert logic: immediate local buzzer + cloud notification if prolonged drowsiness detected
+    - API integration: lightweight Flask server to forward alerts
 
-  **Approach & Architecture**  
-  Chose a hybrid edge-cloud model to balance latency and accuracy.
-  - Edge device: Raspberry Pi Camera Module capturing face/eye region
-  - Processing pipeline: OpenCV for face & eye landmark detection → custom CNN (trained on public drowsiness datasets) classifying eye closure ratio and blink frequency
-  - Alert logic: immediate local buzzer + cloud notification if prolonged drowsiness detected
-  - API integration: lightweight Flask server to forward alerts
+    **PoC Highlights**  
+    - Reached >92% accuracy in controlled lab conditions
+    - Demonstrated real-time inference (~200 ms per frame) on Raspberry Pi 4
+    - Proved concept of privacy-preserving edge AI (no raw video leaves the vehicle)
 
-  **PoC Highlights**  
-  - Reached >92% accuracy in controlled lab conditions
-  - Demonstrated real-time inference (~200 ms per frame) on Raspberry Pi 4
-  - Proved concept of privacy-preserving edge AI (no raw video leaves the vehicle)
-
-  [GitHub Repo](https://github.com/Asma812/drowsiness-detector) <!-- replace with real link -->
+    <a href="https://github.com/Asma812/drowsiness-detector" style="color: #a020f0; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(160,32,240,0.4);">View Project on GitHub →</a>
+  </div>
 </details>
 
-<details>
-  <summary>
-    Expert System for Disease Diagnosis  
-    Tools: Python, Tkinter
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(88,166,255,0.3); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #58a6ff; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
+    Expert System for Disease Diagnosis
   </summary>
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+    **Classic AI / rule-based system**  
+    Goal: build a simple but explainable diagnostic assistant for educational purposes.
 
-  **Classic AI / rule-based system**  
-  Goal: build a simple but explainable diagnostic assistant for educational purposes.
+    **Approach & Architecture**  
+    Implemented a forward-chaining inference engine in Python + Tkinter GUI.
+    - Knowledge base: structured symptoms → diseases → confidence scores
+    - Inference engine: evaluates user answers against rules, accumulates probability
+    - Explanation facility: shows reasoning chain (“because symptom X and Y are present → disease Z is likely”)
 
-  **Approach & Architecture**  
-  Implemented a forward-chaining inference engine in Python + Tkinter GUI.
-  - Knowledge base: structured symptoms → diseases → confidence scores
-  - Inference engine: evaluates user answers against rules, accumulates probability
-  - Explanation facility: shows reasoning chain (“because symptom X and Y are present → disease Z is likely”)
+    **PoC Highlights**  
+    - Clean separation between knowledge base and inference logic
+    - User-friendly interface that explains why a diagnosis is suggested
+    - Easy to extend with new diseases / rules
 
-  **PoC Highlights**  
-  - Clean separation between knowledge base and inference logic
-  - User-friendly interface that explains why a diagnosis is suggested
-  - Easy to extend with new diseases / rules
-
-  [GitHub Repo](https://github.com/Asma812/expert-diagnosis) <!-- replace with real link -->
+    <a href="https://github.com/Asma812/expert-diagnosis" style="color: #58a6ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(88,166,255,0.4);">View Project on GitHub →</a>
+  </div>
 </details>
 
-<details>
-  <summary>
-    Mobile Application for Financial Management  
-    Tools: Java
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(35,134,54,0.3); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #238636; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
+    Mobile Application for Financial Management
   </summary>
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+    **Android native development**  
+    Goal: personal finance tracker with clean UX.
 
-  **Android native development**  
-  Goal: personal finance tracker with clean UX.
+    **Approach & Architecture**  
+    Built with Java + SQLite (local persistence).
+    - Features: income/expense tracking, category budgets, monthly reports, simple charts
+    - Design pattern: MVVM for clean separation of UI and business logic
+    - Security: encrypted local database
 
-  **Approach & Architecture**  
-  Built with Java + SQLite (local persistence).
-  - Features: income/expense tracking, category budgets, monthly reports, simple charts
-  - Design pattern: MVVM for clean separation of UI and business logic
-  - Security: encrypted local database
+    **PoC Highlights**  
+    - Smooth offline experience with sync-ready architecture
+    - Intuitive material design interface
 
-  **PoC Highlights**  
-  - Smooth offline experience with sync-ready architecture
-  - Intuitive material design interface
-
-  [GitHub Repo](https://github.com/Asma812/finance-app) <!-- replace with real link -->
+    <a href="https://github.com/Asma812/finance-app" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(35,134,54,0.4);">View Project on GitHub →</a>
+  </div>
 </details>
 
-<details>
-  <summary>
-    Web Application for Library Management  
-    Tools: Java, MySQL, Spring Boot, Thymeleaf
+<details style="margin: 2.5rem 0; border-radius: 20px; overflow: hidden; box-shadow: 0 15px 50px rgba(160,32,240,0.3); transition: all 0.5s;">
+  <summary style="font-size: 1.55rem; color: #a020f0; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.8rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.4s, transform 0.3s;">
+    Web Application for Library Management
   </summary>
+  <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+    **Full-stack CRUD application**  
+    Goal: modern library management system for small/medium collections.
 
-  **Full-stack CRUD application**  
-  Goal: modern library management system for small/medium collections.
+    **Approach & Architecture**  
+    Java backend (Spring Boot) + MySQL database + basic HTML/Thymeleaf frontend.
+    - Features: book catalog, member registration, borrowing/return, overdue tracking
+    - REST API layer for future mobile/web clients
 
-  **Approach & Architecture**  
-  Java backend (Spring Boot) + MySQL database + basic HTML/Thymeleaf frontend.
-  - Features: book catalog, member registration, borrowing/return, overdue tracking
-  - REST API layer for future mobile/web clients
+    **PoC Highlights**  
+    - Implemented role-based access (admin / librarian / member)
+    - Clean separation of concerns (controller – service – repository)
 
-  **PoC Highlights**  
-  - Implemented role-based access (admin / librarian / member)
-  - Clean separation of concerns (controller – service – repository)
-
-  [GitHub Repo](https://github.com/Asma812/library-app) <!-- replace with real link -->
+    <a href="https://github.com/Asma812/library-app" style="color: #a020f0; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(160,32,240,0.4);">View Project on GitHub →</a>
+  </div>
 </details>
 
 {: .notice--secondary}
