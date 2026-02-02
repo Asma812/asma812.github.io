@@ -1,13 +1,20 @@
 :root {
   --bg: #0d1117;
+  --surface: #161b22;
   --text: #c9d1d9;
+  --text-light: #8b949e;
   --accent: #58a6ff;
   --border: #30363d;
+  --shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -16,12 +23,22 @@ body {
 .container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 0 1.5rem;
 }
 
 header {
+  background: var(--surface);
   border-bottom: 1px solid var(--border);
   padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
@@ -30,58 +47,89 @@ header h1 {
   font-size: 1.8rem;
 }
 
-header nav a {
+header h1 a {
   color: var(--text);
+  text-decoration: none;
+}
+
+header nav a {
+  color: var(--text-light);
   margin-left: 1.5rem;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 0.95rem;
 }
 
 header nav a:hover {
   color: var(--accent);
 }
 
-main h1, main h2, main h3 {
-  font-family: 'JetBrains Mono', monospace;
-  color: #fff;
+main {
+  padding: 2rem 0 4rem;
 }
 
-main a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-main a:hover {
-  text-decoration: underline;
-}
-
-.notice, section {
-  background: #161b22;
+.section-box {
+  background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  box-shadow: var(--shadow);
 }
 
-table {
+.section-box h2, .section-box h3 {
+  font-family: 'JetBrains Mono', monospace;
+  color: #ffffff;
+  margin-top: 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-box table {
   width: 100%;
   border-collapse: collapse;
+  margin: 1rem 0;
 }
 
-th, td {
-  padding: 0.8rem;
+.section-box th, .section-box td {
+  padding: 0.75rem;
   border: 1px solid var(--border);
   text-align: left;
 }
 
-th {
+.section-box th {
   background: #21262d;
+  font-weight: 600;
+}
+
+.section-box ul, .section-box ol {
+  padding-left: 1.5rem;
+}
+
+.section-box li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--border);
+  margin: 2.5rem 0;
 }
 
 footer {
   text-align: center;
   padding: 2rem 0;
-  color: #8b949e;
+  color: var(--text-light);
   font-size: 0.9rem;
   border-top: 1px solid var(--border);
 }
