@@ -12,7 +12,7 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 {: .notice--info}
 
 ## Skills
-
+## Networking
 <div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
   <!-- Networking -->
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Cisco Packet Tracer</span>
@@ -23,11 +23,17 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Omnet++</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Wireshark</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">OpenSSL</span>
+</div>
 
+## Systems
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
   <!-- Systems -->
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Linux (Ubuntu, Kali)</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Windows Server</span>
+</div>
 
+## Languages
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
   <!-- Languages -->
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Python</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Bash/Shell</span>
@@ -35,14 +41,20 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">C</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">C++</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Java</span>
+</div>
 
+## DevOps
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
   <!-- DevOps -->
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Ansible</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Shell Scripting</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Docker</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">SonarQube</span>
   <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Jenkins</span>
+</div>
 
+## Security
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
   <!-- Security -->
   <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Threat intelligence</span>
   <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Pentesting: Nmap, Burp Suite, OWASP ZAP, Metasploit, Nessus/OpenVAS</span>
