@@ -31,18 +31,44 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
 ## Skills
 
-<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 3rem 0;">
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Cisco Packet Tracer</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Huawei eNSP</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Wireshark</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">NS3</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Python</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Ansible</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Docker</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Nmap</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Burp Suite</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">OWASP ZAP</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.9rem 1.8rem; border-radius: 50px; font-size: 1.1rem; border: 1px solid #58a6ff44; transition: all 0.4s; box-shadow: 0 6px 20px rgba(88,166,255,0.3); cursor: default;">Metasploit</span>
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
+  <!-- Networking -->
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Cisco Packet Tracer</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Huawei eNSP</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">TCPDump</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">OpenVPN</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">NS3</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Omnet++</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Wireshark</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">OpenSSL</span>
+
+  <!-- Systems -->
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Linux (Ubuntu, Kali)</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Windows Server</span>
+
+  <!-- Languages -->
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Python</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Bash/Shell</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">SQL</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">C</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">C++</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Java</span>
+
+  <!-- DevOps -->
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Ansible</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Shell Scripting</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Docker</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">SonarQube</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Jenkins</span>
+
+  <!-- Security -->
+  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Threat intelligence</span>
+  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Pentesting: Nmap, Burp Suite, OWASP ZAP, Metasploit, Nessus/OpenVAS</span>
+  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Network security</span>
+  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Infrastructure hardening</span>
+  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Security automation</span>
+  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Incident response</span>
+  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Bug Bounty: Burp Suite, OWASP ZAP, Amass, Gobuster, Postman for APIs</span>
 </div>
 
 {: .notice--success}
