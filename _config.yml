@@ -1,12 +1,10 @@
 title: Asma Neji
-description: Junior Cybersecurity Engineer | Threat Intelligence • Telecom Security • AI • Pentesting
-url: "https://asma812.github.io"
+description: Junior Cybersecurity Engineer | Telecom • Networks • Cybersecurity • AI
 baseurl: ""
-
-# No remote_theme — we'll use plain Jekyll + custom CSS for dark minimal
+url: "https://asma812.github.io"
 
 markdown: kramdown
-highlighter: rouge  # code highlighting
+highlighter: rouge
 
 # Navigation (simple top bar like tags)
 navigation:
