@@ -4,16 +4,21 @@ title: About Me
 permalink: /about/
 ---
 
-<div style="text-align: center; padding: 3rem 1rem; background: linear-gradient(to bottom, #0d1117, #161b22); border-radius: 12px; margin-bottom: 2rem;">
-  <h1 style="color: #ffffff; font-size: 2.8rem; margin: 0; font-family: 'JetBrains Mono', monospace;">Asma NEJI</h1>
-  <p style="color: #58a6ff; font-size: 1.4rem; margin: 0.8rem 0;">Junior Cybersecurity Engineer</p>
-  <p style="color: #8b949e; font-size: 1.1rem; margin: 0.5rem 0;">
-    +216 97 322 007 • asmaneji20@gmail.com • Tunis, Tunisia
+<div style="text-align: center; padding: 5rem 1rem 4rem; background: linear-gradient(135deg, #0d1117 0%, #1a2639 100%); border-radius: 20px; margin: 0 1rem 3rem; box-shadow: 0 15px 50px rgba(88,166,255,0.2);">
+  <h1 style="color: #ffffff; font-size: 4rem; margin: 0; font-family: 'JetBrains Mono', monospace; letter-spacing: -3px; text-shadow: 0 0 40px #58a6ff88;">Asma NEJI</h1>
+  <p style="color: #58a6ff; font-size: 2rem; margin: 1.5rem 0; font-weight: 700;">Junior Cybersecurity Engineer</p>
+  <p style="color: #a5d6ff; font-size: 1.4rem; margin: 1rem 0; max-width: 900px; margin-left: auto; margin-right: auto;">
+    Threat Intelligence • Telecom & Network Security • AI Anomaly Detection • Penetration Testing • DevSecOps
   </p>
-  <div style="margin-top: 1.5rem;">
-    <a href="https://linkedin.com/in/asma-neji" style="color: #58a6ff; margin: 0 1.2rem; font-weight: 500;">LinkedIn</a> •
-    <a href="https://github.com/Asma812" style="color: #58a6ff; margin: 0 1.2rem; font-weight: 500;">GitHub</a> •
-    <a href="/assets/cv/AsmaNEJI_CV.pdf" style="color: #58a6ff; margin: 0 1.2rem; font-weight: 500;">Download CV</a>
+  <div style="margin-top: 2.5rem; display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap;">
+    <span style="color: #c9d1d9; font-size: 1.2rem;">+216 97 322 007</span>
+    <a href="mailto:asmaneji20@gmail.com" style="color: #58a6ff; font-size: 1.2rem; text-decoration: none;">asmaneji20@gmail.com</a>
+    <span style="color: #c9d1d9; font-size: 1.2rem;">Tunis, Tunisia</span>
+  </div>
+  <div style="margin-top: 3rem; display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+    <a href="https://linkedin.com/in/asma-neji" style="color: #ffffff; background: #0a66c2; padding: 1rem 2.2rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.1rem; box-shadow: 0 8px 25px rgba(10,102,194,0.5); transition: all 0.3s;">LinkedIn</a>
+    <a href="https://github.com/Asma812" style="color: #ffffff; background: #171515; padding: 1rem 2.2rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.1rem; box-shadow: 0 8px 25px rgba(0,0,0,0.6); transition: all 0.3s;">GitHub</a>
+    <a href="/assets/cv/AsmaNEJI_CV.pdf" style="color: #ffffff; background: linear-gradient(90deg, #238636, #2ea043); padding: 1rem 2.2rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.1rem; box-shadow: 0 8px 25px rgba(35,134,54,0.5); transition: all 0.3s;">Download CV</a>
   </div>
 </div>
 
@@ -26,21 +31,19 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
 ## Skills
 
-| Category      | Key Skills                                                                 |
-|---------------|----------------------------------------------------------------------------|
-| Networking    | Cisco Packet Tracer, Huawei eNSP, TCPDump, OpenVPN, NS3, Omnet++, Wireshark, OpenSSL |
-| Systems       | Linux (Ubuntu, Kali), Windows Server                                       |
-| Languages     | Python, Bash/Shell, SQL, C, C++, Java                                      |
-| DevOps        | Ansible, Shell Scripting, Docker, SonarQube, Jenkins                       |
-
-**Security Skills**  
-- Threat intelligence  
-- Pentesting: Nmap, Burp Suite, OWASP ZAP, Metasploit, Nessus/OpenVAS  
-- Network security  
-- Infrastructure hardening  
-- Security automation  
-- Incident response  
-- Bug Bounty: Burp Suite, OWASP ZAP, Amass, Gobuster, Postman for APIs
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 2.5rem 0;">
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Cisco Packet Tracer</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Huawei eNSP</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Wireshark</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">NS3</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Python</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Ansible</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Docker</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Nmap</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Burp Suite</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">OWASP ZAP</span>
+  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #30363d; transition: all 0.3s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Metasploit</span>
+</div>
 
 {: .notice--success}
 
@@ -58,11 +61,11 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
 ## Professional Experience
 
-<details open style="margin-bottom: 1.5rem;">
-  <summary style="font-size: 1.3rem; color: #ffffff; cursor: pointer; padding: 1rem; background: #21262d; border-radius: 8px 8px 0 0; font-family: 'JetBrains Mono', monospace;">
+<details style="margin: 2rem 0; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 50px rgba(88,166,255,0.25); transition: all 0.4s;">
+  <summary style="font-size: 1.5rem; color: #58a6ff; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.5rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.3s;">
     Cyber Threat Intelligence Intern – TUDIGISEC by Nomios (Feb 2025 – Jun 2025)
   </summary>
-  <div style="padding: 1.5rem; background: #161b22; border: 1px solid #30363d; border-top: none; border-radius: 0 0 8px 8px;">
+  <div style="background: #161b22; padding: 2.5rem; border-top: 1px solid #30363d; transition: all 0.4s;">
     I took ownership of designing a full Cyber Threat Intelligence (CTI) system from the ground up, treating the organization’s scattered threat data sources as a disconnected puzzle that needed unification.
 
     **Core Thinking & Architecture**  
@@ -81,15 +84,15 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
     This wasn't just data collection—it was turning noisy intelligence into actionable, graph-queryable knowledge that could support proactive defense decisions.
 
-    [View Project on GitHub](https://github.com/Asma812/cti-tudigisec) <!-- Replace with real link -->
+    <a href="https://github.com/Asma812/cti-tudigisec" style="color: #58a6ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 6px 20px rgba(88,166,255,0.3);">View Project on GitHub →</a>
   </div>
 </details>
 
-<details style="margin-bottom: 1.5rem;">
-  <summary style="font-size: 1.3rem; color: #ffffff; cursor: pointer; padding: 1rem; background: #21262d; border-radius: 8px 8px 0 0; font-family: 'JetBrains Mono', monospace;">
+<details style="margin: 2rem 0; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 50px rgba(35,134,54,0.25); transition: all 0.4s;">
+  <summary style="font-size: 1.5rem; color: #238636; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.5rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.3s;">
     DevSecOps Intern – ARRIBATT FZCO (Jul 2024 – Aug 2024)
   </summary>
-  <div style="padding: 1.5rem; background: #161b22; border: 1px solid #30363d; border-top: none; border-radius: 0 0 8px 8px;">
+  <div style="background: #161b22; padding: 2.5rem; border-top: 1px solid #30363d; transition: all 0.4s;">
     I focused on bridging development speed with security without creating bottlenecks, designing a "shift-left" pipeline that caught issues early while maintaining developer velocity.
 
     **Core Thinking & Architecture**  
@@ -108,7 +111,7 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
     The result was a pipeline that didn't just "add security"—it embedded it as a natural part of delivery, reducing mean-time-to-remediate through automation.
 
-    [View Project on GitHub](https://github.com/Asma812/devsecops-arribatt) <!-- Replace with real link -->
+    <a href="https://github.com/Asma812/devsecops-arribatt" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 6px 20px rgba(35,134,54,0.3);">View Project on GitHub →</a>
   </div>
 </details>
 
@@ -179,51 +182,57 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
 ## Academic Projects
 
-<details>
-  <summary>Optimizing a Virtualized 5G Network with SDN, NFV, AI & Blockchain – Tools: OpenDaylight, Open5GS, TensorFlow, Docker, Hyperledger Fabric, Prometheus, Grafana</summary>
+<details style="margin: 2rem 0; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 50px rgba(0,212,255,0.3); transition: all 0.4s;">
+  <summary style="font-size: 1.5rem; color: #00d4ff; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.5rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.3s;">
+    Optimizing a Virtualized 5G Network with SDN, NFV, AI & Blockchain
+  </summary>
+  <div style="background: #161b22; padding: 2.5rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+    **End-of-studies engineering project (2024–2025)**  
+    This was my most ambitious academic work: building a complete virtualized 5G end-to-end prototype that combined modern network softwarization with intelligent automation and trust mechanisms.
 
-  **End-of-studies engineering project (2024–2025)**  
-  This was my most ambitious academic work: building a complete virtualized 5G end-to-end prototype that combined modern network softwarization with intelligent automation and trust mechanisms.
+    **Core Thinking & Architecture**  
+    I wanted to demonstrate that 5G can be more than high-speed connectivity — it can become a programmable, self-optimizing, and tamper-resistant platform.
 
-  **Core Thinking & Architecture**  
-  I wanted to demonstrate that 5G can be more than high-speed connectivity — it can become a programmable, self-optimizing, and tamper-resistant platform.
+    I chose a fully disaggregated architecture:
+    - **SDN control plane** → OpenDaylight as the central brain (southbound OpenFlow → Open5GS core elements)
+    - **NFV data plane** → Containerized 5G core functions (UPF, AMF, SMF) running on Docker + Kubernetes-like orchestration
+    - **AI-driven optimization layer** → TensorFlow models continuously analyzing Prometheus metrics (latency, throughput, handover success rate, resource utilization) to predict congestion and dynamically adjust slicing parameters and traffic steering
+    - **Blockchain trust layer** → Hyperledger Fabric to record critical network events (slice creation/modification, handover decisions, SLA compliance) in an immutable ledger — providing auditability and preventing fraudulent manipulation of network policies
 
-  I chose a fully disaggregated architecture:
-  - **SDN control plane** → OpenDaylight as the central brain (southbound OpenFlow → Open5GS core elements)
-  - **NFV data plane** → Containerized 5G core functions (UPF, AMF, SMF) running on Docker + Kubernetes-like orchestration
-  - **AI-driven optimization layer** → TensorFlow models continuously analyzing Prometheus metrics (latency, throughput, handover success rate, resource utilization) to predict congestion and dynamically adjust slicing parameters and traffic steering
-  - **Blockchain trust layer** → Hyperledger Fabric to record critical network events (slice creation/modification, handover decisions, SLA compliance) in an immutable ledger — providing auditability and preventing fraudulent manipulation of network policies
+    **PoC Highlights & Innovations**  
+    - Implemented network slicing with dynamic QoS enforcement (e.g., low-latency slice for URLLC, high-throughput for eMBB)
+    - Trained lightweight ML models to detect anomalies and proactively re-balance resources before degradation occurred
+    - Demonstrated end-to-end visibility with Grafana dashboards showing real-time slice performance + blockchain transaction log
+    - Proved concept of “trust-by-design” — any unauthorized slice modification attempt would be detectable via ledger inconsistency
 
-  **PoC Highlights & Innovations**  
-  - Implemented network slicing with dynamic QoS enforcement (e.g., low-latency slice for URLLC, high-throughput for eMBB)
-  - Trained lightweight ML models to detect anomalies and proactively re-balance resources before degradation occurred
-  - Demonstrated end-to-end visibility with Grafana dashboards showing real-time slice performance + blockchain transaction log
-  - Proved concept of “trust-by-design” — any unauthorized slice modification attempt would be detectable via ledger inconsistency
+    Instead of a GitHub repository, this work is documented in a detailed technical article that covers architecture diagrams, configuration examples, ML training process, and performance results.
 
-  Instead of a GitHub repository, this work is documented in a detailed technical article that covers architecture diagrams, configuration examples, ML training process, and performance results.
-
-  [View Project on GitHub](https://github.com/Asma812/5g-optimization) <!-- Replace with real link -->
+    <a href="https://github.com/Asma812/5g-optimization" style="color: #00d4ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 6px 20px rgba(0,212,255,0.4);">View Project on GitHub →</a>
+  </div>
 </details>
 
-<details>
-  <summary>Intelligent Inventory Management System – Tools: Python, C/C++, STM32, Nodemcu, ThingSpeak</summary>
+<details style="margin: 2rem 0; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 50px rgba(35,134,54,0.3); transition: all 0.4s;">
+  <summary style="font-size: 1.5rem; color: #238636; background: linear-gradient(to right, #21262d, #2d3748); padding: 1.8rem 2.5rem; cursor: pointer; font-weight: 700; list-style: none; transition: background 0.3s;">
+    Intelligent Inventory Management System
+  </summary>
+  <div style="background: #161b22; padding: 2.5rem; border-top: 1px solid #30363d; transition: all 0.4s;">
+    **Multi-disciplinary project (embedded + cloud)**  
+    Goal: create a low-power, real-time inventory tracking solution suitable for warehouses or retail environments.
 
-  **Multi-disciplinary project (embedded + cloud)**  
-  Goal: create a low-power, real-time inventory tracking solution suitable for warehouses or retail environments.
+    **Approach & Architecture**  
+    I decided to combine microcontroller-level sensing with cloud-based analytics and visualization.
+    - Edge layer: STM32 + NodeMCU (ESP8266) collecting RFID / weight sensor data
+    - Communication: MQTT to ThingSpeak cloud
+    - Backend: Python scripts performing data cleaning, trend analysis, and low-stock alerts
+    - Frontend: Simple dashboard showing live inventory levels and movement history
 
-  **Approach & Architecture**  
-  I decided to combine microcontroller-level sensing with cloud-based analytics and visualization.
-  - Edge layer: STM32 + NodeMCU (ESP8266) collecting RFID / weight sensor data
-  - Communication: MQTT to ThingSpeak cloud
-  - Backend: Python scripts performing data cleaning, trend analysis, and low-stock alerts
-  - Frontend: Simple dashboard showing live inventory levels and movement history
+    **PoC Highlights**  
+    - Achieved sub-second update latency from sensor to cloud dashboard
+    - Implemented basic predictive restocking alerts based on historical consumption patterns
+    - Demonstrated energy-efficient duty cycling on battery-powered nodes
 
-  **PoC Highlights**  
-  - Achieved sub-second update latency from sensor to cloud dashboard
-  - Implemented basic predictive restocking alerts based on historical consumption patterns
-  - Demonstrated energy-efficient duty cycling on battery-powered nodes
-
-  [View Project on GitHub](https://github.com/Asma812/inventory-system) <!-- Replace with real link -->
+    <a href="https://github.com/Asma812/inventory-system" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 6px 20px rgba(35,134,54,0.4);">View Project on GitHub →</a>
+  </div>
 </details>
 
 <details>
