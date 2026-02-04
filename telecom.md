@@ -11,7 +11,7 @@ Preview of lessons from my telecom studies. Click a card to view full content.
 <grok-card data-id="28ca0a" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="SMALL" ></grok-card>
 
   
-- **[Lesson 2: Signals & Systems](/lesson1)**: LTI, sampling, filtering.
+- **[Lesson 2: Signals & Systems](/lesson)**: LTI, sampling, filtering.
 
 <grok-card data-id="7c94c2" data-type="image_card" data-plain-type="render_searched_image"  data-arg-size="SMALL" ></grok-card>
 
