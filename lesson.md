@@ -1,10 +1,25 @@
 ---
 layout: page
 title: Lesson 2: Signals & Systems
-permalink: /lesson1/
+permalink: /lesson/
 ---
+## Lesson 2: Signals & Systems (Core Telecom Brain)
+Mastering system behaviors for signal processing.
 
-# Lesson 2: Signals & Systems (Core Telecom Brain 🧠)
+**Key Concepts:**
+- Continuous-time vs discrete-time systems
+- LTI systems
+- Impulse response
+- Sampling theorem (Nyquist)
+- Aliasing
+- Filtering (LPF, HPF, BPF)
+- Analog-to-digital & digital-to-analog conversion
+
+**Why It Matters:** This forms the "brain" of telecom engineering, enabling design of efficient systems.
+
+**Labs/Practice:** Implemented filters and sampling in labs; avoided aliasing in digital signal experiments.
+
+**Tools Used:** MATLAB, Python (SciPy), Simulink.
 
 This is the bridge from pure math (Lesson 1) to actual telecom engineering.  
 Signals & Systems is where you start thinking like a telecom engineer: how do we process, sample, filter, and digitize signals without losing (or corrupting) the information?
