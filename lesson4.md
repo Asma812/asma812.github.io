@@ -1,20 +1,19 @@
 ---
 layout: page
-title: Lesson 4: Digital Communications (Very Important)
+title: Lesson 5: Transmission Media & RF Basics
 permalink: /lesson4/
 ---
-The heart of modern data transmission.
+How signals physically travel.
 
 **Key Concepts:**
-- Modulation: ASK, FSK, PSK, QPSK, QAM (16-QAM, 64-QAM, 256-QAM), OFDM (used in LTE, 5G, Wi-Fi)
-- Coding: Source coding, Channel coding, Error detection & correction (Parity, CRC, Hamming, Convolutional codes, Turbo & LDPC)
-- Performance Metrics: Bit Error Rate (BER), Throughput, Latency, Spectral efficiency
+- Wired: Twisted pair, Coaxial cable, Fiber optics (Single-mode vs multi-mode, Attenuation, Dispersion, Optical amplifiers)
+- Wireless & RF: Antennas (types, gain, radiation pattern), Propagation models, Path loss, Fading (Rayleigh, Rician), Doppler effect
 
-**Why It Matters:** Essential for high-speed, reliable digital networks like 4G/5G.
+**Why It Matters:** Bridges theory with real-world physics in telecom infrastructure.
 
-**Labs/Practice:** Simulated QAM modulation and error correction; analyzed BER curves.
+**Labs/Practice:** Tested fiber optic attenuation; modeled wireless propagation in simulations.
 
-**Tools Used:** MATLAB, GNU Radio, NS3.
+**Tools Used:** Omnet++, NS3, Cisco Packet Tracer.
 
 # Lesson 4: Transmission Media & RF Basics
 
