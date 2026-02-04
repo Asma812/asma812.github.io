@@ -1,3 +1,9 @@
+---
+layout: page
+title: Lesson 2: Signals & Systems
+permalink: /lesson1/
+---
+
 # Lesson 2: Signals & Systems (Core Telecom Brain 🧠)
 
 This is the bridge from pure math (Lesson 1) to actual telecom engineering.  
