@@ -1,26 +1,22 @@
 ---
 layout: page
-title: Lesson 3: Signals & Systems (Core Telecom Brain)
+title: Lesson 3: Digital Communications
 permalink: /lesson3/
 ---
-Mastering system behaviors for signal processing.
+The heart of modern data transmission.
 
 **Key Concepts:**
-- Continuous-time vs discrete-time systems
-- LTI systems
-- Impulse response
-- Sampling theorem (Nyquist)
-- Aliasing
-- Filtering (LPF, HPF, BPF)
-- Analog-to-digital & digital-to-analog conversion
+- Modulation: ASK, FSK, PSK, QPSK, QAM (16-QAM, 64-QAM, 256-QAM), OFDM (used in LTE, 5G, Wi-Fi)
+- Coding: Source coding, Channel coding, Error detection & correction (Parity, CRC, Hamming, Convolutional codes, Turbo & LDPC)
+- Performance Metrics: Bit Error Rate (BER), Throughput, Latency, Spectral efficiency
 
-**Why It Matters:** This forms the "brain" of telecom engineering, enabling design of efficient systems.
+**Why It Matters:** Essential for high-speed, reliable digital networks like 4G/5G.
 
-**Labs/Practice:** Implemented filters and sampling in labs; avoided aliasing in digital signal experiments.
+**Labs/Practice:** Simulated QAM modulation and error correction; analyzed BER curves.
 
-**Tools Used:** MATLAB, Python (SciPy), Simulink.
+**Tools Used:** MATLAB, GNU Radio, NS3.
 
-# Lesson 3: Digital Communications (VERY IMPORTANT)
+# Lesson 3: Digital Communications 
 
 This is the **heart** of modern telecommunications. Almost everything in 4G, 5G, Wi-Fi, satellite links, fiber high-speed links, and even deep-space comms boils down to digital communications principles.
 
