@@ -228,7 +228,7 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
     Instead of a GitHub repository, this work is documented in a detailed technical article that covers architecture diagrams, configuration examples, ML training process, and performance results.
 
-    <a href="https://github.com/Asma812/5g-optimization" style="color: #00d4ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(0,212,255,0.4);">View Project on GitHub →</a>
+    <a href="https://github.com/Asma812/Article.pdf" style="color: #00d4ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(0,212,255,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
@@ -253,7 +253,7 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
     - Implemented basic predictive restocking alerts based on historical consumption patterns
     - Demonstrated energy-efficient duty cycling on battery-powered nodes
 
-    <a href="https://github.com/Asma812/inventory-system" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(35,134,54,0.4);">View Project on GitHub →</a>
+    <a href="https://github.com/Asma812/SmartInventory" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(35,134,54,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
@@ -302,7 +302,7 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
     - User-friendly interface that explains why a diagnosis is suggested
     - Easy to extend with new diseases / rules
 
-    <a href="https://github.com/Asma812/expert-diagnosis" style="color: #58a6ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(88,166,255,0.4);">View Project on GitHub →</a>
+    <a href="https://github.com/Asma812/SysExp" style="color: #58a6ff; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(88,166,255,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
@@ -325,7 +325,7 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
     - Smooth offline experience with sync-ready architecture
     - Intuitive material design interface
 
-    <a href="https://github.com/Asma812/finance-app" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(35,134,54,0.4);">View Project on GitHub →</a>
+    <a href="https://github.com/Asma812/FinanceApp" style="color: #238636; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(35,134,54,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
@@ -347,7 +347,7 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
     - Implemented role-based access (admin / librarian / member)
     - Clean separation of concerns (controller – service – repository)
 
-    <a href="https://github.com/Asma812/library-app" style="color: #a020f0; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(160,32,240,0.4);">View Project on GitHub →</a>
+    <a href="https://github.com/Asma812/Library-Management" style="color: #a020f0; font-weight: 700; display: inline-block; margin-top: 2rem; padding: 1rem 2rem; background: #21262d; border-radius: 12px; text-decoration: none; transition: all 0.3s; box-shadow: 0 8px 25px rgba(160,32,240,0.4);">View Project on GitHub →</a>
   </div>
 </details>
 
