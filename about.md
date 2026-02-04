@@ -208,7 +208,7 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
     Tools: OpenDaylight, Open5GS, TensorFlow, Docker, Hyperledger Fabric, Prometheus, Grafana
   </summary>
   <div style="background: #161b22; padding: 2.8rem; border-top: 1px solid #30363d; transition: all 0.4s;">
-    **End-of-studies engineering project (2024–2025)**  
+    **Network project (2024–2025)**  
     This was my most ambitious academic work: building a complete virtualized 5G end-to-end prototype that combined modern network softwarization with intelligent automation and trust mechanisms.
 
     **Core Thinking & Architecture**  
