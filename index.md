@@ -55,7 +55,7 @@ title: Welcome
        style="color: #ffffff; font-size: 2.4rem; text-decoration: none; transition: transform 0.3s;">
       <span style="font-size: 2.6rem;">🐙</span>
     </a>
-    <a href="/assets/cv/AsmaNEJI_CV.pdf" 
+    <a href="/assets/AsmaNEJI_CV-Public.pdf" 
        style="color: var(--text); font-size: 2.4rem; text-decoration: none; transition: transform 0.3s;">
       📄
     </a>
