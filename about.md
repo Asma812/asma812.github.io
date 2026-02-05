@@ -32,7 +32,7 @@ permalink: /about/
   <section style="margin: 4rem 0;">
     <h2 style="color: var(--accent); font-family: 'JetBrains Mono', monospace; border-bottom: 1px solid var(--border); padding-bottom: 0.8rem;">Bio</h2>
     <p style="font-size: 1.15rem; line-height: 1.8;">
-      Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, networks, and AI. Experienced in building secure systems, threat intelligence, and AI-driven anomaly detection. Based in Tunisia.
+      Hello, I am Asma Neji, a Junior Cybersecurity engineer with a background in Telecommunications and Network engineering. I am interested in securing IT systems, and integrating security into DevOps. I design incident response systems, automate security workflows, conduct pentests and vulnerability assessments, and develop tailored strategies. I also work on threat intelligence, API protection, and infrastructure hardening to strengthen cybersecurity posture. This is my portfolio website where you can find insights, write-ups and articles about my learning journey.
     </p>
   </section>
 
