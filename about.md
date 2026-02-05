@@ -12,57 +12,53 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 {: .notice--info}
 
 ## Skills
-## Networking
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
-  <!-- Networking -->
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Cisco Packet Tracer</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Huawei eNSP</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">TCPDump</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">OpenVPN</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">NS3</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Omnet++</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Wireshark</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">OpenSSL</span>
+
+**Networking**
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
+  <span class="skill-badge">Cisco Packet Tracer</span>
+  <span class="skill-badge">Huawei eNSP</span>
+  <span class="skill-badge">TCPDump</span>
+  <span class="skill-badge">OpenVPN</span>
+  <span class="skill-badge">NS3</span>
+  <span class="skill-badge">Omnet++</span>
+  <span class="skill-badge">Wireshark</span>
+  <span class="skill-badge">OpenSSL</span>
 </div>
 
-## Systems
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
-  <!-- Systems -->
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Linux (Ubuntu, Kali)</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Windows Server</span>
+**Systems**
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
+  <span class="skill-badge">Linux (Ubuntu, Kali)</span>
+  <span class="skill-badge">Windows Server</span>
 </div>
 
-## Languages
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
-  <!-- Languages -->
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Python</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Bash/Shell</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">SQL</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">C</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">C++</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Java</span>
+**Languages**
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
+  <span class="skill-badge">Python</span>
+  <span class="skill-badge">Bash/Shell</span>
+  <span class="skill-badge">SQL</span>
+  <span class="skill-badge">C</span>
+  <span class="skill-badge">C++</span>
+  <span class="skill-badge">Java</span>
 </div>
 
-## DevOps
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
-  <!-- DevOps -->
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Ansible</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Shell Scripting</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Docker</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">SonarQube</span>
-  <span style="background: #21262d; color: #58a6ff; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #58a6ff44; transition: all 0.35s; box-shadow: 0 4px 15px rgba(88,166,255,0.25); cursor: default;">Jenkins</span>
+**DevOps**
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
+  <span class="skill-badge">Ansible</span>
+  <span class="skill-badge">Shell Scripting</span>
+  <span class="skill-badge">Docker</span>
+  <span class="skill-badge">SonarQube</span>
+  <span class="skill-badge">Jenkins</span>
 </div>
 
-## Security
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 2.5rem 0;">
-  <!-- Security -->
-  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Threat intelligence</span>
-  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Pentesting: Nmap, Burp Suite, OWASP ZAP, Metasploit, Nessus/OpenVAS</span>
-  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Network security</span>
-  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Infrastructure hardening</span>
-  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Security automation</span>
-  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Incident response</span>
-  <span style="background: #21262d; color: #da3633; padding: 0.8rem 1.6rem; border-radius: 50px; font-size: 1.05rem; border: 1px solid #da363344; transition: all 0.35s; box-shadow: 0 4px 15px rgba(218,54,51,0.25); cursor: default;">Bug Bounty: Burp Suite, OWASP ZAP, Amass, Gobuster, Postman for APIs</span>
+**Security**
+<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
+  <span class="skill-badge">Threat intelligence</span>
+  <span class="skill-badge">Pentesting</span>
+  <span class="skill-badge">Network security</span>
+  <span class="skill-badge">Infrastructure hardening</span>
+  <span class="skill-badge">Security automation</span>
+  <span class="skill-badge">Incident response</span>
+  <span class="skill-badge">Bug Bounty</span>
 </div>
 
 {: .notice--success}
