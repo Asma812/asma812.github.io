@@ -227,7 +227,7 @@ permalink: /about/
         <li>Proved concept of “trust-by-design” — any unauthorized slice modification attempt would be detectable via ledger inconsistency</li>
       </ul>
       <p>Instead of a GitHub repository, this work is documented in a detailed technical article that covers architecture diagrams, configuration examples, ML training process, and performance results.</p>
-      <a href="https://github.com/Asma812/5g-optimization" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/assets/Article.pdf" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
 
     <div class="card">
