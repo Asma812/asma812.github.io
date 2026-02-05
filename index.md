@@ -20,7 +20,7 @@ title: Welcome
 
   <!-- Cyber trick: OSINT leak warning – shows real impact of exposed PII -->
   <div style="margin: 1.4rem auto; max-width: 700px;">
-    <pre style="background: var(--surface); color: var(--text); font-family: 'JetBrains Mono', monospace; padding: 1.2rem; border-radius: 8px; border: 1px solid var(--border); font-size: 0.95rem; line-height: 1.5; text-align: left; overflow-x: auto; margin: 1.5rem auto; max-width: 720px;">
+    <pre style="background: var(--surface); color: #e63946; font-family: 'JetBrains Mono', monospace; padding: 1.2rem; border-radius: 8px; border: 1px solid var(--border); font-size: 0.95rem; line-height: 1.5; text-align: left; overflow-x: auto; margin: 1.5rem auto; max-width: 720px;">
 ┌───────────────────── PUBLIC OSINT LEAK WARNING ─────────────────────┐
 │                                                                   │
 │   Exposed PII detected in portfolio                               │
