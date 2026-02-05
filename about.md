@@ -28,7 +28,7 @@ permalink: /about/
 
 <div class="container">
 
-  <!-- Bio -->
+  <!-- About me -->
   <section style="margin: 4rem 0;">
     <h2 style="color: var(--accent); font-family: 'JetBrains Mono', monospace; border-bottom: 1px solid var(--border); padding-bottom: 0.8rem;">Bio</h2>
     <p style="font-size: 1.15rem; line-height: 1.8;">
