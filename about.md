@@ -120,11 +120,11 @@ permalink: /about/
 <section style="margin: 5rem 0;">
   <h2 style="color: var(--accent); font-family: 'JetBrains Mono', monospace; border-bottom: 1px solid var(--border); padding-bottom: 0.8rem;">Professional Experience</h2>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--red); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--red); background: var(--surface); cursor: pointer; list-style: none;">
       Cyber Threat Intelligence Intern – TUDIGISEC by Nomios (Feb 2025 – Jun 2025)
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p>I took ownership of designing a full Cyber Threat Intelligence (CTI) system from the ground up, treating the organization’s scattered threat data sources as a disconnected puzzle that needed unification.</p>
       <p><strong>Core Thinking & Architecture</strong><br>I chose Neo4j as the central knowledge graph engine because traditional relational databases struggle with the highly relational nature of threat actors, campaigns, indicators, and infrastructure. The graph model allowed me to naturally represent attacker TTPs, victim assets, and enrichment sources as interconnected nodes and relationships.</p>
       <p>The architecture followed a modular ingestion → processing → analysis → visualization pipeline:</p>
@@ -141,15 +141,15 @@ permalink: /about/
         <li>Dockerized the entire stack (Neo4j + Python workers + Dash/Flask) for reproducible deployment and scalability testing.</li>
       </ul>
       <p>This wasn't just data collection—it was turning noisy intelligence into actionable, graph-queryable knowledge that could support proactive defense decisions.</p>
-      <a href="https://github.com/Asma812/cti-tudigisec" style="color: var(--red); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/cti-tudigisec" style="color: var(--red); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--green); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--green); background: var(--surface); cursor: pointer; list-style: none;">
       DevSecOps Intern – ARRIBATT FZCO (Jul 2024 – Aug 2024)
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p>I focused on bridging development speed with security without creating bottlenecks, designing a "shift-left" pipeline that caught issues early while maintaining developer velocity.</p>
       <p><strong>Core Thinking & Architecture</strong><br>Recognized that security checks needed to be automated, non-intrusive, and integrated into existing workflows. Built a Jenkins-based CI/CD pipeline with parallel security gates.</p>
       <p>Key architectural choices:</p>
@@ -166,15 +166,15 @@ permalink: /about/
         <li>Configured Wazuh rules to detect common attack patterns and auto-quarantine suspicious processes.</li>
       </ul>
       <p>The result was a pipeline that didn't just "add security"—it embedded it as a natural part of delivery, reducing mean-time-to-remediate through automation.</p>
-      <a href="https://github.com/Asma812/devsecops-arribatt" style="color: var(--green); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/devsecops-arribatt" style="color: var(--green); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--red); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--red); background: var(--surface); cursor: pointer; list-style: none;">
       Cyber Threat Intelligence Intern – SAMA PARTNERS BUSINESS SOLUTIONS SARL (Aug 2023)
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p>This short but intense internship gave me my first deep dive into the dark web as an intelligence source, shifting my mindset from reactive monitoring to proactive hunting.</p>
       <p><strong>Core Thinking & Architecture</strong><br>I approached the dark web not as a chaotic space but as a structured ecosystem with discoverable patterns (markets, forums, leak sites, paste services). The goal was to evaluate tools for scalable, ethical collection and classification.</p>
       <p>Focused on the AIL (Analysis Information Leak) framework:</p>
@@ -189,15 +189,15 @@ permalink: /about/
         <li>Mapped dark web communication flows (onion routing, protocol behaviors) to understand evasion techniques.</li>
       </ul>
       <p>This experience taught me how to think adversarially: understand attacker infrastructure to better defend against it.</p>
-      <a href="https://github.com/Asma812/cti-sama" style="color: var(--red); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/cti-sama" style="color: var(--red); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--accent); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--accent); background: var(--surface); cursor: pointer; list-style: none;">
       Cyber Security Intern – RIADVICE (Jan 2022 – May 2022)
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p>My first hands-on hardening project—focused on turning a standard server environment into a defensible one using open-source tools and automation.</p>
       <p><strong>Core Thinking & Architecture</strong><br>Adopted a layered defense model (CIS benchmarks as baseline) with emphasis on visibility, prevention, and response.</p>
       <p>Key decisions:</p>
@@ -213,34 +213,20 @@ permalink: /about/
         <li>Developed Ansible roles that idempotently managed authentication hardening (key-only SSH, password policies).</li>
       </ul>
       <p>This internship solidified my belief in infrastructure-as-code for security: repeatable, auditable, and scalable hardening.</p>
-      <a href="https://github.com/Asma812/hardening-riadvice" style="color: var(--accent); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/hardening-riadvice" style="color: var(--accent); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
-</section>
-
-<!-- Certifications -->
-<section style="margin: 5rem 0;">
-  <h2 style="color: var(--accent); font-family: 'JetBrains Mono', monospace; border-bottom: 1px solid var(--border); padding-bottom: 0.8rem;">Certifications</h2>
-  <ul style="list-style: none; padding: 0; font-size: 1.1rem; line-height: 2;">
-    <li><a href="https://www.apisecuniversity.com/courses/api-security-fundamentals">API Security Fundamentals (2025)</a></li>
-    <li><a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals">Microsoft Certified: Azure Fundamentals (2024)</a></li>
-    <li><a href="https://learn.microsoft.com/en-us/credentials/certifications/security-compliance-and-identity-fundamentals">Microsoft Certified: Security, Compliance, and Identity Fundamentals (2024)</a></li>
-    <li><a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals">Microsoft Certified: Azure Data Fundamentals (2024)</a></li>
-    <li><a href="https://cp.certmetrics.com/cisco/en/public/verify/credential">Cisco CCNA (2024)</a></li>
-    <li><a href="https://openclassrooms.com/en/courses/7075956-secure-your-network-with-vpns-and-firewalls">Secure your network with VPNs and Firewalls - OpenClassrooms (2024)</a></li>
-    <li><a href="https://openclassrooms.com/en/courses/8395341-secure-your-active-directory-and-windows-domains">Secure your infrastructure - OpenClassrooms (2024)</a></li>
-  </ul>
 </section>
 
 <!-- Academic Projects -->
 <section style="margin: 5rem 0;">
   <h2 style="color: var(--accent); font-family: 'JetBrains Mono', monospace; border-bottom: 1px solid var(--border); padding-bottom: 0.8rem;">Academic Projects</h2>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--purple); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
-      Optimizing a Virtualized 5G Network with SDN, NFV, AI & Blockchain (Tools: OpenDaylight, Open5GS, TensorFlow, Docker, Hyperledger Fabric, Prometheus, Grafana)
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--purple); background: var(--surface); cursor: pointer; list-style: none;">
+      Optimizing a Virtualized 5G Network with SDN, NFV, AI & Blockchain – Tools: OpenDaylight, Open5GS, TensorFlow, Docker, Hyperledger Fabric, Prometheus, Grafana
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p><strong>End-of-studies engineering project (2024–2025)</strong></p>
       <p>This was my most ambitious academic work: building a complete virtualized 5G end-to-end prototype that combined modern network softwarization with intelligent automation and trust mechanisms.</p>
       <p><strong>Core Thinking & Architecture</strong><br>I wanted to demonstrate that 5G can be more than high-speed connectivity — it can become a programmable, self-optimizing, and tamper-resistant platform.</p>
@@ -259,15 +245,15 @@ permalink: /about/
         <li>Proved concept of “trust-by-design” — any unauthorized slice modification attempt would be detectable via ledger inconsistency</li>
       </ul>
       <p>Instead of a GitHub repository, this work is documented in a detailed technical article that covers architecture diagrams, configuration examples, ML training process, and performance results.</p>
-      <a href="https://github.com/Asma812/5g-optimization" style="color: var(--purple); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/5g-optimization" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--purple); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
-      Intelligent Inventory Management System (Tools: Python, C/C++, STM32, NodeMCU, ThingSpeak)
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--purple); background: var(--surface); cursor: pointer; list-style: none;">
+      Intelligent Inventory Management System – Tools: Python, C/C++, STM32, NodeMCU, ThingSpeak
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p><strong>Multi-disciplinary project (embedded + cloud)</strong></p>
       <p>Goal: create a low-power, real-time inventory tracking solution suitable for warehouses or retail environments.</p>
       <p><strong>Approach & Architecture</strong><br>I decided to combine microcontroller-level sensing with cloud-based analytics and visualization.</p>
@@ -283,15 +269,15 @@ permalink: /about/
         <li>Implemented basic predictive restocking alerts based on historical consumption patterns</li>
         <li>Demonstrated energy-efficient duty cycling on battery-powered nodes</li>
       </ul>
-      <a href="https://github.com/Asma812/inventory-system" style="color: var(--purple); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/inventory-system" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--purple); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
-      Drowsiness Detector based on Image Processing & AI (Tools: Python, Raspberry Pi, OpenCV, custom CNN, Flask)
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--purple); background: var(--surface); cursor: pointer; list-style: none;">
+      Drowsiness Detector based on Image Processing & AI – Tools: Python, Raspberry Pi, OpenCV, custom CNN, Flask
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p><strong>Computer vision + embedded project</strong></p>
       <p>Goal: real-time driver drowsiness detection using affordable hardware.</p>
       <p><strong>Approach & Architecture</strong><br>Chose a hybrid edge-cloud model to balance latency and accuracy.</p>
@@ -307,15 +293,15 @@ permalink: /about/
         <li>Demonstrated real-time inference (~200 ms per frame) on Raspberry Pi 4</li>
         <li>Proved concept of privacy-preserving edge AI (no raw video leaves the vehicle)</li>
       </ul>
-      <a href="https://github.com/Asma812/drowsiness-detector" style="color: var(--purple); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/drowsiness-detector" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--purple); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
-      Expert System for Disease Diagnosis (Tools: Python, Tkinter)
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--purple); background: var(--surface); cursor: pointer; list-style: none;">
+      Expert System for Disease Diagnosis – Tools: Python, Tkinter
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p><strong>Classic AI / rule-based system</strong></p>
       <p>Goal: build a simple but explainable diagnostic assistant for educational purposes.</p>
       <p><strong>Approach & Architecture</strong><br>Implemented a forward-chaining inference engine in Python + Tkinter GUI.</p>
@@ -330,15 +316,15 @@ permalink: /about/
         <li>User-friendly interface that explains why a diagnosis is suggested</li>
         <li>Easy to extend with new diseases / rules</li>
       </ul>
-      <a href="https://github.com/Asma812/expert-diagnosis" style="color: var(--purple); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/expert-diagnosis" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--purple); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
-      Mobile Application for Financial Management (Tools: Java)
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--purple); background: var(--surface); cursor: pointer; list-style: none;">
+      Mobile Application for Financial Management – Tools: Java
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p><strong>Android native development</strong></p>
       <p>Goal: personal finance tracker with clean UX.</p>
       <p><strong>Approach & Architecture</strong><br>Built with Java + SQLite (local persistence).</p>
@@ -352,15 +338,15 @@ permalink: /about/
         <li>Smooth offline experience with sync-ready architecture</li>
         <li>Intuitive material design interface</li>
       </ul>
-      <a href="https://github.com/Asma812/finance-app" style="color: var(--purple); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/finance-app" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
-  <details class="card" style="margin: 1.8rem 0; border-radius: 10px; overflow: hidden; box-shadow: var(--shadow); transition: all 0.3s;">
-    <summary style="font-size: 1.35rem; color: var(--purple); background: var(--surface); padding: 1.2rem 2rem; cursor: pointer; font-weight: 600; list-style: none; border-bottom: 1px solid var(--border); transition: background 0.3s;">
-      Web Application for Library Management (Tools: Java, MySQL, Spring Boot, Thymeleaf)
+  <details class="card" style="margin: 1.8rem 0; border: 1px solid var(--border); border-radius: 10px; overflow: hidden;">
+    <summary style="padding: 1.2rem 1.8rem; font-size: 1.35rem; font-weight: 600; color: var(--purple); background: var(--surface); cursor: pointer; list-style: none;">
+      Web Application for Library Management – Tools: Java, MySQL, Spring Boot, Thymeleaf
     </summary>
-    <div style="padding: 1.8rem 2rem; background: var(--surface);">
+    <div style="padding: 1.8rem; background: var(--surface);">
       <p><strong>Full-stack CRUD application</strong></p>
       <p>Goal: modern library management system for small/medium collections.</p>
       <p><strong>Approach & Architecture</strong><br>Java backend (Spring Boot) + MySQL database + basic HTML/Thymeleaf frontend.</p>
@@ -373,7 +359,7 @@ permalink: /about/
         <li>Implemented role-based access (admin / librarian / member)</li>
         <li>Clean separation of concerns (controller – service – repository)</li>
       </ul>
-      <a href="https://github.com/Asma812/library-app" style="color: var(--purple); font-weight: 600; display: inline-block; margin-top: 1rem;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/library-app" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 </section>
