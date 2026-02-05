@@ -245,7 +245,7 @@ permalink: /about/
         <li>Proved concept of “trust-by-design” — any unauthorized slice modification attempt would be detectable via ledger inconsistency</li>
       </ul>
       <p>Instead of a GitHub repository, this work is documented in a detailed technical article that covers architecture diagrams, configuration examples, ML training process, and performance results.</p>
-      <a href="https://github.com/Asma812/5g-optimization" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/assets/Article.pdf" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
@@ -269,7 +269,7 @@ permalink: /about/
         <li>Implemented basic predictive restocking alerts based on historical consumption patterns</li>
         <li>Demonstrated energy-efficient duty cycling on battery-powered nodes</li>
       </ul>
-      <a href="https://github.com/Asma812/inventory-system" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/SmartInventory" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
@@ -316,7 +316,7 @@ permalink: /about/
         <li>User-friendly interface that explains why a diagnosis is suggested</li>
         <li>Easy to extend with new diseases / rules</li>
       </ul>
-      <a href="https://github.com/Asma812/expert-diagnosis" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/Disease-Diagnosis" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
@@ -338,7 +338,7 @@ permalink: /about/
         <li>Smooth offline experience with sync-ready architecture</li>
         <li>Intuitive material design interface</li>
       </ul>
-      <a href="https://github.com/Asma812/finance-app" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/FinanceApp" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 
@@ -359,7 +359,7 @@ permalink: /about/
         <li>Implemented role-based access (admin / librarian / member)</li>
         <li>Clean separation of concerns (controller – service – repository)</li>
       </ul>
-      <a href="https://github.com/Asma812/library-app" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
+      <a href="https://github.com/Asma812/Library-Management" style="color: var(--purple); font-weight: 600;">View Project on GitHub →</a>
     </div>
   </details>
 </section>
