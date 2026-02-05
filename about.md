@@ -13,52 +13,62 @@ Asma Neji, Junior Cybersecurity Engineer with expertise in telecommunications, n
 
 ## Skills
 
-**Networking**
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
-  <span class="skill-badge">Cisco Packet Tracer</span>
-  <span class="skill-badge">Huawei eNSP</span>
-  <span class="skill-badge">TCPDump</span>
-  <span class="skill-badge">OpenVPN</span>
-  <span class="skill-badge">NS3</span>
-  <span class="skill-badge">Omnet++</span>
-  <span class="skill-badge">Wireshark</span>
-  <span class="skill-badge">OpenSSL</span>
+<div class="skill-group networking">
+  <h3>Networking</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Cisco Packet Tracer</span>
+    <span class="skill-tag">Huawei eNSP</span>
+    <span class="skill-tag">TCPDump</span>
+    <span class="skill-tag">OpenVPN</span>
+    <span class="skill-tag">NS3</span>
+    <span class="skill-tag">Omnet++</span>
+    <span class="skill-tag">Wireshark</span>
+    <span class="skill-tag">OpenSSL</span>
+  </div>
 </div>
 
-**Systems**
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
-  <span class="skill-badge">Linux (Ubuntu, Kali)</span>
-  <span class="skill-badge">Windows Server</span>
+<div class="skill-group systems">
+  <h3>Systems</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Linux (Ubuntu, Kali)</span>
+    <span class="skill-tag">Windows Server</span>
+  </div>
 </div>
 
-**Languages**
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
-  <span class="skill-badge">Python</span>
-  <span class="skill-badge">Bash/Shell</span>
-  <span class="skill-badge">SQL</span>
-  <span class="skill-badge">C</span>
-  <span class="skill-badge">C++</span>
-  <span class="skill-badge">Java</span>
+<div class="skill-group languages">
+  <h3>Languages</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Python</span>
+    <span class="skill-tag">Bash/Shell</span>
+    <span class="skill-tag">SQL</span>
+    <span class="skill-tag">C</span>
+    <span class="skill-tag">C++</span>
+    <span class="skill-tag">Java</span>
+  </div>
 </div>
 
-**DevOps**
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
-  <span class="skill-badge">Ansible</span>
-  <span class="skill-badge">Shell Scripting</span>
-  <span class="skill-badge">Docker</span>
-  <span class="skill-badge">SonarQube</span>
-  <span class="skill-badge">Jenkins</span>
+<div class="skill-group devops">
+  <h3>DevOps</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Ansible</span>
+    <span class="skill-tag">Shell Scripting</span>
+    <span class="skill-tag">Docker</span>
+    <span class="skill-tag">SonarQube</span>
+    <span class="skill-tag">Jenkins</span>
+  </div>
 </div>
 
-**Security**
-<div style="display: flex; flex-wrap: wrap; gap: 0.9rem 1.2rem; justify-content: center; margin: 1.5rem 0 3rem;">
-  <span class="skill-badge">Threat intelligence</span>
-  <span class="skill-badge">Pentesting</span>
-  <span class="skill-badge">Network security</span>
-  <span class="skill-badge">Infrastructure hardening</span>
-  <span class="skill-badge">Security automation</span>
-  <span class="skill-badge">Incident response</span>
-  <span class="skill-badge">Bug Bounty</span>
+<div class="skill-group security">
+  <h3>Security</h3>
+  <div class="skill-tags">
+    <span class="skill-tag">Threat intelligence</span>
+    <span class="skill-tag">Pentesting</span>
+    <span class="skill-tag">Network security</span>
+    <span class="skill-tag">Infrastructure hardening</span>
+    <span class="skill-tag">Security automation</span>
+    <span class="skill-tag">Incident response</span>
+    <span class="skill-tag">Bug Bounty</span>
+  </div>
 </div>
 
 {: .notice--success}
