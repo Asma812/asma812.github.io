@@ -10,6 +10,20 @@ permalink: /about/
   <p style="font-size: 1.25rem; color: var(--text-muted); max-width: 800px; margin: 0 auto 2rem;">
     Tunis, Tunisia • Threat Intelligence • Telecom Security • AI Defense • Pentesting • DevSecOps
   </p>
+  <div style="display: flex; justify-content: center; gap: 2.5rem; margin-top: 1.6rem;">
+    <a href="https://linkedin.com/in/asma-neji" 
+       style="color: #0a66c2; font-size: 2.4rem; text-decoration: none; transition: transform 0.3s;">
+      in
+    </a>
+    <a href="https://github.com/Asma812" 
+       style="color: #ffffff; font-size: 2.4rem; text-decoration: none; transition: transform 0.3s;">
+      <span style="font-size: 2.6rem;">🐙</span>
+    </a>
+    <a href="/assets/AsmaNEJI_CV-Public.pdf" 
+       style="color: var(--text); font-size: 2.4rem; text-decoration: none; transition: transform 0.3s;">
+      📄
+    </a>
+  </div>
 </div>
 
 <div class="container">
