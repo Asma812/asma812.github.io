@@ -148,24 +148,10 @@ permalink: /telecom/
 
     <!-- Lesson 9 -->
     <a href="/lesson9" style="text-decoration: none; color: inherit;">
-      <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
-        <div style="position: relative; z-index: 2; padding: 1.8rem; color: white;">
-          <h3 style="margin: 0 0 1rem; font-size: 1.45rem; font-weight: 700;">
-            9 Tools You MUST Learn 🛠
-          </h3>
-          <p style="margin: 0 0 0.8rem; font-size: 1rem; opacity: 0.9;">
-            Simulation: MATLAB, Simulink, GNU Radio • Networking: Wireshark, GNS3, NS-3, Open5GS, srsRAN • Systems: Linux, Bash
-          </p>
-        </div>
-      </div>
-    </a>
-
-    <!-- Lesson 10 -->
-    <a href="/lesson10" style="text-decoration: none; color: inherit;">
       <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
         <div style="position: relative; z-index: 2; padding: 1.8rem; color: white;">
           <h3 style="margin: 0 0 1rem; font-size: 1.45rem; font-weight: 700;">
-            10 Programming for Telecom Engineers
+            9 Programming for Telecom Engineers
           </h3>
           <p style="margin: 0 0 0.8rem; font-size: 1rem; opacity: 0.9;">
             Python (automation, simulation) • C/C++ (low-level, embedded) • Bash scripting • Use cases: network automation, log analysis, protocol simulation
@@ -174,12 +160,12 @@ permalink: /telecom/
       </div>
     </a>
 
-    <!-- Lesson 11 -->
-    <a href="/lesson11" style="text-decoration: none; color: inherit;">
+    <!-- Lesson 10 -->
+    <a href="/lesson10" style="text-decoration: none; color: inherit;">
       <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://images.unsplash.com/photo-1555949963-aa79d0ebc8fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
         <div style="position: relative; z-index: 2; padding: 1.8rem; color: white;">
           <h3 style="margin: 0 0 1rem; font-size: 1.45rem; font-weight: 700;">
-            11 Telecom Security (Your BIG PLUS 🔐)
+            10 Telecom Security (Your BIG PLUS)
           </h3>
           <p style="margin: 0 0 0.8rem; font-size: 1rem; opacity: 0.9;">
             SS7 vulnerabilities • LTE/5G security • IMS security • SIM authentication • Network monitoring • IDS/IPS • Lawful interception
@@ -188,12 +174,12 @@ permalink: /telecom/
       </div>
     </a>
 
-    <!-- Lesson 12 -->
-    <a href="/lesson12" style="text-decoration: none; color: inherit;">
+    <!-- Lesson 11 -->
+    <a href="/lesson11" style="text-decoration: none; color: inherit;">
       <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
         <div style="position: relative; z-index: 2; padding: 1.8rem; color: white;">
           <h3 style="margin: 0 0 1rem; font-size: 1.45rem; font-weight: 700;">
-            12 Practical Projects (VERY IMPORTANT)
+            11 Practical Projects (VERY IMPORTANT)
           </h3>
           <p style="margin: 0 0 0.8rem; font-size: 1rem; opacity: 0.9;">
             Beginner: QPSK/QAM BER sim, VoIP, Wireshark SIP/RTP • Intermediate: LTE sim, srsRAN+Open5GS • Advanced: 5G core, telecom attack sim, secure VoIP
