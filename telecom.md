@@ -1,3 +1,4 @@
+---
 layout: page
 title: Telecom Lessons
 permalink: /telecom/
@@ -8,7 +9,7 @@ permalink: /telecom/
     Structured lessons from my academic journey — click a card to view the full content.
   </p>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 2rem;">
-    <!-- Lesson 1.1 --> 
+    <!-- Lesson 1.1 -->
     <a href="/lesson1" style="text-decoration: none; color: inherit;">
       <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
         <div style="position: relative; z-index: 2; padding: 1.8rem; color: white;">
@@ -69,9 +70,9 @@ permalink: /telecom/
         </div>
       </div>
     </a>
-    <!-- Lesson 4 – Updated with relevant transmission media diagram -->
+    <!-- Lesson 4 -->
     <a href="/lesson4" style="text-decoration: none; color: inherit;">
-      <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20240731120431/Types-of-Transmission-Media.png'); background-size: cover; background-position: center;">
+      <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://images.unsplash.com/photo-1563204424-5f9e4e8dfc1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
         <div style="position: relative; z-index: 2; padding: 1.8rem; color: white;">
           <h3 style="margin: 0 0 1rem; font-size: 1.45rem; font-weight: 700;">
             4 Transmission Media & RF Basics
@@ -108,9 +109,9 @@ permalink: /telecom/
         </div>
       </div>
     </a>
-    <!-- Lesson 7 – Updated with VoIP/SIP architecture diagram -->
+    <!-- Lesson 7 -->
     <a href="/lesson7" style="text-decoration: none; color: inherit;">
-      <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://telecom.altanai.com/wp-content/uploads/2013/08/convergence.jpg?w=863'); background-size: cover; background-position: center;">
+      <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://images.unsplash.com/photo-1558494949-ef0d7d6b0d2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
         <div style="position: relative; z-index: 2; padding: 1.8rem; color: white;">
           <h3 style="margin: 0 0 1rem; font-size: 1.45rem; font-weight: 700;">
             7 Telephony & VoIP
@@ -147,9 +148,9 @@ permalink: /telecom/
         </div>
       </div>
     </a>
-    <!-- Lesson 10 – Updated with telecom security / SS7 vulnerabilities diagram -->
+    <!-- Lesson 10 -->
     <a href="/lesson10" style="text-decoration: none; color: inherit;">
-      <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs11235-023-01018-0/MediaObjects/11235_2023_1018_Fig4_HTML.png'); background-size: cover; background-position: center;">
+      <div class="card" style="position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); transition: all 0.3s; min-height: 340px; background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)); background-image: url('https://images.unsplash.com/photo-1555949963-aa79d0ebc8fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'); background-size: cover; background-position: center;">
         <div style="position: relative; z-index: 2; padding: 1.8rem; color: white;">
           <h3 style="margin: 0 0 1rem; font-size: 1.45rem; font-weight: 700;">
             10 Telecom Security (Your BIG PLUS)
