@@ -56,14 +56,14 @@ All authenticated API endpoints using JWT authentication.
 3.  Modify the header:
     
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   {    "alg": "none",    "typ": "JWT"  }   `
+{    "alg": "none",    "typ": "JWT"  }   `
 
 1.  Modify the payload (optional), e.g. change role.
     
 2.  Remove the signature completely so the token ends with a trailing dot:
     
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   header.payload.   `
+header.payload.   
 
 1.  Send any authenticated request using this forged token.
     
@@ -92,7 +92,7 @@ JWT expiration (exp) is not properly validated by the backend. Tokens remain val
 2.  Modify the payload:
     
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   "exp": 100   `
+ "exp": 100   
 
 1.  Re-sign or reuse with alg=none.
     
@@ -132,7 +132,7 @@ Stolen or leaked tokens remain valid even after logout.
 
 ### Affected Endpoint
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   GET /workshop/api/shop/orders/{id}   `
+  GET /workshop/api/shop/orders/{id}   
 
 ### Description
 
@@ -160,7 +160,7 @@ Exposure of sensitive order and payment information (PII).
 
 ### Affected Endpoint
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   POST /workshop/api/shop/orders   `
+  POST /workshop/api/shop/orders  
 
 ### Description
 
@@ -170,7 +170,7 @@ The API blindly trusts client-supplied JSON fields such as role, isAdmin, and av
 
 Send:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   {    "product_id": 2,    "quantity": 1,    "role": "admin",    "isAdmin": true,    "available_credit": 100000  }   `
+ {    "product_id": 2,    "quantity": 1,    "role": "admin",    "isAdmin": true,    "available_credit": 100000  }  
 
 ### Impact
 
@@ -187,7 +187,7 @@ Negative or extreme values for quantity are accepted, resulting in credit increa
 
 ### Steps to Reproduce
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   {    "product_id": 2,    "quantity": -10  }   `
+  {    "product_id": 2,    "quantity": -10  }   
 
 ### Impact
 
@@ -204,7 +204,7 @@ Extremely large quantities are accepted without validation, leading to negative 
 
 ### Example
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   {    "product_id": 2,    "quantity": 99999  }   `
+  {    "product_id": 2,    "quantity": 99999  }   
 
 ### Impact
 
@@ -217,7 +217,7 @@ Financial abuse and broken accounting integrity.
 
 ### Affected Endpoint
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   POST /identity/api/auth/login   `
+  POST /identity/api/auth/login   
 
 ### Description
 
@@ -244,8 +244,7 @@ XSS (Reflected / Stored / DOM)
 
 *   Payloads tested:
     
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   alert(1)   `
+   alert(1)   
 
 *   Tested in:
     
@@ -303,8 +302,7 @@ SQL Injection (Classic)
 
 *   Payloads:
     
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ' OR '1'='1   `
+   ' OR '1'='1   
 
 *   Result: No SQL errors or bypass
     
