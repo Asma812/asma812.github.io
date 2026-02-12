@@ -6,7 +6,7 @@ permalink: /telecom/
 <div class="container" style="padding: 3rem 1rem;">
   <h1 style="text-align: center; font-family: 'JetBrains Mono', monospace; color: var(--accent); margin-bottom: 1rem;">Telecom Engineering Roadmap</h1>
   <p style="text-align: center; color: var(--text-muted); font-size: 1.15rem; max-width: 800px; margin: 0 auto 4rem;">
-    Structured lessons from my academic journey — click a card to view the full content.
+    Here are my telecom series, click a card to view the full content.
   </p>
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 2rem;">
     <!-- Lesson 1.1 -->
