@@ -26,25 +26,12 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       Penetration Test Report – 2Million machine on HTB
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      Scope: [External/Internal/Web/API] • Findings: 1× Critical, 3× High • Date: [Month Year]
+      Date: 2026
     </p>
     <p style="margin: 0 0 1.2rem;">
       Comprehensive external/internal pentest with OSINT, scanning, exploitation, and post-exploitation phases. Key vulnerabilities and remediation recommendations included.
     </p>
     <a href="/Pentest-report" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Pentest Report →</a>
-  </div>
-  <!-- Card 3: Hardening Project -->
-  <div class="card" style="background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.8rem; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    <h3 style="margin: 0 0 0.8rem; color: var(--green); font-size: 1.35rem;">
-      Infrastructure Hardening Project – [System / Environment Name]
-    </h3>
-    <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      Environment: [Linux/AD/Cloud] • Standards: CIS/NIST • Date: [Month Year]
-    </p>
-    <p style="margin: 0 0 1.2rem;">
-      Hardening of servers/network using Ansible, Wazuh, OpenSCAP. Before/after state, applied configurations, and validation scans.
-    </p>
-    <a href="[link-to-writeup-or-report]" style="color: var(--green); font-weight: 600; text-decoration: none;">Read Full Hardening Write-up →</a>
   </div>
 </div>
 <!-- Latest Articles / Blog Posts – also in cards -->
