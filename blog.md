@@ -55,7 +55,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
   <!-- Article 1 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/hndl" style="color: var(--accent); text-decoration: none;">Harvest Now, Decrypt Later (HNDL)</a>
+      <a href="/Article1" style="color: var(--accent); text-decoration: none;">Harvest Now, Decrypt Later (HNDL)</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • Quantum Security
@@ -63,13 +63,13 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       The temporal risk to long-term data confidentiality in telecommunications. How adversaries are harvesting encrypted traffic today for future quantum decryption.
     </p>
-    <a href="/articles/hndl" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article1" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
   <!-- Article 2 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/Article1" style="color: var(--accent); text-decoration: none;">Quantum Attacks on 5G Protocols</a>
+      <a href="/Article2" style="color: var(--accent); text-decoration: none;">Quantum Attacks on 5G Protocols</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • Quantum Security
@@ -83,7 +83,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
   <!-- Article 3 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/quantum-enabled-malware" style="color: var(--accent); text-decoration: none;">Quantum-Enabled Malware and AI</a>
+      <a href="/Article3" style="color: var(--accent); text-decoration: none;">Quantum-Enabled Malware and AI</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • Quantum • AI
@@ -111,7 +111,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
   <!-- Article 5 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/grc-sovereign-ai" style="color: var(--accent); text-decoration: none;">The GRC of Sovereign AI Clouds</a>
+      <a href="/Article5" style="color: var(--accent); text-decoration: none;">The GRC of Sovereign AI Clouds</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • AI Governance
@@ -125,7 +125,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
   <!-- Article 7 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/owasp-top10-llms" style="color: var(--accent); text-decoration: none;">The New Frontier of OWASP Top 10 for LLMs</a>
+      <a href="/Article7" style="color: var(--accent); text-decoration: none;">The New Frontier of OWASP Top 10 for LLMs</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • LLM Security
@@ -139,7 +139,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
   <!-- Article 8 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/llm-security-audit" style="color: var(--accent); text-decoration: none;">How to Conduct a Full LLM Security Audit</a>
+      <a href="/Article8" style="color: var(--accent); text-decoration: none;">How to Conduct a Full LLM Security Audit</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • LLM Security
@@ -153,7 +153,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
   <!-- Article 9 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/cti-memory-forensics" style="color: var(--accent); text-decoration: none;">CTI-Driven Memory Forensics: Detecting Fileless Malware</a>
+      <a href="/Article9" style="color: var(--accent); text-decoration: none;">CTI-Driven Memory Forensics: Detecting Fileless Malware</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • Forensics
@@ -167,7 +167,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
   <!-- Article 10 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/malware-lineage" style="color: var(--accent); text-decoration: none;">Malware Lineage: Using ML to Map "Code DNA"</a>
+      <a href="/Article10" style="color: var(--accent); text-decoration: none;">Malware Lineage: Using ML to Map "Code DNA"</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • Threat Intelligence
@@ -189,7 +189,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       Reducing MTTR through automated correlation of forensic artifacts with global threat intelligence.
     </p>
-    <a href="/articles/artifact-correlation" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article11" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
 </div>
