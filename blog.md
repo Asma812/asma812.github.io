@@ -69,7 +69,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
   <!-- Article 2 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/quantum-attacks-5g" style="color: var(--accent); text-decoration: none;">Quantum Attacks on 5G Protocols</a>
+      <a href="/Article1" style="color: var(--accent); text-decoration: none;">Quantum Attacks on 5G Protocols</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • Quantum Security
@@ -77,7 +77,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       Technical deep dive into how Shor’s and Grover’s algorithms threaten 5G Core signaling, 5G-AKA, and key exchange mechanisms.
     </p>
-    <a href="/articles/quantum-attacks-5g" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article2" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
   <!-- Article 3 -->
@@ -91,13 +91,13 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       The 10x acceleration of vulnerability discovery and adaptive malware through Quantum Machine Learning (QML).
     </p>
-    <a href="/articles/quantum-enabled-malware" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article3" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
   <!-- Article 4 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/adversarial-ml-secops" style="color: var(--accent); text-decoration: none;">Adversarial Machine Learning in SecOps</a>
+      <a href="/Article4" style="color: var(--accent); text-decoration: none;">Adversarial Machine Learning in SecOps</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • AI Security
@@ -105,7 +105,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       How attackers poison and evade AI models (XGBoost, Isolation Forest) used in modern SOCs and how to build Robust AI.
     </p>
-    <a href="/articles/adversarial-ml-secops" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article4" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
   <!-- Article 5 -->
@@ -119,10 +119,10 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       Governance, Risk, and Compliance strategies for using Generative AI while maintaining strict data sovereignty.
     </p>
-    <a href="/articles/grc-sovereign-ai" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article5" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
-  <!-- Article 6 -->
+  <!-- Article 7 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
       <a href="/articles/owasp-top10-llms" style="color: var(--accent); text-decoration: none;">The New Frontier of OWASP Top 10 for LLMs</a>
@@ -133,10 +133,10 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       Agentic risks, Excessive Agency, RAG poisoning, and the 2026 evolution of LLM security threats.
     </p>
-    <a href="/articles/owasp-top10-llms" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article7" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
-  <!-- Article 7 -->
+  <!-- Article 8 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
       <a href="/articles/llm-security-audit" style="color: var(--accent); text-decoration: none;">How to Conduct a Full LLM Security Audit</a>
@@ -147,10 +147,10 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       A practical 5-phase Red Team methodology for auditing enterprise LLM deployments.
     </p>
-    <a href="/articles/llm-security-audit" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article8" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
-  <!-- Article 8 -->
+  <!-- Article 9 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
       <a href="/articles/cti-memory-forensics" style="color: var(--accent); text-decoration: none;">CTI-Driven Memory Forensics: Detecting Fileless Malware</a>
@@ -161,10 +161,10 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       Using Cyber Threat Intelligence with Volatility 3 to detect fileless malware and Living-off-the-Land techniques.
     </p>
-    <a href="/articles/cti-memory-forensics" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article9" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
-  <!-- Article 9 -->
+  <!-- Article 10 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
       <a href="/articles/malware-lineage" style="color: var(--accent); text-decoration: none;">Malware Lineage: Using ML to Map "Code DNA"</a>
@@ -175,13 +175,13 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       How Function Call Graphs and Graph Neural Networks help attribute malware to APT groups.
     </p>
-    <a href="/articles/malware-lineage" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
+    <a href="/Article10" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Article →</a>
   </div>
 
-  <!-- Article 10 -->
+  <!-- Article 11 -->
   <div class="card" style="padding: 1.8rem; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; transition: all 0.3s; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
     <h3 style="margin: 0 0 0.8rem; font-size: 1.35rem;">
-      <a href="/articles/artifact-correlation" style="color: var(--accent); text-decoration: none;">Automated Artifact Correlation in Incident Response</a>
+      <a href="/Article11" style="color: var(--accent); text-decoration: none;">Automated Artifact Correlation in Incident Response</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
       May 2026 • DFIR • CTI
