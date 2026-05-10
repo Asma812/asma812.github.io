@@ -58,7 +58,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       <a href="/Article1" style="color: var(--accent); text-decoration: none;">Harvest Now, Decrypt Later (HNDL)</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      May 2026 • Quantum Security
+      Oct 2026 • Quantum Security
     </p>
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       The temporal risk to long-term data confidentiality in telecommunications. How adversaries are harvesting encrypted traffic today for future quantum decryption.
@@ -72,7 +72,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       <a href="/Article2" style="color: var(--accent); text-decoration: none;">Quantum Attacks on 5G Protocols</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      May 2026 • Quantum Security
+      Oct 2026 • Quantum Security
     </p>
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       Technical deep dive into how Shor’s and Grover’s algorithms threaten 5G Core signaling, 5G-AKA, and key exchange mechanisms.
@@ -86,7 +86,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       <a href="/Article3" style="color: var(--accent); text-decoration: none;">Quantum-Enabled Malware and AI</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      May 2026 • Quantum • AI
+      Nov 2026 • Quantum • AI
     </p>
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       The 10x acceleration of vulnerability discovery and adaptive malware through Quantum Machine Learning (QML).
@@ -100,7 +100,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       <a href="/Article4" style="color: var(--accent); text-decoration: none;">Adversarial Machine Learning in SecOps</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      May 2026 • AI Security
+      Dec 2026 • AI Security
     </p>
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       How attackers poison and evade AI models (XGBoost, Isolation Forest) used in modern SOCs and how to build Robust AI.
@@ -114,7 +114,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       <a href="/Article5" style="color: var(--accent); text-decoration: none;">The GRC of Sovereign AI Clouds</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      May 2026 • AI Governance
+      Dec 2026 • AI Governance
     </p>
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       Governance, Risk, and Compliance strategies for using Generative AI while maintaining strict data sovereignty.
@@ -128,7 +128,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       <a href="/Article7" style="color: var(--accent); text-decoration: none;">The New Frontier of OWASP Top 10 for LLMs</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      May 2026 • LLM Security
+      Jan 2026 • LLM Security
     </p>
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       Agentic risks, Excessive Agency, RAG poisoning, and the 2026 evolution of LLM security threats.
@@ -142,7 +142,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       <a href="/Article8" style="color: var(--accent); text-decoration: none;">How to Conduct a Full LLM Security Audit</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      May 2026 • LLM Security
+      Feb 2026 • LLM Security
     </p>
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       A practical 5-phase Red Team methodology for auditing enterprise LLM deployments.
@@ -156,7 +156,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       <a href="/Article9" style="color: var(--accent); text-decoration: none;">CTI-Driven Memory Forensics: Detecting Fileless Malware</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      May 2026 • Forensics
+      Mar 2026 • Forensics
     </p>
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       Using Cyber Threat Intelligence with Volatility 3 to detect fileless malware and Living-off-the-Land techniques.
@@ -170,7 +170,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
       <a href="/Article10" style="color: var(--accent); text-decoration: none;">Malware Lineage: Using ML to Map "Code DNA"</a>
     </h3>
     <p style="color: var(--text-muted); font-size: 0.95rem; margin: 0 0 1rem;">
-      May 2026 • Threat Intelligence
+      Apr 2026 • Threat Intelligence
     </p>
     <p style="margin: 0 0 1.2rem; color: var(--text);">
       How Function Call Graphs and Graph Neural Networks help attribute malware to APT groups.
