@@ -121,12 +121,26 @@ permalink: /Article1
 <h2 id="abstract">Abstract</h2>
 
 <p>
-The rapid advancement of quantum computing introduces a critical temporal risk to the long-term confidentiality of data within the telecommunications sector. This article examines the “Harvest Now, Decrypt Later” (HNDL) attack model—a latent threat characterized by the interception and storage of currently encrypted network traffic for retroactive decryption upon the arrival of Cryptographically Relevant Quantum Computers (CRQCs).
+The study focuses on the specific vulnerabilities inherent in modern telecommunications infrastructure, characterized by long lifecycles and the high strategic value of metadata and private communications.
 </p>
 
 <p>
-The study focuses on the specific vulnerabilities inherent in modern telecommunications infrastructure, characterized by long lifecycles and the high strategic value of metadata and private communications.
+Through a multi-phase analysis, this paper details the technical interception of fiber-optic channels and cloud-native 5G interfaces, specifically the N3 and N6 interfaces, and evaluates the subsequent storage and retroactive decryption phases using quantum-based algorithms.
 </p>
+
+<p>
+Furthermore, an impact assessment highlights the resulting regulatory risks, such as conflicts with GDPR and national security mandates, alongside the degradation of corporate trust and the rise of espionage.
+</p>
+
+<p>
+To address these challenges, the article evaluates essential mitigation strategies, including the implementation of Post-Quantum Cryptography (PQC), the application of Perfect Forward Secrecy (PFS), and the adoption of "Crypto-Agility" to facilitate seamless transitions without extensive hardware replacement.
+</p>
+
+<p>
+The findings underscore that HNDL is not merely a prospective risk but a current data collection reality, necessitating the immediate integration of PQC standards to safeguard the future of global telecommunications.
+</p>
+
+<hr>
 
 <h2 id="introduction">1. Introduction</h2>
 
@@ -135,33 +149,134 @@ The current state of global cybersecurity rests on a fragile temporal foundation
 </p>
 
 <p>
-This vulnerability has given rise to a strategic exploitation model known as Harvest Now, Decrypt Later (HNDL). In this model, adversarial actors intercept and store encrypted data today with the explicit intention of decrypting it once large-scale quantum computing becomes operational.
+This vulnerability has given rise to a strategic exploitation model known as Harvest Now, Decrypt Later (HNDL). In this model, adversarial actors—ranging from sophisticated cyber-criminal syndicates to nation-states—intercept and store vast quantities of encrypted data today, with the explicit intent of decrypting it once Cryptographically Relevant Quantum Computers (CRQCs) become operational.
 </p>
+
+<h4>The Paradox of "Security Now, Exposure Later"</h4>
+
+<p>
+This phenomenon creates a unique "latent" threat landscape. Traditionally, a data breach is identified when the encryption is bypassed or the data is leaked.
+</p>
+
+<p>
+However, in the HNDL framework, a successful breach occurs the moment the data is harvested, even if that data remains unreadable for a decade.
+</p>
+
+<p>
+This creates a paradox: a communication session may be technically "secure" at the moment of transmission, yet its long-term confidentiality is already forfeited.
+</p>
+
+<p>
+The risk is not a future event; it is a current reality of data collection that compromises any information with a secrecy lifespan longer than the time until "Q-Day"—the point at which quantum computers can successfully execute Shor’s Algorithm against 2048-bit keys.
+</p>
+
+<h4>The Telecommunications Vulnerability</h4>
+
+<p>
+The telecommunications sector serves as the most critical frontline for HNDL for two primary reasons:
+</p>
+
+<ul>
+  <li>
+    <strong>Infrastructure Longevity:</strong> Telecom networks involve massive capital investments in hardware and protocols that often remain in service for 15 to 20 years. Infrastructure deployed today for 5G and early 6G will almost certainly exist during the era of quantum supremacy.
+  </li>
+
+  <li>
+    <strong>Data Value:</strong> Telecom operators manage the transmission of high-value metadata and private communications. Unlike a stolen password that can be changed, the contents of a private conversation or a government transmission retain their sensitivity and strategic value for years, making them ideal candidates for retroactive decryption.
+  </li>
+</ul>
+
+<p>
+The fundamental threat of HNDL is rooted in a massive shift in computational complexity.
+</p>
+
+<p>
+Classical security relies on the "hardness" of mathematical problems like integer factorization and discrete logarithms, which would take trillions of years for current supercomputers to solve.
+</p>
+
+<p>
+However, quantum computing utilizes Shor’s Algorithm to reduce this exponential workload into polynomial time, effectively bypassing the mathematical barriers that currently protect asymmetric encryption.
+</p>
+
+<p>
+Consequently, any data captured today is only as secure as the time remaining until a quantum processor reaches the required qubit threshold to execute these algorithms.
+</p>
+
+<p>
+This reality reinforces the urgency of the transition to quantum-resistant standards.
+</p>
+
+<hr>
 
 <h2 id="hndl-attack-model">2. The HNDL Attack Model</h2>
 
 <p>
-Content here...
+The operational execution of a "Harvest Now, Decrypt Later" campaign is a methodical, long-term endeavor that differs significantly from traditional "burst" cyberattacks.
 </p>
-
-<h2 id="impact-assessment">3. Impact Assessment</h2>
 
 <p>
-Content here...
+Instead of immediate exploitation, the adversary focuses on high-fidelity data acquisition and durable archival.
 </p>
-
-<h2 id="mitigation-strategies">4. Mitigation Strategies</h2>
 
 <p>
-Content here...
+This model is divided into three distinct phases.
 </p>
 
-<h2 id="conclusion">Conclusion</h2>
+<h4>Phase 1: Interception (The Harvest)</h4>
 
 <p>
-Content here...
+In the telecommunications sector, interception occurs at the physical and logical layers where data density is highest.
 </p>
 
+<p>
+Adversaries target the "pipes" of the internet rather than individual end-user devices.
+</p>
+
+<ul>
+  <li>
+    <strong>Fiber Optic Tapping:</strong> At the physical layer, adversaries utilize non-intrusive optical splitters or "macrobending" techniques to clone the light signals traveling through undersea cables or terrestrial backbones. This allows for the silent duplication of traffic without causing signal loss that would trigger network alarms.
+  </li>
+
+  <li>
+    <strong>5G Cloud-Native Interfaces:</strong> The transition to 5G Standalone (SA) architectures introduces new logical points of interest. Attackers specifically target the N3 interface (which carries user plane traffic between the Radio Access Network and the User Plane Function) and the N6 interface (the exit point from the mobile core to the external Data Network). By compromising these interfaces via cloud-side vulnerabilities or insider threats, attackers can capture raw, encrypted data streams before they reach their final destination.
+  </li>
+</ul>
+
+<h4>Phase 2: Storage (The Archive)</h4>
+
+<p>
+Once the data is intercepted, the challenge shifts to storage and management.
+</p>
+
+<p>
+Capturing the traffic of an entire telecom carrier generates petabytes of data, much of which is noise.
+</p>
+
+<ul>
+  <li>
+    <strong>Selective Filtering:</strong> Harvesters do not store everything indefinitely. They utilize automated scripts to identify and retain "High-Value Targets," such as handshakes containing metadata, encrypted keys, and communications originating from government or strategic corporate IP ranges.
+  </li>
+
+  <li>
+    <strong>Cold Storage Strategies:</strong> The harvested data is moved to "cold storage"—high-capacity, low-energy archival systems. Because the decryption is not expected for years, the primary requirement for this storage is data integrity (preventing "bit rot") rather than access speed. This phase creates a "ticking time bomb" of data that sits dormant in adversarial data centers.
+  </li>
+</ul>
+
+<h4>Phase 3: Retroactive Decryption (The Exploit)</h4>
+
+<p>
+The final phase is triggered by the realization of "Q-Day"—the moment a Cryptographically Relevant Quantum Computer (CRQC) achieves the necessary stable qubit count to run Shor’s Algorithm.
+</p>
+
+<ul>
+  <li>
+    <strong>Breaking the Asymmetric Shield:</strong> Current encryption relies on the difficulty of factoring large prime numbers (RSA) or solving discrete logarithms (ECC). A CRQC can solve these problems in hours or even minutes.
+  </li>
+
+  <li>
+    <strong>Key Recovery:</strong> The adversary retrieves the stored handshake data from Phase 2, uses the quantum computer to derive the private keys, and then applies those keys to decrypt the entire session of recorded traffic. This results in the retroactive exposure of secrets that were intended to remain confidential for decades.
+  </li>
+</ul>
 </div>
 
 </div> 
@@ -248,5 +363,3 @@ End-to-End Encryption (E2EE): Encouraging E2EE at the application layer ensures 
 The "Harvest Now, Decrypt Later" (HNDL) paradigm fundamentally alters the timeline of cybersecurity risk management. The threat is not a future speculation but an active, ongoing data collection reality. The telecommunications sector, as the backbone of global digital exchange, sits at the epicenter of this vulnerability due to its infrastructure longevity and the high strategic value of the metadata it carries.
 The analysis of the HNDL attack model reveals that even the most robust classical encryption today provides no protection against retroactive decryption by future quantum adversaries. Therefore, the transition to Post-Quantum Cryptography (PQC) and the implementation of crypto-agile frameworks are no longer visionary goals; they are immediate requirements for safeguarding national security, corporate integrity, and individual privacy. Telecom operators must recognize that every packet of data transmitted today under legacy standards is a "compromised asset" in waiting. Only through the rapid integration of quantum-resistant standards and proactive hardening of core interfaces can the industry ensure that the communications of today remain confidential in the quantum era of tomorrow.
 
-</div>
-</div>
