@@ -4,6 +4,103 @@ title: Harvest Now, Decrypt Later (HNDL)
 permalink: /Article1
 ---
 
+<style>
+.article-layout {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+/* Left sidebar */
+.article-sidebar {
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+  padding-right: 1rem;
+  border-right: 1px solid #2a2a2a;
+}
+
+.article-sidebar h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #9ca3af;
+}
+
+.article-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0 0;
+}
+
+.article-sidebar li {
+  margin: 0.7rem 0;
+}
+
+.article-sidebar a {
+  text-decoration: none;
+  color: #cbd5e1;
+  transition: color 0.2s ease;
+}
+
+.article-sidebar a:hover {
+  color: #ffffff;
+}
+
+/* Right article content */
+.article-content {
+  min-width: 0;
+}
+
+.article-content h1 {
+  margin-top: 0;
+}
+
+.article-content h2 {
+  margin-top: 3rem;
+  border-bottom: 1px solid #2a2a2a;
+  padding-bottom: 0.4rem;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .article-sidebar {
+    position: relative;
+    top: 0;
+    border-right: none;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+</style>
+
+<div class="article-layout">
+
+<!-- LEFT SIDE -->
+<aside class="article-sidebar">
+
+### Article Structure
+
+- [Abstract](#abstract)
+- [1. Introduction](#introduction)
+- [2. The HNDL Attack Model](#hndl-attack-model)
+- [3. Impact Assessment](#impact-assessment)
+- [4. Mitigation Strategies](#mitigation-strategies)
+- [Conclusion](#conclusion)
+
+</aside>
+
+<!-- RIGHT SIDE -->
+<div class="article-content">
+
 # Article 1: Harvest Now, Decrypt Later (HNDL)
 
 **Focus**: The temporal risk to long-term data confidentiality in the telecommunications sector.
@@ -12,18 +109,7 @@ permalink: /Article1
 
 ---
 
-### Article Structure
-- [Abstract](#abstract)
-- [1. Introduction](#introduction)
-- [2. The HNDL Attack Model](#hndl-attack-model)
-- [3. Impact Assessment](#impact-assessment)
-- [4. Mitigation Strategies](#mitigation-strategies)
-- [Conclusion](#conclusion)
-
----
-
 ## Abstract {#abstract}
-The rapid advancement of quantum computing introduces a critical temporal risk to the long-term confidentiality of data within the telecommunications sector. This article examines the "Harvest Now, Decrypt Later" (HNDL) attack model—a latent threat characterized by the interception and storage of currently encrypted network traffic for retroactive decryption upon the arrival of Cryptographically Relevant Quantum Computers (CRQCs).
 The study focuses on the specific vulnerabilities inherent in modern telecommunications infrastructure, characterized by long lifecycles and the high strategic value of metadata and private communications. Through a multi-phase analysis, this paper details the technical interception of fiber-optic channels and cloud-native 5G interfaces, specifically the N3 and N6 interfaces, and evaluates the subsequent storage and retroactive decryption phases using quantum-based algorithms.
 Furthermore, an impact assessment highlights the resulting regulatory risks, such as conflicts with GDPR and national security mandates, alongside the degradation of corporate trust and the rise of espionage. To address these challenges, the article evaluates essential mitigation strategies, including the implementation of Post-Quantum Cryptography (PQC), the application of Perfect Forward Secrecy (PFS), and the adoption of "Crypto-Agility" to facilitate seamless transitions without extensive hardware replacement. The findings underscore that HNDL is not merely a prospective risk but a current data collection reality, necessitating the immediate integration of PQC standards to safeguard the future of global telecommunications.
 
@@ -106,3 +192,6 @@ End-to-End Encryption (E2EE): Encouraging E2EE at the application layer ensures 
 ## Conclusion {#conclusion}
 The "Harvest Now, Decrypt Later" (HNDL) paradigm fundamentally alters the timeline of cybersecurity risk management. The threat is not a future speculation but an active, ongoing data collection reality. The telecommunications sector, as the backbone of global digital exchange, sits at the epicenter of this vulnerability due to its infrastructure longevity and the high strategic value of the metadata it carries.
 The analysis of the HNDL attack model reveals that even the most robust classical encryption today provides no protection against retroactive decryption by future quantum adversaries. Therefore, the transition to Post-Quantum Cryptography (PQC) and the implementation of crypto-agile frameworks are no longer visionary goals; they are immediate requirements for safeguarding national security, corporate integrity, and individual privacy. Telecom operators must recognize that every packet of data transmitted today under legacy standards is a "compromised asset" in waiting. Only through the rapid integration of quantum-resistant standards and proactive hardening of core interfaces can the industry ensure that the communications of today remain confidential in the quantum era of tomorrow.
+
+</div>
+</div>
