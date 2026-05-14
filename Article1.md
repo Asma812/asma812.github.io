@@ -28,7 +28,7 @@ permalink: /Article1
 <!-- Right Side - Article Content -->
 <div style="flex: 3; min-width: 300px;">
 
-## Abstract
+## Abstract {#abstract}
 
 The rapid advancement of quantum computing introduces a critical temporal risk to the long-term confidentiality of data within the telecommunications sector. This article examines the "Harvest Now, Decrypt Later" (HNDL) attack model—a latent threat characterized by the interception and storage of currently encrypted network traffic for retroactive decryption upon the arrival of Cryptographically Relevant Quantum Computers (CRQCs).
 
