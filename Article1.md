@@ -10,23 +10,17 @@ permalink: /Article1
 
 **Oct 2026 • Quantum Security**
 
-<div style="display: flex; gap: 40px; margin-top: 30px; flex-wrap: wrap;">
-  
-  <!-- Left Column - Table of Contents -->
-  <div style="flex: 1; min-width: 240px; position: sticky; top: 100px; align-self: start;">
-    <h3 style="margin-bottom: 16px; color: var(--accent);">Article Structure</h3>
-    <ul style="list-style: none; padding: 0; line-height: 2.1;">
-      <li><a href="#abstract" style="color: var(--text-muted);">Abstract</a></li>
-      <li><a href="#introduction" style="color: var(--text-muted);">1. Introduction</a></li>
-      <li><a href="#hndl-attack-model" style="color: var(--text-muted);">2. The HNDL Attack Model</a></li>
-      <li><a href="#impact-assessment" style="color: var(--text-muted);">3. Impact Assessment</a></li>
-      <li><a href="#mitigation-strategies" style="color: var(--text-muted);">4. Mitigation Strategies</a></li>
-      <li><a href="#conclusion" style="color: var(--text-muted);">Conclusion</a></li>
-    </ul>
-  </div>
+---
 
-  <!-- Right Column - Main Article -->
-  <div style="flex: 3; min-width: 300px;">
+### Article Structure
+- [Abstract](#abstract)
+- [1. Introduction](#introduction)
+- [2. The HNDL Attack Model](#hndl-attack-model)
+- [3. Impact Assessment](#impact-assessment)
+- [4. Mitigation Strategies](#mitigation-strategies)
+- [Conclusion](#conclusion)
+
+---
 
 ## Abstract {#abstract}
 
