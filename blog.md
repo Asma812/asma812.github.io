@@ -44,7 +44,7 @@ Insights on cybersecurity, threat intelligence, AI in networks, telecom security
     <p style="margin: 0 0 1.2rem;">
       Comprehensive external/internal pentest with scanning, exploitation, and post-exploitation phases. Key vulnerabilities and remediation recommendations included.
     </p>
-    <a href="/Pentest-report" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Pentest Report →</a>
+    <a href="/CapPentest_report" style="color: var(--accent); font-weight: 600; text-decoration: none;">Read Full Pentest Report →</a>
   </div>
 </div>
 <!-- Latest Articles / Blog Posts -->
