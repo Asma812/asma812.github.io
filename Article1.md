@@ -38,7 +38,7 @@ Furthermore, an impact assessment highlights the resulting regulatory risks, suc
 
 ---
 
-### 1. Introduction
+## 1. Introduction {#introduction}
 
 The current state of global cybersecurity rests on a fragile temporal foundation. While modern encryption standards like RSA and Elliptic Curve Cryptography (ECC) are practically unbreakable by classical computing standards, they are fundamentally vulnerable to the mathematical capabilities of quantum mechanics. This vulnerability has given rise to a strategic exploitation model known as Harvest Now, Decrypt Later (HNDL). In this model, adversarial actors—ranging from sophisticated cyber-criminal syndicates to nation-states—intercept and store vast quantities of encrypted data today, with the explicit intent of decrypting it once Cryptographically Relevant Quantum Computers (CRQCs) become operational.
 
@@ -57,7 +57,7 @@ The fundamental threat of HNDL is rooted in a massive shift in computational com
 
 ---
 
-### 2. The HNDL Attack Model
+## 2. The HNDL Attack Model {#hndl-attack-model}
 
 The operational execution of a "Harvest Now, Decrypt Later" campaign is a methodical, long-term endeavor that differs significantly from traditional "burst" cyberattacks. Instead of immediate exploitation, the adversary focuses on high-fidelity data acquisition and durable archival. This model is divided into three distinct phases.
 
@@ -84,7 +84,7 @@ The final phase is triggered by the realization of "Q-Day"—the moment a Crypto
 
 ---
 
-### 3. Impact Assessment on Telecom Operators
+## 3. Impact Assessment on Telecom Operators {#impact-assessment}
 
 The "Harvest Now, Decrypt Later" phenomenon shifts the risk profile for telecommunications providers from a standard "incident response" model to a permanent state of liability. Because the breach (interception) and the consequence (decryption) are separated by years, the impact is compounded across legal, financial, and strategic dimensions.
 Regulatory and Compliance Risks
@@ -113,7 +113,7 @@ Devaluation of Infrastructure: Operators may find that their multi-billion dolla
 
 ---
 
-### 4. Mitigation Strategies
+## 4. Mitigation Strategies {#mitigation-strategies}
 
 The defense against HNDL is unique because it requires protecting data today against a computer that does not yet exist. Mitigation must be multi-layered, addressing both the immediate need for enhanced classical security and the long-term transition to quantum-resistant architectures. 
 
@@ -154,7 +154,7 @@ End-to-End Encryption (E2EE): Encouraging E2EE at the application layer ensures 
 
 ---
 
-### Conclusion
+## Conclusion {#conclusion}
 
 The "Harvest Now, Decrypt Later" (HNDL) paradigm fundamentally alters the timeline of cybersecurity risk management. The threat is not a future speculation but an active, ongoing data collection reality. The telecommunications sector, as the backbone of global digital exchange, sits at the epicenter of this vulnerability due to its infrastructure longevity and the high strategic value of the metadata it carries. 
 
