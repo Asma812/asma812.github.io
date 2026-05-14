@@ -5,101 +5,90 @@ permalink: /Article1
 ---
 
 <style>
-.article-layout {
+.wrapper {
   display: grid;
-  grid-template-columns: 260px minmax(0, 1fr);
-  gap: 3rem;
-  align-items: start;
-  margin-top: 2rem;
+  grid-template-columns: 260px 1fr;
+  gap: 50px;
+  margin-top: 40px;
 }
 
-/* Left sidebar */
-.article-sidebar {
+.sidebar {
   position: sticky;
   top: 100px;
-  height: fit-content;
-  padding-right: 1rem;
-  border-right: 1px solid #2a2a2a;
+  align-self: start;
+  padding-right: 20px;
+  border-right: 1px solid #2d2d2d;
 }
 
-.article-sidebar h3 {
+.sidebar h3 {
   margin-top: 0;
-  font-size: 1rem;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #9ca3af;
 }
 
-.article-sidebar ul {
+.sidebar ul {
   list-style: none;
-  padding: 0;
-  margin: 1rem 0 0 0;
+  padding-left: 0;
+  margin: 0;
 }
 
-.article-sidebar li {
-  margin: 0.7rem 0;
+.sidebar li {
+  margin-bottom: 14px;
 }
 
-.article-sidebar a {
+.sidebar a {
   text-decoration: none;
-  color: #cbd5e1;
-  transition: color 0.2s ease;
+  color: #999;
+  transition: 0.2s ease;
 }
 
-.article-sidebar a:hover {
-  color: #ffffff;
+.sidebar a:hover {
+  color: #fff;
 }
 
-/* Right article content */
-.article-content {
+.content {
   min-width: 0;
 }
 
-.article-content h1 {
+.content h1 {
   margin-top: 0;
 }
 
-.article-content h2 {
-  margin-top: 3rem;
-  border-bottom: 1px solid #2a2a2a;
-  padding-bottom: 0.4rem;
-}
-
-/* Mobile */
 @media (max-width: 900px) {
-  .article-layout {
+  .wrapper {
     grid-template-columns: 1fr;
   }
 
-  .article-sidebar {
+  .sidebar {
     position: relative;
     top: 0;
     border-right: none;
-    border-bottom: 1px solid #2a2a2a;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
+    border-bottom: 1px solid #2d2d2d;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 </style>
 
-<div class="article-layout">
+<div class="wrapper">
 
-<!-- LEFT SIDE -->
-<aside class="article-sidebar">
+<div class="sidebar">
 
-### Article Structure
+<h3>Article Structure</h3>
 
-- [Abstract](#abstract)
-- [1. Introduction](#introduction)
-- [2. The HNDL Attack Model](#hndl-attack-model)
-- [3. Impact Assessment](#impact-assessment)
-- [4. Mitigation Strategies](#mitigation-strategies)
-- [Conclusion](#conclusion)
+<ul>
+  <li><a href="#abstract">Abstract</a></li>
+  <li><a href="#introduction">1. Introduction</a></li>
+  <li><a href="#hndl-attack-model">2. The HNDL Attack Model</a></li>
+  <li><a href="#impact-assessment">3. Impact Assessment</a></li>
+  <li><a href="#mitigation-strategies">4. Mitigation Strategies</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
+</ul>
 
-</aside>
+</div>
 
-<!-- RIGHT SIDE -->
-<div class="article-content">
+<div class="content">
 
 # Article 1: Harvest Now, Decrypt Later (HNDL)
 
@@ -109,7 +98,7 @@ permalink: /Article1
 
 ---
 
-## Abstract {#abstract}
+## Abstract <a id="abstract"></a>
 The study focuses on the specific vulnerabilities inherent in modern telecommunications infrastructure, characterized by long lifecycles and the high strategic value of metadata and private communications. Through a multi-phase analysis, this paper details the technical interception of fiber-optic channels and cloud-native 5G interfaces, specifically the N3 and N6 interfaces, and evaluates the subsequent storage and retroactive decryption phases using quantum-based algorithms.
 Furthermore, an impact assessment highlights the resulting regulatory risks, such as conflicts with GDPR and national security mandates, alongside the degradation of corporate trust and the rise of espionage. To address these challenges, the article evaluates essential mitigation strategies, including the implementation of Post-Quantum Cryptography (PQC), the application of Perfect Forward Secrecy (PFS), and the adoption of "Crypto-Agility" to facilitate seamless transitions without extensive hardware replacement. The findings underscore that HNDL is not merely a prospective risk but a current data collection reality, necessitating the immediate integration of PQC standards to safeguard the future of global telecommunications.
 
