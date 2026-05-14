@@ -5,31 +5,44 @@ permalink: /Article1
 ---
 
 <style>
+.hero {
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+}
+
+.hero p {
+  margin: 6px 0;
+  color: #a0a0a0;
+}
+
 .wrapper {
   display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: 50px;
-  margin-top: 40px;
+  grid-template-columns: 250px 1fr;
+  gap: 60px;
 }
 
 .sidebar {
   position: sticky;
   top: 100px;
   align-self: start;
+  border-right: 1px solid #2a2a2a;
   padding-right: 20px;
-  border-right: 1px solid #2d2d2d;
 }
 
 .sidebar h3 {
   margin-top: 0;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .sidebar ul {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -39,20 +52,25 @@ permalink: /Article1
 
 .sidebar a {
   text-decoration: none;
-  color: #999;
+  color: #9a9a9a;
   transition: 0.2s ease;
 }
 
 .sidebar a:hover {
-  color: #fff;
+  color: white;
 }
 
 .content {
   min-width: 0;
 }
 
-.content h1 {
-  margin-top: 0;
+.content h2 {
+  margin-top: 60px;
+}
+
+.content p {
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 900px) {
@@ -64,12 +82,22 @@ permalink: /Article1
     position: relative;
     top: 0;
     border-right: none;
-    border-bottom: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2a2a2a;
     padding-bottom: 20px;
     margin-bottom: 20px;
   }
 }
 </style>
+
+<div class="hero">
+
+<h1>Article 1: Harvest Now, Decrypt Later (HNDL)</h1>
+
+<p><strong>Focus:</strong> The temporal risk to long-term data confidentiality in the telecommunications sector.</p>
+
+<p><strong>Oct 2026 • Quantum Security</strong></p>
+
+</div>
 
 <div class="wrapper">
 
@@ -90,15 +118,53 @@ permalink: /Article1
 
 <div class="content">
 
-# Article 1: Harvest Now, Decrypt Later (HNDL)
+<h2 id="abstract">Abstract</h2>
 
-**Focus**: The temporal risk to long-term data confidentiality in the telecommunications sector.
+<p>
+The rapid advancement of quantum computing introduces a critical temporal risk to the long-term confidentiality of data within the telecommunications sector. This article examines the “Harvest Now, Decrypt Later” (HNDL) attack model—a latent threat characterized by the interception and storage of currently encrypted network traffic for retroactive decryption upon the arrival of Cryptographically Relevant Quantum Computers (CRQCs).
+</p>
 
-**Oct 2026 • Quantum Security**
+<p>
+The study focuses on the specific vulnerabilities inherent in modern telecommunications infrastructure, characterized by long lifecycles and the high strategic value of metadata and private communications.
+</p>
 
----
+<h2 id="introduction">1. Introduction</h2>
 
-## Abstract <a id="abstract"></a>
+<p>
+The current state of global cybersecurity rests on a fragile temporal foundation. While modern encryption standards like RSA and Elliptic Curve Cryptography (ECC) are practically unbreakable by classical computing standards, they are fundamentally vulnerable to the mathematical capabilities of quantum mechanics.
+</p>
+
+<p>
+This vulnerability has given rise to a strategic exploitation model known as Harvest Now, Decrypt Later (HNDL). In this model, adversarial actors intercept and store encrypted data today with the explicit intention of decrypting it once large-scale quantum computing becomes operational.
+</p>
+
+<h2 id="hndl-attack-model">2. The HNDL Attack Model</h2>
+
+<p>
+Content here...
+</p>
+
+<h2 id="impact-assessment">3. Impact Assessment</h2>
+
+<p>
+Content here...
+</p>
+
+<h2 id="mitigation-strategies">4. Mitigation Strategies</h2>
+
+<p>
+Content here...
+</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>
+Content here...
+</p>
+
+</div>
+
+</div> 
 The study focuses on the specific vulnerabilities inherent in modern telecommunications infrastructure, characterized by long lifecycles and the high strategic value of metadata and private communications. Through a multi-phase analysis, this paper details the technical interception of fiber-optic channels and cloud-native 5G interfaces, specifically the N3 and N6 interfaces, and evaluates the subsequent storage and retroactive decryption phases using quantum-based algorithms.
 Furthermore, an impact assessment highlights the resulting regulatory risks, such as conflicts with GDPR and national security mandates, alongside the degradation of corporate trust and the rise of espionage. To address these challenges, the article evaluates essential mitigation strategies, including the implementation of Post-Quantum Cryptography (PQC), the application of Perfect Forward Secrecy (PFS), and the adoption of "Crypto-Agility" to facilitate seamless transitions without extensive hardware replacement. The findings underscore that HNDL is not merely a prospective risk but a current data collection reality, necessitating the immediate integration of PQC standards to safeguard the future of global telecommunications.
 
