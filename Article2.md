@@ -4,35 +4,238 @@ title: Quantum Attacks on 5G Protocols
 permalink: /Article2
 ---
 
-# Article 2: Quantum Attacks on 5G Protocols
+<style>
+.hero {
+  margin-bottom: 60px;
+}
 
-**Focus**: Technical vulnerabilities in the 5G Core (5GC) signaling, authentication, and key exchange.
+.hero h1 {
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+}
 
-**Oct 2026 • Quantum Security**
+.hero p {
+  margin: 6px 0;
+  color: #a0a0a0;
+}
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 60px;
+}
 
-## Abstract
+.sidebar {
+  position: sticky;
+  top: 100px;
+  align-self: start;
+  border-right: 1px solid #2a2a2a;
+  padding-right: 20px;
+}
 
-The transition to 5G networks introduces a Service-Based Architecture (SBA) that relies heavily on cloud-native principles and Public-Key Infrastructure (PKI) for securing signaling, authentication, and inter-function communication. However, the mathematical foundations of these security protocols—primarily based on the hardness of integer factorization and discrete logarithms—face an existential threat from the advancement of quantum computing. This article provides a comprehensive technical analysis of how Shor’s algorithm and Grover’s algorithm compromise the integrity of 5G protocols.
-The study maps specific vulnerabilities within the 5G Core (5GC), focusing on the HTTP/2 and TLS signaling pathways between critical Network Functions, including the Access and Mobility Management Function (AMF), Session Management Function (SMF), and Unified Data Management (UDM). Furthermore, we examine the susceptibility of the 5G Authentication and Key Agreement (5G-AKA) framework, demonstrating how a quantum-capable adversary could intercept the Subscription Concealed Identifier (SUCI) or spoof home networks by breaking the underlying asymmetric encryption. The analysis extends to the vulnerability of Diffie-Hellman and Elliptic Curve Key Exchanges (ECDH) used for establishing session keys.
-To address these vulnerabilities, the article evaluates the integration of Post-Quantum Cryptography (PQC) within 3GPP standards, specifically focusing on ML-KEM (Kyber) and ML-DSA (Dilithium). We propose a sidecar proxy architecture as a viable pathway for PQC-enabled 5G signaling. The findings conclude that the 5G security roadmap must be urgently updated to incorporate quantum-resistant signaling to prevent a total collapse of the mobile trust model.
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
----
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-### 1. Introduction
+.sidebar li {
+  margin-bottom: 14px;
+}
 
-The rollout of 5G technology represents more than a mere increase in bandwidth; it is a fundamental architectural shift toward a cloud-native, Service-Based Architecture (SBA). Unlike previous generations that relied heavily on hardware-defined silos, 5G utilizes a decentralized model where Network Functions (NFs) communicate via standardized APIs. While this modularity enables unprecedented flexibility and network slicing capabilities, it also creates a massive reliance on Public-Key Infrastructure (PKI) to maintain the security of the signaling plane. As established in the structure for Article 2, this reliance on classical asymmetric cryptography constitutes the single greatest "invisible" vulnerability in modern mobile networks.
+.sidebar a {
+  text-decoration: none;
+  color: #9a9a9a;
+  transition: 0.2s ease;
+}
 
-#### The 5G Security Trust Model
+.sidebar a:hover {
+  color: white;
+}
 
-The security of 5G is built on a "mutual trust" model. Every interaction—whether it is a user equipment (UE) attaching to the network or two network functions (like the AMF and UDM) exchanging subscriber data—is governed by cryptographic handshakes. These handshakes typically utilize Elliptic Curve Diffie-Hellman (ECDH) for key exchange and RSA or Elliptic Curve Digital Signature Algorithm (ECDSA) for identity verification. Under classical computational assumptions, these algorithms are considered secure because they rely on mathematical problems that are currently infeasible to solve.
+.content {
+  min-width: 0;
+}
 
-#### The Quantum Threat to PKI
+.content h2 {
+  margin-top: 60px;
+}
 
-The arrival of Cryptographically Relevant Quantum Computers (CRQCs) shatters these assumptions. By utilizing Shor’s algorithm, a quantum computer can solve the discrete logarithm and integer factorization problems in polynomial time. For 5G, this means that the entire signaling plane—the "brain" of the network—is essentially built on sand. If an adversary can break the PKI, they can effectively impersonate network functions, intercept sensitive subscriber identifiers, and manipulate the signaling that directs traffic flow.
-As we move toward a fully connected IoT ecosystem, the stakes for 5G security are higher than ever before. The objective of this article is to map these technical vulnerabilities and provide a roadmap for the transition to a Post-Quantum (PQ) 5G Core. This is not a theoretical exercise; it is an urgent requirement to prevent the total compromise of the global mobile trust model.
+.content h4 {
+  margin-top: 35px;
+}
 
----
+.content p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.content ul {
+  margin-bottom: 25px;
+}
+
+.content li {
+  margin-bottom: 12px;
+  line-height: 1.8;
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: relative;
+    top: 0;
+    border-right: none;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+</style>
+
+<div class="hero">
+
+<h1>Article 2: Quantum Attacks on 5G Protocols</h1>
+
+<p><strong>Focus:</strong> Technical vulnerabilities in the 5G Core (5GC) signaling, authentication, and key exchange.</p>
+
+<p><strong>Oct 2026 • Quantum Security</strong></p>
+
+</div>
+
+<div class="wrapper">
+
+<div class="sidebar">
+
+<h3>Article Structure</h3>
+
+<ul>
+  <li><a href="#abstract">Abstract</a></li>
+  <li><a href="#introduction">1. Introduction</a></li>
+  <li><a href="#vulnerability-mapping">2. Vulnerability Mapping in the 5G Core</a></li>
+  <li><a href="#quantum-attack-vectors">3. Quantum Attack Vectors</a></li>
+  <li><a href="#post-quantum-5g">4. Transitioning to Post-Quantum 5G</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+</div>
+
+<div class="content">
+
+<h2 id="abstract">Abstract</h2>
+
+<p>
+The transition to 5G networks introduces a Service-Based Architecture (SBA) that relies heavily on cloud-native principles and Public-Key Infrastructure (PKI) for securing signaling, authentication, and inter-function communication.
+</p>
+
+<p>
+However, the mathematical foundations of these security protocols—primarily based on the hardness of integer factorization and discrete logarithms—face an existential threat from the advancement of quantum computing.
+</p>
+
+<p>
+This article provides a comprehensive technical analysis of how Shor’s algorithm and Grover’s algorithm compromise the integrity of 5G protocols.
+</p>
+
+<p>
+The study maps specific vulnerabilities within the 5G Core (5GC), focusing on the HTTP/2 and TLS signaling pathways between critical Network Functions, including the Access and Mobility Management Function (AMF), Session Management Function (SMF), and Unified Data Management (UDM).
+</p>
+
+<p>
+Furthermore, we examine the susceptibility of the 5G Authentication and Key Agreement (5G-AKA) framework, demonstrating how a quantum-capable adversary could intercept the Subscription Concealed Identifier (SUCI) or spoof home networks by breaking the underlying asymmetric encryption.
+</p>
+
+<p>
+The analysis extends to the vulnerability of Diffie-Hellman and Elliptic Curve Key Exchanges (ECDH) used for establishing session keys.
+</p>
+
+<p>
+To address these vulnerabilities, the article evaluates the integration of Post-Quantum Cryptography (PQC) within 3GPP standards, specifically focusing on ML-KEM (Kyber) and ML-DSA (Dilithium).
+</p>
+
+<p>
+We propose a sidecar proxy architecture as a viable pathway for PQC-enabled 5G signaling.
+</p>
+
+<p>
+The findings conclude that the 5G security roadmap must be urgently updated to incorporate quantum-resistant signaling to prevent a total collapse of the mobile trust model.
+</p>
+
+<hr>
+
+<h2 id="introduction">1. Introduction</h2>
+
+<p>
+The rollout of 5G technology represents more than a mere increase in bandwidth; it is a fundamental architectural shift toward a cloud-native, Service-Based Architecture (SBA).
+</p>
+
+<p>
+Unlike previous generations that relied heavily on hardware-defined silos, 5G utilizes a decentralized model where Network Functions (NFs) communicate via standardized APIs.
+</p>
+
+<p>
+While this modularity enables unprecedented flexibility and network slicing capabilities, it also creates a massive reliance on Public-Key Infrastructure (PKI) to maintain the security of the signaling plane.
+</p>
+
+<p>
+As established in the structure for Article 2, this reliance on classical asymmetric cryptography constitutes the single greatest invisible vulnerability in modern mobile networks.
+</p>
+
+<h4>The 5G Security Trust Model</h4>
+
+<p>
+The security of 5G is built on a mutual trust model.
+</p>
+
+<p>
+Every interaction—whether it is a user equipment (UE) attaching to the network or two network functions (like the AMF and UDM) exchanging subscriber data—is governed by cryptographic handshakes.
+</p>
+
+<p>
+These handshakes typically utilize Elliptic Curve Diffie-Hellman (ECDH) for key exchange and RSA or Elliptic Curve Digital Signature Algorithm (ECDSA) for identity verification.
+</p>
+
+<p>
+Under classical computational assumptions, these algorithms are considered secure because they rely on mathematical problems that are currently infeasible to solve.
+</p>
+
+<h4>The Quantum Threat to PKI</h4>
+
+<p>
+The arrival of Cryptographically Relevant Quantum Computers (CRQCs) shatters these assumptions.
+</p>
+
+<p>
+By utilizing Shor’s algorithm, a quantum computer can solve the discrete logarithm and integer factorization problems in polynomial time.
+</p>
+
+<p>
+For 5G, this means that the entire signaling plane—the brain of the network—is essentially built on sand.
+</p>
+
+<p>
+If an adversary can break the PKI, they can effectively impersonate network functions, intercept sensitive subscriber identifiers, and manipulate the signaling that directs traffic flow.
+</p>
+
+<p>
+As we move toward a fully connected IoT ecosystem, the stakes for 5G security are higher than ever before.
+</p>
+
+<p>
+The objective of this article is to map these technical vulnerabilities and provide a roadmap for the transition to a Post-Quantum (PQ) 5G Core.
+</p>
+
+<p>
+This is not a theoretical exercise; it is an urgent requirement to prevent the total compromise of the global mobile trust model.
+</p>
 
 ### 2. Vulnerability Mapping in the 5G Core
 
