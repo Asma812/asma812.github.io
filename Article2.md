@@ -10,23 +10,6 @@ permalink: /Article2
 
 **Oct 2026 • Quantum Security**
 
-<div style="display: flex; gap: 4rem; margin-top: 2.5rem; flex-wrap: wrap;">
-
-<!-- Left Sidebar - Table of Contents -->
-<div style="flex: 1; min-width: 260px; position: sticky; top: 2rem; align-self: start;">
-  <h3 style="margin-bottom: 1.2rem; color: var(--accent);">Article Structure</h3>
-  <ul style="list-style: none; padding: 0; font-size: 0.97rem; line-height: 1.8;">
-    <li><a href="#abstract" style="color: var(--text-muted); text-decoration: none;">Abstract</a></li>
-    <li><a href="#introduction" style="color: var(--text-muted); text-decoration: none;">1. Introduction</a></li>
-    <li><a href="#vulnerability-mapping" style="color: var(--text-muted); text-decoration: none;">2. Vulnerability Mapping in the 5G Core</a></li>
-    <li><a href="#quantum-attack-vectors" style="color: var(--text-muted); text-decoration: none;">3. Quantum Attack Vectors</a></li>
-    <li><a href="#transitioning-to-post-quantum" style="color: var(--text-muted); text-decoration: none;">4. Transitioning to Post-Quantum 5G</a></li>
-    <li><a href="#conclusion" style="color: var(--text-muted); text-decoration: none;">Conclusion</a></li>
-  </ul>
-</div>
-
-<!-- Right Side - Article Content -->
-<div style="flex: 3; min-width: 300px;">
 
 ## Abstract
 
@@ -140,5 +123,3 @@ The architectural evolution of 5G has created a sophisticated but mathematically
 
 The integration of ML-KEM and ML-DSA, supported by agile sidecar architectures, provides a clear technical path forward. However, this transition must begin immediately within the 3GPP standardization process to ensure that the 5G security roadmap is fundamentally quantum-resistant. Without these updates, the promise of 5G as a secure foundation for the Fourth Industrial Revolution remains at high risk.
 
-</div>
-</div>
