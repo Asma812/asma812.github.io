@@ -18,7 +18,7 @@ permalink: /Article1
 - [2. The HNDL Attack Model](#hndl-attack-model)
 - [3. Impact Assessment](#impact-assessment)
 - [4. Mitigation Strategies](#mitigation-strategies)
-- Conclusion (#conclusion)
+- [Conclusion](#conclusion)
 
 ---
 
@@ -85,7 +85,8 @@ Hybrid Modes: A transitionary "Hybrid" approach involves wrapping classical encr
 Mitigation must specifically target the high-value interception points identified in the HNDL attack model.
 Enhanced Integrity Protection: Implementing PQC-based authentication on the N3 and N6 interfaces prevents adversaries from successfully injecting themselves into the data stream to perform harvesting.
 End-to-End Encryption (E2EE): Encouraging E2EE at the application layer ensures that even if a telecom operator’s transport layer is harvested, the underlying payload remains encrypted with keys that the operator never possessed.
----
+
+--- 
 ## Conclusion {#conclusion}
 The "Harvest Now, Decrypt Later" (HNDL) paradigm fundamentally alters the timeline of cybersecurity risk management. The threat is not a future speculation but an active, ongoing data collection reality. The telecommunications sector, as the backbone of global digital exchange, sits at the epicenter of this vulnerability due to its infrastructure longevity and the high strategic value of the metadata it carries.
 The analysis of the HNDL attack model reveals that even the most robust classical encryption today provides no protection against retroactive decryption by future quantum adversaries. Therefore, the transition to Post-Quantum Cryptography (PQC) and the implementation of crypto-agile frameworks are no longer visionary goals; they are immediate requirements for safeguarding national security, corporate integrity, and individual privacy. Telecom operators must recognize that every packet of data transmitted today under legacy standards is a "compromised asset" in waiting. Only through the rapid integration of quantum-resistant standards and proactive hardening of core interfaces can the industry ensure that the communications of today remain confidential in the quantum era of tomorrow.
