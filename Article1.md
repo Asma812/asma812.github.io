@@ -1,10 +1,32 @@
+---
+layout: page
+title: Harvest Now, Decrypt Later (HNDL)
+permalink: /articles/hndl
+---
+
 # Article 1: Harvest Now, Decrypt Later (HNDL)
 
 **Focus**: The temporal risk to long-term data confidentiality in the telecommunications sector.
 
-**Abstract**: Defining HNDL as a "latent" threat where current encrypted traffic is captured for future decryption by Cryptographically Relevant Quantum Computers (CRQCs).
+**Oct 2026 • Quantum Security**
 
----
+<div style="display: flex; gap: 4rem; margin-top: 2.5rem; flex-wrap: wrap;">
+
+<!-- Left Sidebar - Table of Contents -->
+<div style="flex: 1; min-width: 260px; position: sticky; top: 2rem; align-self: start;">
+  <h3 style="margin-bottom: 1.2rem; color: var(--accent);">Article Structure</h3>
+  <ul style="list-style: none; padding: 0; font-size: 0.97rem; line-height: 1.8;">
+    <li><a href="#abstract" style="color: var(--text-muted); text-decoration: none;">Abstract</a></li>
+    <li><a href="#introduction" style="color: var(--text-muted); text-decoration: none;">1. Introduction</a></li>
+    <li><a href="#hndl-attack-model" style="color: var(--text-muted); text-decoration: none;">2. The HNDL Attack Model</a></li>
+    <li><a href="#impact-assessment" style="color: var(--text-muted); text-decoration: none;">3. Impact Assessment on Telecom Operators</a></li>
+    <li><a href="#mitigation-strategies" style="color: var(--text-muted); text-decoration: none;">4. Mitigation Strategies</a></li>
+    <li><a href="#conclusion" style="color: var(--text-muted); text-decoration: none;">Conclusion</a></li>
+  </ul>
+</div>
+
+<!-- Right Side - Article Content -->
+<div style="flex: 3; min-width: 300px;">
 
 ## Abstract
 
@@ -138,3 +160,5 @@ The "Harvest Now, Decrypt Later" (HNDL) paradigm fundamentally alters the timeli
 
 The analysis of the HNDL attack model reveals that even the most robust classical encryption today provides no protection against retroactive decryption by future quantum adversaries. Therefore, the transition to Post-Quantum Cryptography (PQC) and the implementation of crypto-agile frameworks are no longer visionary goals; they are immediate requirements for safeguarding national security, corporate integrity, and individual privacy. Telecom operators must recognize that every packet of data transmitted today under legacy standards is a "compromised asset" in waiting. Only through the rapid integration of quantum-resistant standards and proactive hardening of core interfaces can the industry ensure that the communications of today remain confidential in the quantum era of tomorrow.
 
+</div>
+</div>
