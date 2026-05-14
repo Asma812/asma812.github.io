@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Harvest Now, Decrypt Later (HNDL)
-permalink: /articles/hndl
+permalink: /article1
 ---
 
 # Article 1: Harvest Now, Decrypt Later (HNDL)
