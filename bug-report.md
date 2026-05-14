@@ -1,317 +1,150 @@
 ---
 layout: page
-title: Bug Bounty Report – crAPI (Multiple Vulnerabilities)
+title: Bug Bounty Report – crAPI (Multiple Critical Vulnerabilities)
 permalink: /bug-report/
 ---
 
 # Bug Bounty Report – crAPI
 
-**Target:** crAPI – public bug bounty target  
+**Target:** crAPI (Public Bug Bounty Target)  
 **Researcher:** Asma NEJI  
-**Date:** [September 2025]  
-**Scope:** Full API surface (authentication, orders, shop, identity endpoints)  
+**Date:** September 2025  
+**Scope:** Full API surface (Authentication, Orders, Shop, Identity endpoints)  
 **Methodology:** Manual testing, Burp Suite, custom scripts, business logic analysis
 
-    
-CONFIRMED VULNERABILITIES
-==========================================
+---
 
-1 JWT alg=none Authentication Bypass
---------------------------------------
+## Executive Summary
 
-**Severity:** Critical
+During the assessment of the crAPI platform, **8 vulnerabilities** were identified, including **3 Critical** and **3 High** severity issues. The findings primarily revolve around severe authentication weaknesses, authorization flaws, and business logic bypasses that could lead to full account takeover, privilege escalation, and financial abuse.
 
-**Category:** Authentication Bypass / Cryptography
+---
 
+## Confirmed Vulnerabilities
+
+### 1. JWT `alg=none` Authentication Bypass
+**Severity:** Critical  
+**Category:** Authentication Bypass / Cryptography  
 **Component:** JWT Authentication
 
-### Description
+**Description**  
+The application accepts unsigned JWT tokens by allowing the `alg` header to be set to `none`. This flaw allows attackers to forge arbitrary tokens without knowledge of the private signing key.
 
-The application accepts unsigned JWT tokens by allowing the alg header value to be set to none. This allows attackers to forge arbitrary tokens without knowing the private signing key.
+**Affected Endpoints**  
+All authenticated API endpoints using JWT.
 
-### Affected Endpoints
+**Steps to Reproduce**
+1. Login normally and capture a valid JWT.
+2. Decode the token and change the header to `{"alg": "none", "typ": "JWT"}`.
+3. Modify the payload (e.g., change user role or ID).
+4. Remove the signature (end the token with a trailing `.`).
+5. Send the forged token in authenticated requests.
 
-All authenticated API endpoints using JWT authentication.
+**Impact**  
+Complete authentication bypass. An attacker can impersonate any user, including administrators, leading to full account takeover and total application compromise.
 
-### Steps to Reproduce
+---
 
-1.  Login normally and obtain a valid JWT.
-    
-2.  Decode the JWT header and payload.
-    
-3.  Modify the header:
-    
-{    "alg": "none",    "typ": "JWT"  }   `
-
-1.  Modify the payload, for example change role.
-    
-2.  Remove the signature completely so the token ends with a trailing dot:
-    
-
-header.payload.   
-
-1.  Send any authenticated request using this forged token.
-    
-
-### Impact
-
-An attacker can fully bypass authentication and impersonate any user, including privileged users.
-
-### Why This Matters
-
-This leads to complete account takeover and total compromise of the application.
-
-2️ JWT Expiration Not Enforced
--------------------------------
-
-**Severity:** High
-
+### 2. JWT Expiration Not Enforced
+**Severity:** High  
 **Category:** Authentication / Session Management
 
-### Description
+**Description**  
+The backend does not properly validate the `exp` (expiration) claim. Tokens remain valid even when the expiration time is set in the past.
 
-JWT expiration (exp) is not properly validated by the backend. Tokens remain valid even after the expiration timestamp is set to a value in the past.
+**Impact**  
+Expired or stolen tokens can be used indefinitely, significantly increasing the impact of any token leakage.
 
-### Steps to Reproduce
+---
 
-1.  Decode a valid JWT.
-    
-2.  Modify the payload:
-    
-
- "exp": 100   
-
-1.  Re-sign or reuse with alg=none.
-    
-2.  Send authenticated requests.
-    
-
-### Impact
-
-Attackers can use expired tokens indefinitely, increasing the impact of token leakage.
-
-3️ Missing JWT Revocation on Logout
-------------------------------------
-
-**Severity:** Medium
-
+### 3. Missing JWT Revocation on Logout
+**Severity:** Medium  
 **Category:** Session Management
 
-### Description
+**Description**  
+Logging out does not invalidate previously issued JWTs. Tokens continue to work even after logout.
 
-Logging out does not invalidate previously issued JWTs. Tokens remain usable even after the user logs out.
+**Impact**  
+Stolen or leaked tokens remain active, allowing persistent unauthorized access.
 
-### Steps to Reproduce
+---
 
-1.  Login and capture JWT.
-    
-2.  Click logout.
-    
-3.  Replay previous authenticated requests using the same JWT.
-    
-
-### Impact
-
-Stolen or leaked tokens remain valid even after logout.
-
-4️ Broken Object Level Authorization (IDOR) – Orders API
----------------------------------------------------------
-
-**Severity:** High
-
+### 4. Broken Object Level Authorization (IDOR) – Orders API
+**Severity:** High  
 **Category:** Authorization
 
-### Affected Endpoint
+**Affected Endpoint**  
+`GET /workshop/api/shop/orders/{id}`
 
-  GET /workshop/api/shop/orders/{id}   
+**Description**  
+The API does not validate order ownership. Any authenticated user can view other users’ orders by modifying the order ID.
 
-### Description
+**Impact**  
+Exposure of sensitive order details and payment information (PII) belonging to other users.
 
-The API allows access to order data by changing the id parameter without validating ownership.
+---
 
-### Steps to Reproduce
-
-1.  Login as a normal user.
-    
-2.  Request your own order (id <= 6).
-    
-3.  Change the order ID to another valid value belonging to another user.
-    
-4.  Observe successful response with other users’ data.
-    
-
-### Impact
-
-Exposure of sensitive order and payment information (PII).
-
-5️ Mass Assignment Vulnerability (Privilege Manipulation)
-----------------------------------------------------------
-
-**Severity:** Critical
-
+### 5. Mass Assignment Vulnerability (Privilege Manipulation)
+**Severity:** Critical  
 **Category:** API / Authorization
 
-### Affected Endpoint
+**Affected Endpoint**  
+`POST /workshop/api/shop/orders`
 
-  POST /workshop/api/shop/orders  
+**Description**  
+The API blindly trusts client-supplied JSON fields, including `role`, `isAdmin`, and `available_credit`.
 
-### Description
+**Impact**  
+Attackers can escalate privileges to admin level or manipulate account balances and states.
 
-The API blindly trusts client-supplied JSON fields such as role, isAdmin, and available\_credit.
+---
 
-### Steps to Reproduce
-
-Send:
-
- {    "product_id": 2,    "quantity": 1,    "role": "admin",    "isAdmin": true,    "available_credit": 100000  }  
-
-### Impact
-
-Attackers can escalate privileges or manipulate account state.
-
-6️ Business Logic Flaw – Negative Quantity Credit Abuse
---------------------------------------------------------
-
-**Severity:** Critical
-
+### 6. Business Logic Flaw – Negative Quantity Credit Abuse
+**Severity:** Critical  
 **Category:** Business Logic
 
-### Description
+**Description**  
+The system accepts negative quantities, resulting in credit increases instead of deductions.
 
-Negative or extreme values for quantity are accepted, resulting in credit increases instead of deductions.
+**Impact**  
+Unlimited credit generation and complete bypass of the payment system.
 
-### Steps to Reproduce
+---
 
-  {    "product_id": 2,    "quantity": -10  }   
-
-### Impact
-
-Users can generate unlimited credit and bypass payment systems.
-
-7️ Business Logic Flaw – Unlimited Order Amount
-------------------------------------------------
-
-**Severity:** High
-
+### 7. Business Logic Flaw – Unlimited Order Amount
+**Severity:** High  
 **Category:** Business Logic
 
-### Description
+**Description**  
+Extremely large quantity values are accepted without proper validation, leading to negative balances and accounting inconsistencies.
 
-Extremely large quantities are accepted without validation, leading to negative balances or accounting inconsistencies.
-
-### Example
-
-  {    "product_id": 2,    "quantity": 99999  }   
-
-### Impact
-
+**Impact**  
 Financial abuse and broken accounting integrity.
 
-8️ Missing Rate Limiting on Login Endpoint
--------------------------------------------
+---
 
-**Severity:** High
-
+### 8. Missing Rate Limiting on Login Endpoint
+**Severity:** High  
 **Category:** API Security
 
-### Affected Endpoint
+**Affected Endpoint**  
+`POST /identity/api/auth/login`
 
-  POST /identity/api/auth/login   
+**Description**  
+The login endpoint has no rate limiting, CAPTCHA, or account lockout mechanism.
 
-### Description
-
-The login endpoint allows unlimited authentication attempts without rate limiting, CAPTCHA, or lockout.
-
-### Steps to Reproduce
-
-1.  Send repeated login requests with the same credentials.
-    
-2.  Observe no throttling or blocking.
-    
-
-### Impact
-
+**Impact**  
 Enables brute-force and credential-stuffing attacks.
 
-TESTED & SAFE (IMPORTANT BUT NOT VULNERABLE)
-===============================================
+---
 
-These were **explicitly tested and found safe**, which is good practice to document.
+## Tested & Safe (Not Vulnerable)
 
-XSS (Reflected / Stored / DOM)
-------------------------------
+The following issues were explicitly tested and found to be secure:
 
-*   Payloads tested:
-    
-   alert(1)   
-
-*   Tested in:
-    
-    *   Search
-        
-    *   Comments
-        
-    *   Inputs
-        
-*   Result: Payload treated as data, not executed.
-    
-
-**Status:** Not Vulnerable
-
-CSRF
-----
-
-*   Authorization header removed
-    
-*   Cookies kept
-    
-*   State-changing requests failed
-    
-
-**Status:** Not Vulnerable
-
-CORS Misconfiguration (Credential Abuse)
-----------------------------------------
-
-*   Access-Control-Allow-Origin: \* observed
-    
-*   Authorization header not usable cross-origin
-    
-*   No credential leakage
-    
-
-**Status:** Not Exploitable
-
-File Upload Execution
----------------------
-
-*   SVG with JavaScript
-    
-*   HTML upload
-    
-*   Double extensions tested
-    
-
-Result: Files downloaded or stored but **not executed**
-
-**Status:** Not Vulnerable
-
-SQL Injection (Classic)
------------------------
-
-*   Payloads:
-    
-   ' OR '1'='1   
-
-*   Result: No SQL errors or bypass
-    
-
-**Status:** Not Vulnerable (basic tests)
-
-Clickjacking
-------------
-
-*   X-Frame-Options present
-    
-
-**Status:** Not Vulnerable
+- **XSS (Reflected, Stored, DOM)**: All payloads treated as data, not executed.
+- **CSRF**: State-changing requests properly protected.
+- **CORS Misconfiguration**: No credential leakage possible despite `*` origin.
+- **File Upload Execution**: Uploaded files (including SVG/HTML) are not executed.
+- **SQL Injection (basic)**: No bypass or errors observed.
+- **Clickjacking**: Protected by `X-Frame-Options`.
