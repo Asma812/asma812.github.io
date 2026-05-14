@@ -1,9 +1,3 @@
----
-layout: page
-title: Harvest Now, Decrypt Later (HNDL)
-permalink: /Article1
----
-
 # Article 1: Harvest Now, Decrypt Later (HNDL)
 
 **Focus**: The temporal risk to long-term data confidentiality in the telecommunications sector.
