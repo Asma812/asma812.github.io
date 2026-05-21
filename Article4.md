@@ -183,7 +183,7 @@ permalink: /Article4
         <p>
           Before a successful evasion or poisoning attack, adversaries often perform Model Extraction. By feeding thousands of diverse inputs into
         </p>
-
+</section>
 
 </div>
 </div>
