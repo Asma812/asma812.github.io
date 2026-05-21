@@ -99,7 +99,7 @@ permalink: /Article4
 </div>
 
 <div class="content">
-
+<section>
 <h2 id="abstract">Abstract</h2>
       <p>
         As modern Security Operations Centers (SOCs) transition toward autonomous threat detection, the reliance on machine learning (ML) models-such as XGBoost, Isolation Forests, and Deep Neural Networks-has created a new, algorithmic attack surface. While these models excel at identifying complex anomalies at scale, they are inherently susceptible to Adversarial Machine Learning (AML), a class of attacks designed to exploit the mathematical optimizations of the models themselves. This article provides a comprehensive analysis of the shift toward AI-driven SecOps and the emerging taxonomy of attacks designed to subvert it.
