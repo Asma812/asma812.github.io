@@ -109,9 +109,7 @@ permalink: /Article10
     </p>
 
     <section>
-      <header>
         <h2>Introduction: The Death of the Static Hash</h2>
-      </header>
       <p>
         In the early decades of cybersecurity, threat detection was primarily a game of "known-bad" identification. Security software relied on cryptographic hashes (such as MD5 or SHA-256) to identify malicious files. If a file's hash matched a known entry in a threat database, it was blocked. However, by 2026, the static hash has become a relic of a simpler era.
       </p>
@@ -145,9 +143,7 @@ permalink: /Article10
     </section>
 
     <section>
-      <header>
         <h2>Static Analysis &amp; Feature Extraction: Uncovering the DNA</h2>
-      </header>
       <p>
         Before applying Machine Learning, we must first extract features that represent the "intellectual signature" of the malware. Unlike dynamic analysis, which observes what the malware does, static analysis focuses on what the malware is at a structural level.
       </p>
@@ -184,9 +180,7 @@ permalink: /Article10
     </section>
 
     <section>
-      <header>
         <h2>3. The Machine Learning Approach: Identifying the Lineage</h2>
-      </header>
       <p>
         With our features extracted and vectorized, we apply Machine Learning models to perform the heavy lifting of classification and attribution.
       </p>
