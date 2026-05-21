@@ -292,5 +292,3 @@ permalink: /Article4
   </p>
 </section>
 
-</div>
-</div>
