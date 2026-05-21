@@ -117,7 +117,7 @@ permalink: /Article11
 
     <ol>
       <li>
-        <h3>1.1 The Volume of Volatile Evidence</h3>
+        <h2>1.1 The Volume of Volatile Evidence</h2>
         <p>
           When an incident responder arrives at a compromised endpoint, they are met with a staggering amount of data. A standard Windows triage collection can include:
         </p>
@@ -133,14 +133,14 @@ permalink: /Article11
       </li>
 
       <li>
-        <h3>1.2 The &quot;Alert Fatigue&quot; and False Positive Trap</h3>
+        <h2>1.2 The &quot;Alert Fatigue&quot; and False Positive Trap</h2>
         <p>
           Without automated correlation, analysts often fall into the trap of &quot;Alert Fatigue.&quot; When faced with 5,000 suspicious-looking LNK files or temporary folder executions, the human brain begins to overlook anomalies. Furthermore, attackers exploit this by using &quot;Living off the Land&quot; (LotL) tools. An analyst seeing PsExec or PowerShell in the logs might dismiss it as &quot;normal admin activity&quot; unless they have the immediate context to see that it was triggered by an unauthorized service account-context that is often buried three layers deep in a different log file.
         </p>
       </li>
 
       <li>
-        <h3>1.3 The MTTR Crisis</h3>
+        <h2>1.3 The MTTR Crisis</h2>
         <p>
           The Mean Time to Respond (MTTR) is the metric that determines whether a breach is a minor containment or a catastrophic data exfiltration event. In the manual era, MTTR was measured in days or weeks. In the &quot;Industrialized&quot; threat landscape of 2026, where ransomware can encrypt a network in hours, the SOC requires a system that can perform &quot;Forensic Enrichment&quot; at wire speed. This section sets the stage for the Correlation Engine-the backend solution that turns raw forensic artifacts into a prioritized map of the attack.
         </p>
