@@ -108,9 +108,7 @@ permalink: /Article11
       We detail the architecture of a Python-based Correlation Engine designed to ingest volatile data and perform real-time API lookups against multi-provider CTI platforms. The research explores methods for maintaining &quot;Forensic Fidelity,&quot; utilizing behavioral reputations to distinguish legitimate administrative activity from lateral movement techniques (e.g., unauthorized PsExec usage). Furthermore, we demonstrate the integration of dynamic visualization dashboards to map the &quot;Timeline of Compromise.&quot; The findings conclude that automated context-enrichment is the only viable strategy for scaling Security Operations Centers (SOC) against the industrialized speed of 2026 cyberattacks, transforming forensic evidence from a static archive into an actionable, real-time defensive asset.
     </p>
   <section>
-    <header>
       <h2>The IR Data Deluge: The Analysis Bottleneck</h2>
-    </header>
     <p>
       In the high-pressure environment of a live security breach, the primary enemy is not just the attacker, but the clock. Modern systems are designed to generate logs for every conceivable action. While this provides a rich forensic trail, it also creates the &quot;Data Deluge&quot; problem.
     </p>
@@ -149,9 +147,7 @@ permalink: /Article11
   </section>
 
   <section>
-    <header>
       <h2>The Correlation Engine: The Backend Perspective</h2>
-    </header>
     <p>
       The heart of an automated response system is the Correlation Engine-a high-speed backend designed to ingest heterogeneous forensic data and synthesize it with external intelligence. In a modern SOC environment, this engine serves as the middleware between the compromised endpoint and the final analysis dashboard.
     </p>
@@ -202,9 +198,7 @@ permalink: /Article11
   </section>
 
   <section>
-    <header>
       <h2>Forensic Fidelity: Distinguishing Admin Intent from Lateral Movement</h2>
-    </header>
     <p>
       The primary challenge in automated correlation is maintaining Forensic Fidelity. In modern enterprise environments, some of the most dangerous tools are also the most common. Attackers frequently use legitimate administrative binaries to move through a network-a technique known as Living off the Land (LotL). A correlation engine must be intelligent enough to distinguish between a System Administrator performing maintenance and a threat actor conducting lateral movement.
     </p>
