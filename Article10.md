@@ -101,7 +101,6 @@ permalink: /Article10
 <div class="content">
 
 <h2 id="abstract">Abstract</h2>
-    </header>
     <p>
       In the modern threat landscape, the rapid proliferation of polymorphic and metamorphic malware has rendered traditional, hash-based detection methods largely obsolete. As adversaries increasingly utilize automated toolsets to generate unique binaries for every target, the cybersecurity community has shifted its focus toward the underlying "Code DNA"-the functional and structural logic that remains consistent across malware families. This article provides a technical exploration of Malware Lineage Mapping, a methodology that utilizes Machine Learning (ML) to identify code reuse and attribute new samples to known Advanced Persistent Threat (APT) groups.
     </p>
