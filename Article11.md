@@ -202,7 +202,7 @@ permalink: /Article11
     <p>
       The primary challenge in automated correlation is maintaining Forensic Fidelity. In modern enterprise environments, some of the most dangerous tools are also the most common. Attackers frequently use legitimate administrative binaries to move through a network-a technique known as Living off the Land (LotL). A correlation engine must be intelligent enough to distinguish between a System Administrator performing maintenance and a threat actor conducting lateral movement.
     </p>
-
+ <section>
     <ol>
       <li>
         <h4>3.1 The Dual-Use Tool Dilemma</h4>
