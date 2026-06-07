@@ -243,7 +243,7 @@ permalink: /Article5
     </section>
 
     <section>
-      <h2>4.3 Navigating Tunisia’s Data Protection Landscape</h2>
+      <h4>4.3 Navigating Tunisia’s Data Protection Landscape</h4>
       <p>
         In the Tunisian context, the INPDP (Instance Nationale de Protection des Données Personnelles) requires clear documentation on how personal data is processed.
       </p>
