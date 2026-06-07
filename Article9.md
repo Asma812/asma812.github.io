@@ -177,7 +177,7 @@ permalink: /Article9
       <p>The forensic investigation of fileless malware requires a structured, repeatable workflow. Because memory is volatile, the integrity of the initial capture is paramount; any interaction with the live system can alter the very evidence the analyst seeks to preserve.</p>
 
   <section id="3-1-extracting-process-memory-dumps">
-    <h2>3.1 Extracting Process Memory Dumps</h2>
+    <h4>3.1 Extracting Process Memory Dumps</h4>
     <p>The first step in any memory forensic investigation is acquisition. In a 2026 environment, this often involves capturing memory from remote edge nodes or cloud instances.</p>
     <ul>
       <li>
@@ -190,7 +190,7 @@ permalink: /Article9
   </section>
 
   <section id="3-2-automating-analysis-with-volatility-3">
-    <h2>3.2 Automating Analysis with Volatility 3</h2>
+    <h4>3.2 Automating Analysis with Volatility 3</h4>
     <p>Volatility 3 is the industry standard for memory analysis, providing a modular framework to reconstruct the state of a system from a RAM image.</p>
     <ul>
       <li>
@@ -206,7 +206,7 @@ permalink: /Article9
   </section>
 
   <section id="3-3-memory-forensics-at-the-edge-and-in-the-cloud">
-    <h2>3.3 Memory Forensics at the Edge and in the Cloud</h2>
+    <h4>3.3 Memory Forensics at the Edge and in the Cloud</h4>
     <p>We must account for the unique constraints of these environments:</p>
     <ul>
       <li>
@@ -218,8 +218,6 @@ permalink: /Article9
     </ul>
   </section>
 
-
-<article>
   <section>
     <h2 id="case-study">4. Case Study: Detecting a PowerShell-based Fileless Injector</h2>
     <p>To illustrate the power of CTI-driven forensics, we analyze a 2025 incident involving a sophisticated PowerShell-based injector.</p>
