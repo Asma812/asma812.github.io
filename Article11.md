@@ -115,7 +115,7 @@ permalink: /Article11
 
     <ol>
       <li>
-        <h2>1.1 The Volume of Volatile Evidence</h2>
+        <h4>1.1 The Volume of Volatile Evidence</h4>
         <p>
           When an incident responder arrives at a compromised endpoint, they are met with a staggering amount of data. A standard Windows triage collection can include:
         </p>
@@ -131,14 +131,14 @@ permalink: /Article11
       </li>
 
       <li>
-        <h2>1.2 The &quot;Alert Fatigue&quot; and False Positive Trap</h2>
+        <h4>1.2 The &quot;Alert Fatigue&quot; and False Positive Trap</h4>
         <p>
           Without automated correlation, analysts often fall into the trap of &quot;Alert Fatigue.&quot; When faced with 5,000 suspicious-looking LNK files or temporary folder executions, the human brain begins to overlook anomalies. Furthermore, attackers exploit this by using &quot;Living off the Land&quot; (LotL) tools. An analyst seeing PsExec or PowerShell in the logs might dismiss it as &quot;normal admin activity&quot; unless they have the immediate context to see that it was triggered by an unauthorized service account-context that is often buried three layers deep in a different log file.
         </p>
       </li>
 
       <li>
-        <h2>1.3 The MTTR Crisis</h2>
+        <h4>1.3 The MTTR Crisis</h4>
         <p>
           The Mean Time to Respond (MTTR) is the metric that determines whether a breach is a minor containment or a catastrophic data exfiltration event. In the manual era, MTTR was measured in days or weeks. In the &quot;Industrialized&quot; threat landscape of 2026, where ransomware can encrypt a network in hours, the SOC requires a system that can perform &quot;Forensic Enrichment&quot; at wire speed. This section sets the stage for the Correlation Engine-the backend solution that turns raw forensic artifacts into a prioritized map of the attack.
         </p>
@@ -154,7 +154,7 @@ permalink: /Article11
 
     <ol>
       <li>
-        <h3>2.1 The Python Ingestion Pipeline</h3>
+        <h4>2.1 The Python Ingestion Pipeline</h4>
         <p>
           The first technical requirement is the normalization of forensic artifacts. Since tools like ShimcacheParser, MFTECmd, and PECmd output data in various formats (CSV, JSON, XML), the backend must employ a Python-based extraction layer.
         </p>
@@ -167,7 +167,7 @@ permalink: /Article11
       </li>
 
       <li>
-        <h3>2.2 Real-time API Integration and Enrichment</h3>
+        <h4>2.2 Real-time API Integration and Enrichment</h4>
         <p>
           Once the artifacts are normalized, the engine initiates the enrichment phase. This is where raw data becomes &quot;intelligence.&quot;
         </p>
@@ -183,7 +183,7 @@ permalink: /Article11
       </li>
 
       <li>
-        <h3>2.3 Logic-Based Heuristics</h3>
+        <h4>2.3 Logic-Based Heuristics</h4>
         <p>
           Beyond simple reputation checks, the backend applies heuristic logic to identify &quot;High-Entropy&quot; anomalies.
         </p>
@@ -205,7 +205,7 @@ permalink: /Article11
 
     <ol>
       <li>
-        <h3>3.1 The Dual-Use Tool Dilemma</h3>
+        <h4>3.1 The Dual-Use Tool Dilemma</h4>
         <p>
           Tools such as PsExec, PowerShell, WMI (Windows Management Instrumentation), and AnyDesk are foundational for remote administration. If a correlation engine simply flags every instance of these tools, the SOC will be overwhelmed by false positives.
         </p>
@@ -219,7 +219,7 @@ permalink: /Article11
     </ol>
   </section>
 <section>
-  <h2>3.2 Correlating Artifacts for High-Confidence Detection</h2>
+  <h4>3.2 Correlating Artifacts for High-Confidence Detection</h4>
   <p>
     Forensic fidelity is achieved by "chaining" artifacts. A single artifact might be ambiguous, but a chain of three or four artifacts is definitive.
   </p>
@@ -247,7 +247,7 @@ permalink: /Article11
     Once the artifacts are correlated and enriched, the final step is to present this data in a way that allows a human analyst to make a rapid &quot;Go/No-Go&quot; decision. Data visualization is not just about aesthetics; it is about cognitive speed.
   </p>
 
-  <h3>4.1 The Temporal Dashboard</h3>
+  <h4>4.1 The Temporal Dashboard</h4>
   <p>
     Using frameworks like Dash or Kibana, the engine generates a Timeline of Compromise. This interactive visualization allows the responder to &quot;scroll&quot; through the attack.
   </p>
@@ -260,7 +260,7 @@ permalink: /Article11
     </li>
   </ul>
 
-  <h3>4.2 Automated Reporting</h3>
+  <h4>4.2 Automated Reporting</h4>
   <p>
     To satisfy GRC (Governance, Risk, and Compliance) requirements, the engine automatically generates a forensic summary. This report includes the &quot;Root Cause&quot; (the first identified artifact) and the &quot;Blast Radius&quot; (every system touched by the correlated artifacts). This allows the SOC to move from a raw data dump to a formal incident report in a matter of minutes rather than days.
   </p>
