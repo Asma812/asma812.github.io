@@ -242,7 +242,7 @@ permalink: /Article11
 </section>
 
 <section>
-  <<h2 id="visualization">>4. Visualization: Mapping the Timeline of Compromise</h2>
+  <h2 id="visualization">>4. Visualization: Mapping the Timeline of Compromise</h2>
   <p>
     Once the artifacts are correlated and enriched, the final step is to present this data in a way that allows a human analyst to make a rapid &quot;Go/No-Go&quot; decision. Data visualization is not just about aesthetics; it is about cognitive speed.
   </p>
@@ -267,7 +267,7 @@ permalink: /Article11
 </section>
 
 <section>
-  <<h2 id="conclusion">>Conclusion: Scaling the SOC Against Industrialized Attacks</h2>
+  <h2 id="conclusion">>Conclusion: Scaling the SOC Against Industrialized Attacks</h2>
   <p>
     Automated artifact correlation is no longer a luxury; it is a necessity for the modern SOC. As threat actors automate their exploitation and lateral movement, the defense must automate its response. By building a backend pipeline that treats forensic evidence not as static files, but as dynamic data points to be enriched by CTI, we can drastically reduce MTTR.
   </p>
