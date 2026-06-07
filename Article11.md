@@ -108,7 +108,7 @@ permalink: /Article11
       We detail the architecture of a Python-based Correlation Engine designed to ingest volatile data and perform real-time API lookups against multi-provider CTI platforms. The research explores methods for maintaining &quot;Forensic Fidelity,&quot; utilizing behavioral reputations to distinguish legitimate administrative activity from lateral movement techniques (e.g., unauthorized PsExec usage). Furthermore, we demonstrate the integration of dynamic visualization dashboards to map the &quot;Timeline of Compromise.&quot; The findings conclude that automated context-enrichment is the only viable strategy for scaling Security Operations Centers (SOC) against the industrialized speed of 2026 cyberattacks, transforming forensic evidence from a static archive into an actionable, real-time defensive asset.
     </p>
   <section>
-      <h2>The IR Data Deluge: The Analysis Bottleneck</h2>
+      <h2 id="The IR Data Deluge: The Analysis Bottleneck">The IR Data Deluge: The Analysis Bottleneck</h2>
     <p>
       In the high-pressure environment of a live security breach, the primary enemy is not just the attacker, but the clock. Modern systems are designed to generate logs for every conceivable action. While this provides a rich forensic trail, it also creates the &quot;Data Deluge&quot; problem.
     </p>
@@ -147,7 +147,7 @@ permalink: /Article11
   </section>
 
   <section>
-      <h2>The Correlation Engine: The Backend Perspective</h2>
+      <h2 id="The Correlation Engine: The Backend Perspective">The Correlation Engine: The Backend Perspective</h2>
     <p>
       The heart of an automated response system is the Correlation Engine-a high-speed backend designed to ingest heterogeneous forensic data and synthesize it with external intelligence. In a modern SOC environment, this engine serves as the middleware between the compromised endpoint and the final analysis dashboard.
     </p>
@@ -197,8 +197,8 @@ permalink: /Article11
     </ol>
   </section>
 
-  <section>
-      <h2>Forensic Fidelity: Distinguishing Admin Intent from Lateral Movement</h2>
+ 
+      <h2 id="Forensic Fidelity: Distinguishing Admin Intent from Lateral Movement">Forensic Fidelity: Distinguishing Admin Intent from Lateral Movement</h2>
     <p>
       The primary challenge in automated correlation is maintaining Forensic Fidelity. In modern enterprise environments, some of the most dangerous tools are also the most common. Attackers frequently use legitimate administrative binaries to move through a network-a technique known as Living off the Land (LotL). A correlation engine must be intelligent enough to distinguish between a System Administrator performing maintenance and a threat actor conducting lateral movement.
     </p>
@@ -242,7 +242,7 @@ permalink: /Article11
 </section>
 
 <section>
-  <h2>4. Visualization: Mapping the Timeline of Compromise</h2>
+  <<h2 id="Visualization: Mapping the Timeline of Compromise">>4. Visualization: Mapping the Timeline of Compromise</h2>
   <p>
     Once the artifacts are correlated and enriched, the final step is to present this data in a way that allows a human analyst to make a rapid &quot;Go/No-Go&quot; decision. Data visualization is not just about aesthetics; it is about cognitive speed.
   </p>
@@ -267,7 +267,7 @@ permalink: /Article11
 </section>
 
 <section>
-  <h2>Conclusion: Scaling the SOC Against Industrialized Attacks</h2>
+  <<h2 id="conclusion">>Conclusion: Scaling the SOC Against Industrialized Attacks</h2>
   <p>
     Automated artifact correlation is no longer a luxury; it is a necessity for the modern SOC. As threat actors automate their exploitation and lateral movement, the defense must automate its response. By building a backend pipeline that treats forensic evidence not as static files, but as dynamic data points to be enriched by CTI, we can drastically reduce MTTR.
   </p>
