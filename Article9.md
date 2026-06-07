@@ -108,7 +108,7 @@ permalink: /Article9
 
   <ol>
     <li>
-      <strong>The Volatility Challenge: Why EDR Often Misses Fileless Attacks</strong>
+      <h2 id="volatility-challenge">The Volatility Challenge: Why EDR Often Misses Fileless Attacks</h2>
       <p>The fundamental shift in modern cyber-adversary tactics is the migration from the disk to the RAM. For decades, security solutions focused on the &quot;file&quot; as the primary unit of risk. Antivirus and EDR solutions would scan files upon creation, execution, or modification. However, fileless malware subverts this entirely by never touching the physical storage medium of the target machine, existing only as volatile electrical charges in the memory modules.</p>
 
       <ol>
@@ -139,7 +139,7 @@ permalink: /Article9
     </li>
 
     <li>
-      <strong>Integrating CTI into Memory Analysis: From Static Indicators to Behavioral Intelligence</strong>
+      <h2 id="integrating-cti">Integrating CTI into Memory Analysis: From Static Indicators to Behavioral Intelligence</h2>
       <p>The core of intelligence-led forensics is the ability to turn a massive, high-entropy memory dump into a filtered set of actionable evidence. Without CTI, a 16GB RAM dump is a &quot;needle in a haystack&quot; problem; with CTI, the forensic analyst has a magnet.</p>
 
       <ol>
@@ -173,7 +173,7 @@ permalink: /Article9
     </li>
 
     <li>
-      <strong>Technical Workflow: From Acquisition to Intelligence-Led Discovery</strong>
+      <h2 id="case-study">Technical Workflow: From Acquisition to Intelligence-Led Discovery</h2>
       <p>The forensic investigation of fileless malware requires a structured, repeatable workflow. Because memory is volatile, the integrity of the initial capture is paramount; any interaction with the live system can alter the very evidence the analyst seeks to preserve.</p>
 
   <section id="3-1-extracting-process-memory-dumps">
@@ -220,8 +220,8 @@ permalink: /Article9
 </article>
 
 <article>
-  <section id="4-case-study-detecting-a-powershell-based-fileless-injector">
-    <h2>4. Case Study: Detecting a PowerShell-based Fileless Injector</h2>
+  <section>
+    <h2 id="case-study">4. Case Study: Detecting a PowerShell-based Fileless Injector</h2>
     <p>To illustrate the power of CTI-driven forensics, we analyze a 2025 incident involving a sophisticated PowerShell-based injector.</p>
 
     <p><strong>The Incident:</strong> An edge gateway in a Tunisian industrial network showed anomalous outbound traffic to a known malicious IP address identified in a CTI feed. However, no malicious files were found on the gateway's disk.</p>
@@ -230,7 +230,7 @@ permalink: /Article9
 
     <p><strong>The Intelligence Match:</strong> The memory-extracted shellcode contained a unique "adversarial suffix" previously documented in a CTI report regarding an APT group targeting critical infrastructure. This match allowed the incident response team to immediately move from "detection" to "attribution," identifying the specific lateral movement tools the attacker was likely to use next.</p>
 
-    <p><strong>Conclusion:</strong> Memory Forensics as the Final Frontier</p>
+    <h2 id="conclusion">Conclusion:Memory Forensics as the Final Frontier</h2>
 
     <p>As adversaries continue to refine their ability to operate without a disk footprint, memory forensics has evolved from a niche specialty to a core requirement of the SecOps lifecycle. By integrating high-fidelity Cyber Threat Intelligence into the forensic workflow, organizations can move beyond reactive "clean-up" operations and toward proactive, intelligence-led hunting.</p>
 
