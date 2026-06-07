@@ -173,7 +173,7 @@ permalink: /Article9
     </li>
 
     <li>
-      <h2 id="case-study">Technical Workflow: From Acquisition to Intelligence-Led Discovery</h2>
+      <h2 id="technical-workflow">Technical Workflow: From Acquisition to Intelligence-Led Discovery</h2>
       <p>The forensic investigation of fileless malware requires a structured, repeatable workflow. Because memory is volatile, the integrity of the initial capture is paramount; any interaction with the live system can alter the very evidence the analyst seeks to preserve.</p>
 
   <section id="3-1-extracting-process-memory-dumps">
@@ -217,7 +217,7 @@ permalink: /Article9
       </li>
     </ul>
   </section>
-</article>
+
 
 <article>
   <section>
