@@ -108,7 +108,7 @@ permalink: /Article8
       <p>
         The methodology proceeds through a detailed Data and Training Audit, focusing on PII sanitization and the detection of pipeline poisoning, followed by an intensive Vulnerability Assessment phase. This technical testing phase utilizes automated adversarial tools, such as Garak and PyRIT, alongside manual taint analysis to ensure that untrusted user inputs do not reach critical system sinks. Furthermore, the study details the implementation of Semantic Filters and the enforcement of the Principle of Least Privilege for AI service accounts as primary defensive controls. The findings conclude that a security audit must not be treated as a static snapshot but as a component of a continuous MLSecOps pipeline, integrating real-time observability and anomaly detection to defend against the evolving threats of 2026.
       </p>
-    </section>
+   
 
     <section aria-labelledby="phase1-title">
       <h2 id="phase1-title">Phase 1: Discovery &amp; Architecture Review</h2>
@@ -117,7 +117,7 @@ permalink: /Article8
       </p>
 
       <section aria-labelledby="phase1-1-title">
-        <h3 id="phase1-1-title">1.1 Mapping the "Agentic Surface"</h3>
+        <h3 id="phase1">1.1 Mapping the "Agentic Surface"</h3>
         <p>The auditor’s first task is to document the "Agentic Surface"-the web of tools, permissions, and data repositories the LLM is authorized to access.</p>
         <ul>
           <li>
@@ -154,7 +154,7 @@ permalink: /Article8
     </section>
 
     <section aria-labelledby="phase2-title">
-      <h2 id="phase2-title">Phase 2: Data &amp; Training Audit</h2>
+      <h2 id="phase2">Phase 2: Data &amp; Training Audit</h2>
       <p>
         In the era of customized AI, the training and fine-tuning pipeline is often the most overlooked attack surface. An auditor must verify that the "knowledge" being fed into the LLM is clean, compliant, and untampered with.
       </p>
@@ -212,7 +212,7 @@ permalink: /Article8
     </section>
 
     <section aria-labelledby="phase3-title">
-      <h2 id="phase3-title">Phase 3: Vulnerability Assessment (Technical Testing)</h2>
+      <h2 id="phase3">Phase 3: Vulnerability Assessment (Technical Testing)</h2>
       <p>
         Once the architecture is mapped and the data is reviewed, the audit moves into the Vulnerability Assessment phase. Here, the auditor acts as a malicious actor, employing both automated tools and manual craft to probe the model’s boundaries.
       </p>
@@ -232,31 +232,31 @@ permalink: /Article8
         </ul>
       </section>
 
-<h2>3.1 Multi-Modal Attacks</h2>
+<h3>3.2 Multi-Modal Attacks</h3>
 <p><strong>Multi-Modal Attacks:</strong> If the LLM handles images or audio, the auditor tests for "Cross-Modal Injection," where a malicious instruction is hidden within an image's metadata or pixel patterns, triggering the model when the image is processed.</p>
 
-<h2>3.2 Taint Analysis: From Input to Sink</h2>
+<h3>3.3 Taint Analysis: From Input to Sink</h3>
 <p><strong>Perhaps the most technical aspect of the audit is Taint Analysis.</strong> This involves tracing the "life of a prompt" through the entire application stack to see if untrusted user input can reach a "dangerous sink".</p>
 
 <p><strong>The Execution Path:</strong> If a user provides an input that is ultimately passed to a system function like <code>eval()</code>, <code>os.system()</code>, or a database <code>exec()</code>, the auditor attempts to craft a payload that executes arbitrary code.</p>
 
 <p><strong>Indirect Tainting:</strong> Auditors look for scenarios where a user's input might be stored in a database and later retrieved by a second, more privileged LLM agent, leading to a "Stored Prompt Injection" attack.</p>
 
-<h2>3.3 RAG-Specific Exploitation</h2>
+<h3>3.4 RAG-Specific Exploitation</h3>
 <p><strong>The Retrieval-Augmented Generation (RAG) layer introduces unique technical vulnerabilities that must be specifically tested.</strong></p>
 
 <p><strong>Prompt Leaking via Context:</strong> Auditors attempt to craft queries that force the LLM to reveal the "context" it retrieved from the vector database. This can lead to the disclosure of sensitive documents that the user should not be able to see.</p>
 
 <p><strong>Context Window Overloading:</strong> By sending extremely long, repetitive inputs, an auditor may try to "push" the legitimate system instructions out of the model's finite context window, replacing them with a malicious command that is now "closer" to the model's current processing attention.</p>
 
-<h2>3.4 Bypassing the Output Filter</h2>
+<h3>3.5 Bypassing the Output Filter</h3>
 <p><strong>Technical testing also includes "Egress Filtering" analysis.</strong></p>
 
 <p><strong>Encoding Payloads:</strong> Auditors attempt to bypass word-based filters by encoding malicious outputs in Base64, ROT13, or even Leetspeak.</p>
 
 <p><strong>Simulated Exfiltration:</strong> The red team tests if the LLM can be convinced to perform "DNS Tunneling" or hide data within simulated HTTP requests to send sensitive internal information to an outside server.</p>
 
-<h2>Phase 4: Control Implementation & "Guardrailing"</h2>
+<h2 id="phase4">Phase 4: Control Implementation & "Guardrailing"</h2>
 <p>After the red team has identified vulnerabilities in Phase 3, the auditor must guide the organization through the implementation of robust, multi-layered defenses. In 2026, relying solely on the "safety tuning" of the base model is considered insufficient; security must be enforced by a dedicated, external infrastructure.</p>
 
 <h3>4.1 Deploying Semantic Filters (The AI Firewall)</h3>
@@ -288,7 +288,7 @@ permalink: /Article8
 <h2>5. Phase 5: Continuous Monitoring (MLSecOps)</h2>
 <p>The final phase of the audit moves from a "point-in-time" check to a permanent operational state known as MLSecOps. Because AI models and threat actor techniques change rapidly, security must be a continuous loop.</p>
 
-<h3>5.1 Real-Time Observability and Anomaly Detection</h3>
+<h3>Real-Time Observability and Anomaly Detection</h3>
 <p>The organization must set up a "Security Operations Center for AI" (AI-SOC).</p>
 
 <ul>
@@ -297,6 +297,6 @@ permalink: /Article8
 <li><strong>Resource Quotas:</strong> To prevent "Wallet-Wasting" attacks (DoS via expensive long-form queries), the monitoring system enforces strict tokens-per-minute (TPM) limits on individual user identities.</li>
 </ul>
 
-<h3>5.2 Conclusion: The Living Audit</h3>
+<h2 id="conclusion">Conclusion: The Living Audit</h2>
 <p>An LLM security audit is a snapshot; true security requires a CI/CD-integrated testing pipeline. In 2026, every time a new version of a model is deployed or a RAG database is updated, the automated red-teaming scripts from Phase 3 must be triggered. By integrating security into the development lifecycle, we ensure that as the LLM gains more "agency," it does so within a framework of rigorous, automated, and human-verified safety.</p>
 
