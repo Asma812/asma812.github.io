@@ -109,24 +109,24 @@ permalink: /Article7
       <p>
         Furthermore, the study explores emerging 2026 threats such as Vector Database Poisoning and the use of Adversarial Suffixes to bypass advanced safety guardrails. We evaluate the critical role of Supply Chain Risks originating from third-party hubs like Hugging Face and the necessity of "AI Firewalls" for strict output validation. The findings conclude that security by design is no longer an optional feature but a foundational requirement for any enterprise-grade AI deployment, requiring a shift toward rigorous, automated validation and restricted agentic permissions.
       </p>
-    </section>
+    
 
     <section>
-      <h2>Introduction: From Chatbots to Autonomous Agents</h2>
+      <h2 id="introduction">Introduction: From Chatbots to Autonomous Agents</h2>
       <p>
         The year 2026 marks a definitive departure from the era of "Passive AI." For the first half of the decade, Large Language Models (LLMs) were largely viewed as sophisticated text generators-entities that lived within a "sandbox" and only interacted with the world through a chat interface. However, the introduction and widespread adoption of the Model Context Protocol (MCP) and similar agentic frameworks have transformed these models into active, "systemic agents" capable of executing code, querying live databases, and interacting with third-party APIs.
       </p>
     </section>
 
     <section>
-      <h2>The Agentic Shift</h2>
+      <h4>The Agentic Shift</h4>
       <p>
         This evolution is driven by the need for utility. Organizations no longer want an AI that just describes a solution; they want an AI that executes it. By granting LLMs access to system shells, SQL environments, and corporate repositories, we have moved the model from the "passenger seat" to the "driver's seat" of the digital enterprise. However, this "agentic shift" has fundamentally altered the threat landscape. When an LLM has the power to "do" rather than just "say," a single security flaw can escalate from a textual hallucination to a systemic breach.
       </p>
     </section>
 
     <section>
-      <h2>The Core Problem: Instruction-Data Conflation</h2>
+      <h4>The Core Problem: Instruction-Data Conflation</h4>
       <p>
         At the heart of the new OWASP Top 10 for LLMs lies a structural vulnerability: the blurring line between data and instructions. Unlike traditional software, where code (logic) and data (input) are strictly separated by the compiler, LLMs process both through the same natural language interface. To a model, a user&apos;s legitimate query and a malicious actor&apos;s embedded command look identical.
       </p>
@@ -136,14 +136,14 @@ permalink: /Article7
     </section>
 
     <section>
-      <h2>The Mandate for a New Framework</h2>
+      <h4>The Mandate for a New Framework</h4>
       <p>
         As we explore the "2026 Heavyweights" in the following sections, it becomes clear that traditional web application security is insufficient for the AI era. We are no longer just securing an application; we are securing a decision-making engine. Security by design in 2026 requires us to treat LLM outputs as untrusted code and to implement strict "AI Firewalls" that validate every action before it hits the production environment.
       </p>
     </section>
 
     <section>
-      <h2>The 2026 Heavyweights: Technical Deep Dives</h2>
+      <h2 id="2026-heavyweights">The 2026 Heavyweights: Technical Deep Dives</h2>
       <p>
         The 2026 update to the OWASP framework reflects a world where LLMs are no longer just tools, but core infrastructure. This shift has elevated certain risks to "heavyweight" status, requiring specialized defensive engineering.
       </p>
@@ -202,14 +202,14 @@ permalink: /Article7
     </section>
 
     <section>
-      <h2>Emerging 2026 Threats: Beyond the Text Box</h2>
+      <h2 id="emerging-threats">Emerging 2026 Threats: Beyond the Text Box</h2>
       <p>
         As defenses against standard prompt injection improve, adversaries have moved "upstream" to the data retrieval layer and "downstream" to the mathematical bypass of safety filters.
       </p>
     </section>
 
 <section>
-  <h2>3.1 Vector and Embedding Weaknesses (RAG Poisoning)</h2>
+  <h4>3.1 Vector and Embedding Weaknesses (RAG Poisoning)</h4>
   <p>
     Most enterprise LLM applications utilize Retrieval-Augmented Generation (RAG), where the model queries a vector database to find relevant context before generating an answer. This has introduced a new critical vulnerability: <strong>Vector Poisoning</strong>.
   </p>
@@ -219,7 +219,7 @@ permalink: /Article7
 </section>
 
 <section>
-  <h2>3.2 Adversarial Suffixes: The Mathematical Bypass</h2>
+  <h4>3.2 Adversarial Suffixes: The Mathematical Bypass</h4>
   <p>In 2026, safety guardrails have become highly sophisticated, yet they remain vulnerable to Adversarial Suffixes.</p>
   <p><strong>The Concept:</strong> These are short, often unreadable strings of characters appended to a malicious prompt.</p>
   <p><strong>Automated Generation:</strong> Using gradient-based optimization, attackers can find a specific sequence of characters that, when processed by the model, "<em>tilts</em>" its internal probability tokens away from refusal and toward compliance.</p>
@@ -227,7 +227,7 @@ permalink: /Article7
 </section>
 
 <section>
-  <h2>Conclusion: The Era of the AI Firewall</h2>
+  <h2 id="conclusion">Conclusion: The Era of the AI Firewall</h2>
   <p>
     The evolution of the OWASP Top 10 for LLMs demonstrates that we are no longer just securing a software application; we are securing an autonomous decision-making engine. As LLMs move toward "<em>Systemic Agency</em>" and integrate deeper into our supply chains, the risks of Excessive Agency and Indirect Injection become existential threats to corporate security.
   </p>
