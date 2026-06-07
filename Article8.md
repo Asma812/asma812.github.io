@@ -285,7 +285,7 @@ permalink: /Article8
 <li><strong>Verification Chains:</strong> Before the final answer is shown to the user, a secondary, smaller "Verifying Model" checks the answer against the retrieved source documents to ensure the LLM hasn't hallucinated or been led astray by a poisoned prompt.</li>
 </ul>
 
-<h2>5. Phase 5: Continuous Monitoring (MLSecOps)</h2>
+<h2 id="phase5">5. Phase 5: Continuous Monitoring (MLSecOps)</h2>
 <p>The final phase of the audit moves from a "point-in-time" check to a permanent operational state known as MLSecOps. Because AI models and threat actor techniques change rapidly, security must be a continuous loop.</p>
 
 <h3>Real-Time Observability and Anomaly Detection</h3>
