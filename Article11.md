@@ -147,7 +147,7 @@ permalink: /Article11
   </section>
 
   <section>
-      <h2 id="The Correlation Engine: The Backend Perspective">The Correlation Engine: The Backend Perspective</h2>
+      <h2 id="correlation-engine">The Correlation Engine: The Backend Perspective</h2>
     <p>
       The heart of an automated response system is the Correlation Engine-a high-speed backend designed to ingest heterogeneous forensic data and synthesize it with external intelligence. In a modern SOC environment, this engine serves as the middleware between the compromised endpoint and the final analysis dashboard.
     </p>
@@ -198,7 +198,7 @@ permalink: /Article11
   </section>
 
  
-      <h2 id="Forensic Fidelity: Distinguishing Admin Intent from Lateral Movement">Forensic Fidelity: Distinguishing Admin Intent from Lateral Movement</h2>
+      <h2 id="forensic-fidelity">Forensic Fidelity: Distinguishing Admin Intent from Lateral Movement</h2>
     <p>
       The primary challenge in automated correlation is maintaining Forensic Fidelity. In modern enterprise environments, some of the most dangerous tools are also the most common. Attackers frequently use legitimate administrative binaries to move through a network-a technique known as Living off the Land (LotL). A correlation engine must be intelligent enough to distinguish between a System Administrator performing maintenance and a threat actor conducting lateral movement.
     </p>
@@ -242,7 +242,7 @@ permalink: /Article11
 </section>
 
 <section>
-  <<h2 id="Visualization: Mapping the Timeline of Compromise">>4. Visualization: Mapping the Timeline of Compromise</h2>
+  <<h2 id="visualization">>4. Visualization: Mapping the Timeline of Compromise</h2>
   <p>
     Once the artifacts are correlated and enriched, the final step is to present this data in a way that allows a human analyst to make a rapid &quot;Go/No-Go&quot; decision. Data visualization is not just about aesthetics; it is about cognitive speed.
   </p>
