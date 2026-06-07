@@ -252,7 +252,7 @@ permalink: /Article5
     </section>
 
     <section>
-      <h2>5. Conclusion: GRC as an Enabler for "Safe AI"</h2>
+      <h2 id="conclusion">5. Conclusion: GRC as an Enabler for "Safe AI"</h2>
       <p>
         The rapid ascent of Generative AI has often been viewed as a threat to the established order of Governance, Risk, and Compliance. However, as this analysis demonstrates, GRC is the only mechanism capable of transforming "Shadow AI" from a liability into a strategic asset.
       </p>
