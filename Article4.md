@@ -113,21 +113,21 @@ permalink: /Article4
     </section>
 
     <section>
-      <h2>Introduction</h2>
+      <h2 id="introduction">Introduction</h2>
       <p>
         The modern threat landscape is characterized by a volume and velocity of data that has long since surpassed the capacity of human cognitive processing. As organizations migrate to 5G, multi-cloud architectures, and vast IoT ecosystems, the Security Operations Center (SOC) has been forced to undergo a radical transformation. This shift toward "AI-driven SecOps" is no longer a luxury but a survival mechanism. By integrating machine learning models-ranging from XGBoost for structured log analysis to Isolation Forests for unsupervised anomaly detection-SOC teams can filter through billions of telemetry points to identify the "needle in the haystack."
       </p>
     </section>
 
     <section>
-      <h2>The Rise of the Algorithmic Shield</h2>
+      <h4>The Rise of the Algorithmic Shield</h4>
       <p>
         The integration of AI into SecOps has enabled a move from reactive incident response to proactive threat hunting. Automated systems can now correlate disparate signals-such as a suspicious login from a geographic anomaly, a sudden spike in encrypted outbound traffic, and an unauthorized credential modification-into a single high-fidelity alert. This automation significantly reduces the Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR), allowing human analysts to focus on strategic remediation rather than manual triage.
       </p>
     </section>
 
     <section>
-      <h2>The Hidden Surface: Algorithmic Fragility</h2>
+      <h4>The Hidden Surface: Algorithmic Fragility</h4>
       <p>
         However, this reliance on AI has created a new, specialized vulnerability: the "black box" nature of machine learning. Most ML models operate on the assumption that the data they process during inference will follow the same statistical distribution as the data they saw during training. Adversaries have recognized this assumption as a critical failure point. By understanding the mathematical underpinnings of these models, attackers can craft "adversarial inputs"-data specifically engineered to fool the model into making a false classification.
       </p>
@@ -137,7 +137,7 @@ permalink: /Article4
     </section>
 
     <section>
-      <h2>2. Attack Taxonomy: From Poisoning to Evasion</h2>
+      <h2 id="attack-taxonomy">2. Attack Taxonomy: From Poisoning to Evasion</h2>
       <p>
         Adversarial Machine Learning in the context of SecOps is categorized based on the stage of the ML pipeline being targeted and the adversary’s level of access to the model. While traditional cyberattacks target software bugs, AML targets the mathematical logic of the learning process itself.
       </p>
@@ -181,8 +181,8 @@ permalink: /Article4
       <section>
         <h3>2.3 Model Extraction and Reconnaissance</h3>
         <p> Before a successful evasion or poisoning attack, adversaries often perform Model Extraction. By feeding thousands of diverse inputs into a SOC's API and recording the responses, an attacker can build a "shadow model" - a local replica that behaves almost identically to the target AI. They then test their evasion techniques on the shadow model in a safe environment, ensuring that by the time they launch the actual attack, it is guaranteed to bypass the live system. </p> </section>
-<section id="case-study">
-  <h2>3. Case Study: Simulating an Evasion Attack against a Network-based IDS</h2>
+<section>
+  <h2 id="case-study">3. Case Study: Simulating an Evasion Attack against a Network-based IDS</h2>
   <p>
     To illustrate the vulnerability of AI-driven SecOps, we present a simulated evasion attack against a network-based Intrusion Detection System (NIDS) utilizing a Random Forest classifier. The NIDS is trained to detect exfiltration attempts by monitoring flow-based features such as packet length, duration, and the ratio of outgoing to incoming bytes.
   </p>
@@ -235,8 +235,8 @@ permalink: /Article4
   </section>
 </section>
 
-<section id="defensive-measures">
-  <h2>4. Defensive Measures: Adversarial Training and Robust AI</h2>
+<section>
+  <h2 id="defensive-measures">4. Defensive Measures: Adversarial Training and Robust AI</h2>
   <p>
     The realization that machine learning models are fundamentally fragile has led to a new discipline within SecOps: Adversarial Defense. Rather than simply training models for accuracy, security engineers are now training them for resilience.
   </p>
@@ -279,8 +279,8 @@ permalink: /Article4
   </section>
 </section>
 
-<section id="conclusion">
-  <h2>5. Conclusion: The Critical "Human-in-the-Loop"</h2>
+<section>
+  <h2 id="conclusion">5. Conclusion: The Critical "Human-in-the-Loop"</h2>
   <p>
     As we have explored in this analysis, the shift toward AI-driven SecOps is a double-edged sword. While machine learning provides the scale and speed necessary to defend a 5G-enabled world, the inherent vulnerabilities to Data Poisoning and Evasion Attacks mean that AI can never be the final arbiter of security.
   </p>
