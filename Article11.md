@@ -108,7 +108,7 @@ permalink: /Article11
       We detail the architecture of a Python-based Correlation Engine designed to ingest volatile data and perform real-time API lookups against multi-provider CTI platforms. The research explores methods for maintaining &quot;Forensic Fidelity,&quot; utilizing behavioral reputations to distinguish legitimate administrative activity from lateral movement techniques (e.g., unauthorized PsExec usage). Furthermore, we demonstrate the integration of dynamic visualization dashboards to map the &quot;Timeline of Compromise.&quot; The findings conclude that automated context-enrichment is the only viable strategy for scaling Security Operations Centers (SOC) against the industrialized speed of 2026 cyberattacks, transforming forensic evidence from a static archive into an actionable, real-time defensive asset.
     </p>
   <section>
-      <h2 id="The IR Data Deluge: The Analysis Bottleneck">The IR Data Deluge: The Analysis Bottleneck</h2>
+      <h2 id="ir-data-deluge">The IR Data Deluge: The Analysis Bottleneck</h2>
     <p>
       In the high-pressure environment of a live security breach, the primary enemy is not just the attacker, but the clock. Modern systems are designed to generate logs for every conceivable action. While this provides a rich forensic trail, it also creates the &quot;Data Deluge&quot; problem.
     </p>
