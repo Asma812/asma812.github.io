@@ -110,43 +110,43 @@ permalink: /Article5
       <p>
         Furthermore, the research provides a detailed Compliance Mapping exercise, aligning AI operationalization with established frameworks like ISO/IEC 27001 and the emerging ISO/IEC 42001 (AI Management System). We evaluate how specialized GRC strategies-such as differential privacy and federated learning-can mitigate the risks inherent in training and fine-tuning local models. The findings conclude that GRC should not be viewed as a bureaucratic roadblock to innovation but as a critical enabler. By establishing a robust, sovereign foundation, organizations can achieve "Safe AI" that protects national interests while unlocking the transformative power of generative intelligence.
       </p>
-    </section>
+    
 
-    <section id="introduction">
-      <h2>Introduction: Innovation (GenAI) vs. Privacy (Sovereignty)</h2>
+    <section>
+      <h2 id="introduction">Introduction: Innovation (GenAI) vs. Privacy (Sovereignty)</h2>
       <p>
         The global business landscape is currently caught in a powerful "pincer movement." On one side, the unprecedented capabilities of Generative AI (GenAI) offer a leap in productivity, coding efficiency, and data synthesis that no competitive organization can afford to ignore. On the other side, an increasingly fragmented regulatory environment-defined by a "sovereignty-first" approach to data-is imposing strict limitations on where data can travel and who can process it. This tension is the defining challenge of the "Sovereign AI" era.
       </p>
     </section>
 
     <section id="hyperscaler-paradox">
-      <h2>The Hyperscaler Paradox</h2>
+      <h4>The Hyperscaler Paradox</h4>
       <p>
         Most of the current "frontier" Large Language Models (LLMs) are hosted in a handful of centralized jurisdictions, primarily within the United States. For an organization in the European Union governed by GDPR, or a public entity in Tunisia governed by the National Authority for Protection of Personal Data (INPDP), sending sensitive citizen or corporate data to these centralized clouds creates a massive compliance gap. The "Hyperscaler Paradox" lies in the fact that the most powerful tools for innovation are often the most problematic from a sovereignty perspective. If a model processes data in a jurisdiction that does not have an "adequacy decision" or a reciprocal data protection agreement, the organization is effectively in breach of the law the moment they click "submit" on a prompt.
       </p>
     </section>
 
     <section id="digital-sovereignty">
-      <h2>The Definition of Digital Sovereignty</h2>
+      <h4>The Definition of Digital Sovereignty</h4>
       <p>
         Data sovereignty is the principle that data is subject to the laws and governance structures of the nation where it is collected. In the context of AI, this extends beyond just "storage" (where the bits live on a disk) to "processing" (where the computation happens) and "intelligence" (who owns the weights and biases of the resulting model). As we move deeper into 2026, we are seeing a shift from "Cloud First" to "Sovereign First." Nations and organizations are realizing that if they do not own their AI stack, they do not truly own their data.
       </p>
     </section>
 
     <section id="grc-bridge">
-      <h2>GRC as the Strategic Bridge</h2>
+      <h4>GRC as the Strategic Bridge</h4>
       <p>
         This is where Governance, Risk, and Compliance (GRC) moves from the back office to the boardroom. GRC is no longer about just saying "no" to new technology; it is about building the architectural guardrails that allow GenAI to be used safely. As established in the structure of this fifth article, we will explore how organizations can navigate this conflict by moving away from public, unmanaged LLMs toward localized, private AI stacks. The goal is to move from a state of "uncontrolled innovation" to a "Sovereign AI Framework" that respects local laws while maximizing the value of algorithmic intelligence.
       </p>
     </section>
 
-    <section id="shadow-ai">
-      <h2>Shadow AI: The Risks of Public LLMs</h2>
+    <section>
+      <h2 id="shadow-ai">Shadow AI: The Risks of Public LLMs</h2>
       <p>
         The most immediate threat to an organization’s sovereignty is not a sophisticated external hack, but the phenomenon of Shadow AI. Much like the "Shadow IT" of the previous decade-where employees used unauthorized cloud storage or messaging apps-Shadow AI involves the use of public, consumer-facing Large Language Models (LLMs) to process proprietary corporate data without the oversight of the IT or GRC departments.
       </p>
 
-      <h3>2.1 The "Prompt Leakage" Mechanism</h3>
+      <h4>2.1 The "Prompt Leakage" Mechanism</h4>
       <p>
         When an employee interacts with a public AI interface (such as a standard ChatGPT, Claude, or Gemini session without an Enterprise agreement), the information they input becomes part of the service provider’s ecosystem.
       </p>
@@ -157,7 +157,7 @@ permalink: /Article5
         The Global Access Risk: Once data is ingested into a public model, it can theoretically be resurfaced in a different user’s session elsewhere in the world through "membership inference" or accidental recall. This creates a direct violation of data residency requirements, as the data has left the local jurisdiction and entered a "borderless" training set.
       </p>
 
-      <h3>2.2 Violation of Local and International Regulations</h3>
+      <h4>2.2 Violation of Local and International Regulations</h4>
       <p>
         In jurisdictions like Tunisia, where the Organic Law No. 2004-63 mandates that personal data must be protected and its transfer outside national borders strictly controlled, the use of public LLMs is a compliance nightmare.
       </p>
@@ -168,7 +168,7 @@ permalink: /Article5
         The Loss of "Right to Erasure": Under GDPR and similar local laws, individuals have the right to have their data deleted. However, once information is baked into a model's parameters during training, it is mathematically impossible to "delete" that specific data point without retraming the entire model. This creates a permanent, non-compliant state for the organization.
       </p>
 
-      <h3>2.3 The Erosion of Competitive Advantage</h3>
+      <h4>2.3 The Erosion of Competitive Advantage</h4>
       <p>
         Beyond the legal ramifications, Shadow AI represents a significant risk to intellectual property (IP). If a company’s R&D department uses public AI to draft patents or refine product designs, they are effectively leaking their trade secrets to the AI provider. In a competitive global market, this "unintentional crowdsourcing" of proprietary knowledge can erode a company’s market position long before a product even launches.
       </p>
@@ -177,13 +177,14 @@ permalink: /Article5
       </p>
     </section>
     <section>
+    <h2 id="sovereign-ai-framework">Sovereign AI Framework</h2> 
       <p>
         The "Sovereign AI Framework" is a strategic architecture designed to decouple the intelligence of Large Language Models from the jurisdictional risks of the public cloud. Instead of data traveling to the model, the model is brought to the data. This shift is essential for organizations operating in highly regulated sectors or regions like Tunisia, where national data sovereignty is a matter of both law and national security.
       </p>
     </section>
 
     <section>
-      <h2>3.1 The "Bring Your Own Model" (BYOM) Architecture</h2>
+      <h4>3.1 The "Bring Your Own Model" (BYOM) Architecture</h4>
       <p>
         The foundation of a Sovereign AI cloud is the deployment of Open-Weight Models (such as Llama 3, Mistral, or Falcon) within a controlled environment. Unlike proprietary models that only exist behind a vendor's API, open-weight models allow an organization to host the entire inference engine on their own servers-whether on-premises or within a locally managed, "sovereign" data center.
       </p>
@@ -192,7 +193,7 @@ permalink: /Article5
     </section>
 
     <section>
-      <h2>3.2 Confidential Computing and TEEs</h2>
+      <h4>3.2 Confidential Computing and TEEs</h4>
       <p>
         To enhance the security of private AI stacks, organizations are increasingly utilizing Trusted Execution Environments (TEEs) and Confidential Computing.
       </p>
@@ -201,7 +202,7 @@ permalink: /Article5
     </section>
 
     <section>
-      <h2>3.3 RAG (Retrieval-Augmented Generation) for Data Control</h2>
+      <h4>3.3 RAG (Retrieval-Augmented Generation) for Data Control</h4>
       <p>
         A key component of the Sovereign AI Framework is the use of Retrieval-Augmented Generation (RAG) instead of full model fine-tuning.
       </p>
@@ -210,18 +211,18 @@ permalink: /Article5
     </section>
 
     <section>
-      <h2>3.4 Regional AI Clouds and Public-Private Partnerships</h2>
+      <h4>3.4 Regional AI Clouds and Public-Private Partnerships</h4>
       <p>
         In markets like Tunisia, the framework may involve the development of a National AI Cloud. This involves public-private partnerships where the government provides the sovereign infrastructure, and local businesses deploy their private AI stacks within it. This collective approach reduces the "barrier to entry" for smaller organizations while ensuring that the entire nation’s "intellectual capital" remains within its borders.
       </p>
-      <p><strong>Compliance Mapping:</strong> ISO 27001 and Emerging AI Regulations</p>
+    <h2 id="compliance-mapping">Compliance Mapping: ISO 27001 and Emerging AI Regulations</h2> 
       <p>
         For a Sovereign AI Cloud to be viable, it must be more than just "local"; it must be auditable. GRC professionals must map AI operations to existing international standards while preparing for the arrival of AI-specific legislation. This alignment ensures that the "Sovereign" label is backed by rigorous, standardized security controls.
       </p>
     </section>
 
     <section>
-      <h2>4.1 Aligning AI with ISO/IEC 27001:2022</h2>
+      <h4>4.1 Aligning AI with ISO/IEC 27001:2022</h4>
       <p>
         The ISO/IEC 27001 framework remains the gold standard for Information Security Management Systems (ISMS). When integrating a private AI stack, the GRC team must update its Annex A controls to reflect new AI-driven risks:
       </p>
@@ -233,7 +234,7 @@ permalink: /Article5
     </section>
 
     <section>
-      <h2>4.2 The Emergence of ISO/IEC 42001 (AIMS)</h2>
+      <h4>4.2 The Emergence of ISO/IEC 42001 (AIMS)</h4>
       <p>
         The newly released ISO/IEC 42001 is the world’s first AI management system standard. Unlike 27001, which focuses on data security, 42001 focuses on AI Trustworthiness.
       </p>
