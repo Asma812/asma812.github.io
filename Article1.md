@@ -408,6 +408,3 @@ Telecom operators must recognize that every packet of data transmitted today und
 <p>
 Only through the rapid integration of quantum-resistant standards and proactive hardening of core interfaces can the industry ensure that the communications of today remain confidential in the quantum era of tomorrow.
 </p>
-</div>
-
-</div> 
