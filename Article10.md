@@ -228,7 +228,7 @@ permalink: /Article10
     </section>
 
     <section>
-      <h2>Conclusion: The Genetic Map of Global Threats</h2>
+      <h2 id="conclusion">Conclusion: The Genetic Map of Global Threats</h2>
       <p>The transition from hash-based detection to ML-driven lineage mapping represents the final maturity of modern cybersecurity. We have moved from identifying &quot;symptoms&quot; to identifying &quot;DNA.&quot;</p>
       <p>By utilizing Function Call Graphs and Graph Neural Networks, we have turned the massive entropy of the malware ecosystem into a structured, searchable map. The code we write today is the infrastructure of tomorrow-and by mapping the lineage of our adversaries, we ensure that infrastructure remains resilient, sovereign, and secure.</p>
     </section>
